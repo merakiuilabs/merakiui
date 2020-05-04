@@ -35,7 +35,7 @@
 </template>
 
 <script>
-    import ViewComponent from "../../views/ViewComponent";
+    import ViewComponent from "../../../views/ViewComponent";
 
 export default {
     components: {

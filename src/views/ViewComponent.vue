@@ -2,7 +2,7 @@
     <div class="bg-gray-300 border rounded-md overflow-hidden">
         <div class="bg-white p-4 border-b">
             <div class="flex justify-between items-center">
-                <div class="text-gray-700 font-medium text-lg">{{ name }}</div>
+                <div class="text-gray-700 font-medium text-sm md:text-lg">{{ name }}</div>
                <div>
                     <button @click="viewCode =! viewCode" class="mx-4 bg-gray-200 rounded-md p-1 text-gray-600 hover:text-gray-700 hover:bg-gray-400 focus:outline-none">
                         <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import CodeSnippet from "./CodeSnippet";
+import CodeSnippet from "../components/CodeSnippet";
 
 export default {
     props: ['name' , 'code'],
