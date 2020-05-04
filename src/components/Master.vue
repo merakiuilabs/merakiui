@@ -2,12 +2,12 @@
     <div class="min-h-screen container mx-auto px-6">
 
         <div class="container mx-auto px-6 py-16 text-center">
-            <h1 class="text-2xl sm:text-3xl text-gray-800">Discover new components. Build amazing things 🔥</h1>
+            <h1 class="text-2xl md:text-3xl text-gray-800">Discover new components. Build amazing things 🔥</h1>
             <input class="w-11/12 mt-6 px-6 py-4 bg-gray-200 border border-gray-300 text-gray-800 rounded-lg focus:outline-none focus:bg-white placeholder-gray-700" type="text" placeholder="search..">
         </div>
 
         <div class="flex">
-            <div class="hidden sm:w-64">
+            <div class="hidden md:w-64 md:block">
                 <h2 class="text-gray-800 text-2xl font-semibold">Categories</h2>
                 <ul class="flex flex-col mt-4">
                     <li class="text-gray-600 hover:text-gray-800 cursor-pointer text-lg">All Components</li>
@@ -17,7 +17,7 @@
                     <li class="text-gray-600 hover:text-gray-800 cursor-pointer text-lg">Layouts</li>
                 </ul>
             </div>
-            <div class="w-full sm:flex-1">
+            <div class="w-full md:flex-1">
                 <div class="container mx-auto px-6">
                     <div class="pb-8">
                         <h1 class="text-2xl text-gray-800 font-semibold mb-6">Alert</h1>
