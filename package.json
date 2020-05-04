@@ -10,6 +10,7 @@
   "dependencies": {
     "autoprefixer": "^9.7.6",
     "core-js": "^3.6.4",
+    "highlight.js": "^10.0.2",
     "tailwindcss": "^1.4.4",
     "vue": "^2.6.11",
     "vue-clipboard2": "^0.3.1"
