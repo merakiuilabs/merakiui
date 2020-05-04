@@ -11,7 +11,8 @@
     "autoprefixer": "^9.7.6",
     "core-js": "^3.6.4",
     "tailwindcss": "^1.4.4",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.3.0",
