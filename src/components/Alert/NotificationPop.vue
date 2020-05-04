@@ -1,5 +1,5 @@
 <template>
-    <view-componet :name="name" :code="code">
+    <view-component :name="name" :code="code">
         <div slot="component">
             <div class="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden mx-auto">
                 <div class="w-2 bg-gray-800"></div>
@@ -12,15 +12,15 @@
                 </div>
             </div>
         </div>   
-    </view-componet>
+    </view-component>
 </template>
 
 <script>
-import ViewComponet from "../../views/ViewComponet";
+import ViewComponent from "../../views/ViewComponent";
 
 export default {
     components: {
-        ViewComponet
+        ViewComponent
     },
     data() {
         return {
