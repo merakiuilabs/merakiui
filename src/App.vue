@@ -1,5 +1,5 @@
 <template>
-  <div class="font-inter" id="app">
+  <div class="bg-gray-100 font-inter" id="app">
     <Header></Header>
     <master-component></master-component>
   </div>
