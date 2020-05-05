@@ -1,26 +1,26 @@
 export default [
     {
-        name: 'alert',
+        name: 'Alert',
         components: [
-            { name: 'notification-Pop' }
+            { name: 'Notification Pop' }
 
         ],
     },
     {
-        name: 'cards',
+        name: 'Cards',
         components: [
-            { name: 'article' },
-            { name: 'product' },
-            { name: 'product-evaluation' },
-            { name: 'testimonial' },
-            { name: 'user-details' },
+            { name: 'Article Card' },
+            { name: 'Product' },
+            { name: 'Product Evaluation' },
+            { name: 'Testimonial' },
+            { name: 'User Details' },
         ],
     },
     {
-        name: 'forms',
+        name: 'Forms',
         components: [
-            { name: 'login' },
-            { name: 'subscribe' },
+            {name: 'Login'},
+            {name: 'Subscribe'},
         ],
     },
 ];
