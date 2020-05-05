@@ -22,7 +22,7 @@
                     <div class="max-w-sm text-white">
                         <div class="text-xs font-light">Simple UI Starter</div>
                         <h1 class="font-semibold text-2xl mt-2 text-white md:text-3xl">Meraki <span class="text-blue-400">UI</span> Components</h1>
-                        <p class="font-light mt-2">
+                        <p class="mt-2 text-gray-300">
                             Beautiful <a href="https://tailwindcss.com" class="text-blue-400 hover:underline font-normal">tailwindcss</a> 
                             components that support RTL languages & fully responsive based on flexbox, built by 
                             <a href="https://twitter.com/khatabwedaa" class="text-blue-400 hover:underline">@khatabwedaa</a> &
