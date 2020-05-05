@@ -29,8 +29,11 @@
         <div class="w-full max-w-5xl mx-auto">
             <div class="mb-16" v-for="category in list" :key="category.name">
                 <h1 class="text-2xl text-gray-800 font-semibold mb-6 capitalize" v-text="category.name"></h1>
-                <component v-for="component in category.components" :key="component.name" :is="component.name"
-                           class="mb-10"></component>
+                <view-component v-for="component in category.components" :key="component.name" :name="component.name">
+                    <div slot="component">
+                        <component :is="component.name | toId" class="mb-10"></component>
+                    </div>
+                </view-component>
             </div>
         </div>
     </div>
@@ -46,6 +49,7 @@
     import Login from "./UI/Forms/Login";
     import Subscribe from "./UI/Forms/Subscribe";
     import Component from "../Models/Component";
+    import ViewComponent from "./Utilities/ViewComponent";
 
     export default {
         components: {
@@ -56,7 +60,8 @@
             Product,
             ProductEvaluation,
             Login,
-            Subscribe
+            Subscribe,
+            ViewComponent
         },
         data() {
             return {

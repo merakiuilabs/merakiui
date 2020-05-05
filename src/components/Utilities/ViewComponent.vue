@@ -33,10 +33,12 @@
 </template>
 
 <script>
-import CodeSnippet from "./CodeSnippet";
+
+    import CodeSnippet from "./CodeSnippet";
+    let beautify_html = require('js-beautify').html;
 
 export default {
-    props: ['name' , 'code'],
+    props: ['name'],
 
     components: {
         CodeSnippet
@@ -44,8 +46,15 @@ export default {
 
     data() {
         return {
-            viewCode: false
+            viewCode: false,
+            code: null
         }
-    }
+    },
+    created() {
+        this.$nextTick(() => {
+            let id = this.$options.filters.toId(this.name);
+            this.code = beautify_html(document.getElementById(id).innerHTML);
+        });
+    },
 }
 </script>
