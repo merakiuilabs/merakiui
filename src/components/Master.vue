@@ -8,7 +8,7 @@
                 </div>
                 <div class="flex items-center mt-5 flex justify-start">
                     <span class="text-gray-700">Categories : </span>
-                    <a @click="searchText = ''" class="ml-1 text-gray-700 hover:text-gray-600 cursor-pointer font-light hover:underline">All</a>
+                    <a @click="searchText = ''" class="ml-1 text-gray-700 hover:text-gray-600 cursor-pointer font-light hover:underline">all</a>
                     <span v-for="category in categories" :key="category.name">
                         <a @click="searchText = category.name" class="ml-2 text-gray-700 hover:text-gray-600 cursor-pointer font-light hover:underline">{{ category.name }}</a>
                     </span>
@@ -18,7 +18,7 @@
 
         <div class="w-full max-w-5xl mx-auto">
             <div class="mb-16" v-for="category in list" :key="category.name">
-                <h1 class="text-2xl text-gray-800 font-semibold mb-6" v-text="category.name"></h1>
+                <h1 class="text-2xl text-gray-800 font-semibold mb-6 capitalize" v-text="category.name"></h1>
                 <component v-for="component in category.components" :key="component.name" :is="component.name" class="mb-10"></component>
             </div>
         </div>

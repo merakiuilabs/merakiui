@@ -1,13 +1,13 @@
 export default [
     {
-        name: 'Alert',
+        name: 'alert',
         components: [
             { name: 'notification-Pop' }
 
         ],
     },
     {
-        name: 'Cards',
+        name: 'cards',
         components: [
             { name: 'article' },
             { name: 'product' },
@@ -17,7 +17,7 @@ export default [
         ],
     },
     {
-        name: 'Forms',
+        name: 'forms',
         components: [
             { name: 'login' },
             { name: 'subscribe' },
