@@ -5,9 +5,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                inter: [
-                    'Inter'
-                ],
+                inter: ['Inter'],
+                roboto: ['Roboto'],
             },
             spacing: {
                 '7': '1.75rem',

@@ -1,6 +1,6 @@
 <template>
    <div class="relative rounded overflow-hidden">
-        <pre><code class="px-12 py-8 rounded-md overflow-x-scroll overflow-hidden">{{ code }}</code></pre>
+        <pre><code class="px-8 py-6 rounded-md overflow-x-scroll overflow-hidden">{{ code }}</code></pre>
         <div class="absolute right-0 top-0">
             <button class="px-3 py-2 text-gray-600 hover:text-gray-400 focus:outline-none" v-clipboard:copy="code">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6">

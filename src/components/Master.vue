@@ -1,31 +1,25 @@
 <template>
     <div class="min-h-screen container mx-auto px-6">
-
-        <div class="container mx-auto px-6 py-16 text-center">
-            <h1 class="text-2xl md:text-3xl text-gray-800">Discover new components. Build amazing things 🔥</h1>
-            <input class="w-11/12 mt-6 px-6 py-4 bg-gray-200 border border-gray-300 text-gray-800 rounded-lg focus:outline-none focus:bg-white placeholder-gray-700"
-                   type="text" placeholder="search.." v-model="searchText">
+        <div class="py-16 text-center">
+            <h1 class="text-xl md:text-2xl text-gray-800 font-medium">Discover new components. Build amazing things 🔥</h1>
+            <div class="max-w-2xl mx-auto">
+                <div>
+                    <input class="w-full bg-white mt-6 px-6 py-4 border border-gray-300 text-gray-800 rounded-lg focus:outline-none focus:bg-gray-100 placeholder-gray-700" type="text" placeholder="Search.." v-model="searchText">
+                </div>
+                <div class="flex items-center mt-5 flex justify-start">
+                    <span class="text-gray-700">Categories : </span>
+                    <a @click="searchText = ''" class="ml-1 text-gray-700 hover:text-gray-600 cursor-pointer font-light hover:underline">All</a>
+                    <span v-for="category in categories" :key="category.name">
+                        <a @click="searchText = category.name" class="ml-2 text-gray-700 hover:text-gray-600 cursor-pointer font-light hover:underline">{{ category.name }}</a>
+                    </span>
+                </div>
+            </div>
         </div>
 
-        <div class="flex">
-            <div class="hidden md:w-64 md:block">
-                <h2 class="text-gray-800 text-2xl font-semibold">Categories</h2>
-                <ul class="flex flex-col mt-4">
-                    <li class="text-gray-600 hover:text-gray-800 cursor-pointer text-lg">All Components</li>
-                    <li class="text-gray-600 hover:text-gray-800 cursor-pointer text-lg">Alerts</li>
-                    <li class="text-gray-600 hover:text-gray-800 cursor-pointer text-lg">Cards</li>
-                    <li class="text-gray-600 hover:text-gray-800 cursor-pointer text-lg">Forms</li>
-                    <li class="text-gray-600 hover:text-gray-800 cursor-pointer text-lg">Layouts</li>
-                </ul>
-            </div>
-            <div class="w-full md:flex-1">
-                <div class="container mx-auto px-6">
-                    <div class="pb-8" v-for="category in list" :key="category.name">
-                        <h1 class="text-2xl text-gray-800 font-semibold mb-6" v-text="category.name"></h1>
-                        <component v-for="component in category.components" :key="component.name" :is="component.name"
-                                   class="mt-8"></component>
-                    </div>
-                </div>
+        <div class="w-full max-w-5xl mx-auto">
+            <div class="mb-16" v-for="category in list" :key="category.name">
+                <h1 class="text-2xl text-gray-800 font-semibold mb-6" v-text="category.name"></h1>
+                <component v-for="component in category.components" :key="component.name" :is="component.name" class="mb-10"></component>
             </div>
         </div>
     </div>

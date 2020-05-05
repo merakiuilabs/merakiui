@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-300 border rounded-md overflow-hidden max-w-4xl">
+    <div class="bg-gray-300 border rounded-md overflow-hidden">
         <div class="bg-white p-4 border-b">
             <div class="flex justify-between items-center">
                 <div class="text-gray-700 font-medium text-sm md:text-lg">{{ name }}</div>
@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <div class="flex justify-center items-center p-6">
+        <div class="flex justify-center items-center p-3 sm:p-6">
             <div class="w-full">
                 <slot name="component"></slot>
             </div>
