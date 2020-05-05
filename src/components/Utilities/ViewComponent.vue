@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import CodeSnippet from "../components/CodeSnippet";
+import CodeSnippet from "./CodeSnippet";
 
 export default {
     props: ['name' , 'code'],

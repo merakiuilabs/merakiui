@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Header from "./views/Header";
+import Header from "./components/Header";
 import MasterComponent from "./components/Master";
 
 export default {

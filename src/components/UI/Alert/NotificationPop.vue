@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import ViewComponent from "../../../views/ViewComponent";
+import ViewComponent from "../../Utilities/ViewComponent";
 
 export default {
     components: {
