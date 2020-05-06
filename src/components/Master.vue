@@ -41,6 +41,7 @@
 
 <script>
     import NotificationPop from "./UI/Alert/NotificationPop";
+    import Alert from "./UI/Alert/Alert";
     import UserDetails from "./UI/Cards/UserDetails";
     import Testimonial from "./UI/Cards/Testimonial";
     import ArticleCard from "./UI/Cards/ArticleCard";
@@ -54,6 +55,7 @@
     export default {
         components: {
             NotificationPop,
+            Alert,
             UserDetails,
             Testimonial,
             ArticleCard,
