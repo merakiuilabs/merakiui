@@ -39,10 +39,10 @@
             <div class="w-full relative" :dir="rtl? 'rtl' : 'ltr'">
                 <slot class="w-full h-full absolute top-0 left-0" name="component"></slot>
                 <transition name="fade">
-                    <div v-if="copy">
+                    <div v-if="copied">
                         <div class="w-full h-full absolute top-0 left-0 z-10">
                             <div class="bg-gray-300 h-full flex items-center justify-center">
-                                <p class="text-blue-500 text-2xl">Copied!</p>
+                                <p class="text-gray-700 text-2xl">Copied!</p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
             return {
                 viewCode: false,
                 rtl: false,
-                copy: false,
+                copied: false,
                 code: null,
             }
         },
@@ -85,11 +85,11 @@
         },
         methods: {
             onCopy() {
-                this.copy = ! this.copy;
+                this.copied = ! this.copied;
 
                 setTimeout(() => {
-                    this.copy = false
-                }, 2000);
+                    this.copied = false
+                }, 800);
             },
         },
     }
@@ -99,7 +99,7 @@
     .fade-enter-active, .fade-leave-active {
         transition: opacity .5s;
     }
-    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    .fade-enter, .fade-leave-to {
         opacity: 0;
     }
 </style>
