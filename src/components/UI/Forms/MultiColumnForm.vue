@@ -29,6 +29,23 @@
                     </label>
                 </div>
             </div>
+            <div class="flex flex-col sm:flex-row py-8">
+                <div class="sm:w-1/4">
+                    <h2 class="text-xl text-gray-700">Settings</h2>
+                </div>
+                <div class="sm:w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <label class="block">
+                        <span class="text-gray-700">Forward to</span>
+                        <input type="text"
+                               class="px-4 py-2 rounded bg-gray-200 border border-gray-300 mt-1 block w-full">
+                    </label>
+                    <label class="block">
+                        <span class="text-gray-700">API Token</span>
+                        <input type="text"
+                               class="px-4 py-2 rounded bg-gray-200 border border-gray-300 mt-1 block w-full">
+                    </label>
+                </div>
+            </div>
             <div class="flex justify-end mt-4">
                 <button class="px-4 py-2 bg-gray-800 text-gray-200 rounded">Save</button>
             </div>
