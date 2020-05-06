@@ -6,9 +6,9 @@
                 We are using https://www.heropatterns.com/ give it a try
              -->
             <div class="px-4 md:px-12 container mx-auto">
-                <nav class="py-4 flex justify-between items-center text-gray-100">
+                <nav class="py-4 flex justify-between items-center flex-col md:flex-row text-gray-100">
                     <a href="#" class="text-2xl font-semibold">Brand</a>
-                    <div class="flex items-center -mx-2">
+                    <div class="flex items-center -mx-2 mt-2 md:mt-0">
                         <a href="#" class="px-4 py-1 border-2 border-white font-semibold rounded">Sign in</a>
                         <a href="#" class="px-4 py-2 mx-2 font-semibold bg-black rounded">Sign up</a>
                     </div>

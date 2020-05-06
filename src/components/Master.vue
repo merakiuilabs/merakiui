@@ -18,7 +18,7 @@
                         </button>
                         <span v-for="category in categories" :key="category.name">
                             <button @click="searchText = category.name"
-                                    class="ml-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none"
+                                    class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none"
                                     :class="category.name === searchText? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ category.name }}</button>
                         </span>
                     </div>
