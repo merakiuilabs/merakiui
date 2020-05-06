@@ -31,7 +31,9 @@
                 <h1 class="text-2xl text-gray-800 font-semibold mb-6 capitalize" v-text="category.name"></h1>
                 <view-component v-for="component in category.components" :key="component.name" :name="component.name" class="mt-6">
                     <div slot="component">
-                        <component :is="component.name | toId" class="mb-10"></component>
+                        <div class="my-4">
+                            <component :is="component.name | toId"></component>
+                        </div>
                     </div>
                 </view-component>
             </div>
