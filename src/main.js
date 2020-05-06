@@ -7,7 +7,7 @@ Vue.config.productionTip = false;
 Vue.use(VueClipboard);
 
 Vue.filter('toId', (componentName) => {
-  return componentName.toLowerCase().replace(' ', '-')
+  return componentName.toLowerCase().replace(/ /g, '-')
 });
 
 new Vue({

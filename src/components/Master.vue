@@ -18,7 +18,7 @@
                         </button>
                         <span v-for="category in categories" :key="category.name">
                             <button @click="searchText = category.name"
-                                    class="ml-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none"
+                                    class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none"
                                     :class="category.name === searchText? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ category.name }}</button>
                         </span>
                     </div>
@@ -47,10 +47,14 @@
     import UserDetails from "./UI/Cards/UserDetails";
     import Testimonial from "./UI/Cards/Testimonial";
     import ArticleCard from "./UI/Cards/ArticleCard";
+    import ArticleCardWithImage from "./UI/Cards/ArticleCardWithImage";
     import Product from "./UI/Cards/Product";
     import ProductEvaluation from "./UI/Cards/ProductWithEvaluation";
     import Login from "./UI/Forms/Login";
     import Subscribe from "./UI/Forms/Subscribe";
+    import HeroWithPattern from "./UI/Heroes/HeroWithPattern";
+
+
     import Component from "../Models/Component";
     import ViewComponent from "./Utilities/ViewComponent";
 
@@ -61,10 +65,12 @@
             UserDetails,
             Testimonial,
             ArticleCard,
+            ArticleCardWithImage,
             Product,
             ProductEvaluation,
             Login,
             Subscribe,
+            HeroWithPattern,
             ViewComponent
         },
         data() {
