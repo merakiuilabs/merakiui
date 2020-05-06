@@ -14,7 +14,7 @@
                         <button @click="searchText = ''"
                                 class="ml-1 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none"
                                 :class="searchText.length === 0 ? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">
-                            all
+                            All
                         </button>
                         <span v-for="category in categories" :key="category.name">
                             <button @click="searchText = category.name"
