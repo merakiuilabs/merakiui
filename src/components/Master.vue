@@ -50,6 +50,9 @@
     import ProductEvaluation from "./UI/Cards/ProductWithEvaluation";
     import Login from "./UI/Forms/Login";
     import Subscribe from "./UI/Forms/Subscribe";
+    import HeroWithPattern from "./UI/Heroes/HeroWithPattern";
+
+
     import Component from "../Models/Component";
     import ViewComponent from "./Utilities/ViewComponent";
 
@@ -65,6 +68,7 @@
             ProductEvaluation,
             Login,
             Subscribe,
+            HeroWithPattern,
             ViewComponent
         },
         data() {
