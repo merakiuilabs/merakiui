@@ -2,7 +2,7 @@
     <div :id="name | toId">
         <div class="bg-white p-6 rounded shadow">
             <h2 class="text-lg text-gray-700 font-semibold">Account settings</h2>
-            <div class="flex flex-col sm:flex-row py-8">
+            <div class="flex flex-col sm:flex-row py-4">
                 <div class="sm:w-1/4">
                     <h2 class="text-xl text-gray-700">Profile</h2>
                 </div>
@@ -29,7 +29,7 @@
                     </label>
                 </div>
             </div>
-            <div class="flex flex-col sm:flex-row py-8">
+            <div class="flex flex-col sm:flex-row py-4">
                 <div class="sm:w-1/4">
                     <h2 class="text-xl text-gray-700">Settings</h2>
                 </div>
