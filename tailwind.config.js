@@ -5,7 +5,6 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                inter: ['Inter'],
                 roboto: ['Roboto'],
             },
             spacing: {

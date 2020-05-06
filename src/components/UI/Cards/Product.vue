@@ -8,7 +8,7 @@
             </div>
 
             <img class="h-56 w-full object-cover mt-2"
-                 src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                 src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
                  alt="NIKE AIR">
 
             <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
