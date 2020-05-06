@@ -50,6 +50,8 @@
     import ArticleCardWithImage from "./UI/Cards/ArticleCardWithImage";
     import Product from "./UI/Cards/Product";
     import ProductEvaluation from "./UI/Cards/ProductWithEvaluation";
+    import MultiColumnForm from "./UI/Forms/MultiColumnForm";
+    import CasualForm from "./UI/Forms/CasualForm";
     import Login from "./UI/Forms/Login";
     import Subscribe from "./UI/Forms/Subscribe";
     import HeroWithPattern from "./UI/Heroes/HeroWithPattern";
@@ -68,6 +70,8 @@
             ArticleCardWithImage,
             Product,
             ProductEvaluation,
+            MultiColumnForm,
+            CasualForm,
             Login,
             Subscribe,
             HeroWithPattern,

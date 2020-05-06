@@ -27,6 +27,8 @@ export default [
     {
         name: 'Forms',
         components: [
+            {name: 'Casual Form'},
+            {name: 'Multi Column Form'},
             {name: 'Login'},
             {name: 'Subscribe'},
         ],
