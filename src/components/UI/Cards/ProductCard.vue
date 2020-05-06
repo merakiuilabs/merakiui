@@ -3,8 +3,7 @@
         <div class="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
             <div class="px-4 py-2">
                 <h1 class="text-gray-900 font-bold text-3xl uppercase">NIKE AIR</h1>
-                <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
-                    quidem sequi illum facere recusandae voluptatibus</p>
+                <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
             </div>
 
             <img class="h-56 w-full object-cover mt-2"
@@ -13,18 +12,17 @@
 
             <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
                 <h1 class="text-gray-200 font-bold text-xl">$129</h1>
-                <button class="px-3 py-1 bg-gray-200 text-sm text-gray-900 font-semibold rounded">Add to card</button>
+                <button class="px-2 py-1 bg-gray-200 text-xs text-gray-900 font-semibold rounded uppercase hover:bg-gray-400 focus:bg-gray-400">Add to card</button>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-
     export default {
         data() {
             return {
-                name: 'Product',
+                name: 'Product Card',
             }
         }
     }
