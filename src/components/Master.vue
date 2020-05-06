@@ -45,6 +45,7 @@
     import UserDetails from "./UI/Cards/UserDetails";
     import Testimonial from "./UI/Cards/Testimonial";
     import ArticleCard from "./UI/Cards/ArticleCard";
+    import ArticleCardWithImage from "./UI/Cards/ArticleCardWithImage";
     import Product from "./UI/Cards/Product";
     import ProductEvaluation from "./UI/Cards/ProductWithEvaluation";
     import Login from "./UI/Forms/Login";
@@ -59,6 +60,7 @@
             UserDetails,
             Testimonial,
             ArticleCard,
+            ArticleCardWithImage,
             Product,
             ProductEvaluation,
             Login,

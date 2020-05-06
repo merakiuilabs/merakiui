@@ -1,22 +1,23 @@
 export default [
-    {
-        name: 'Alert',
-        components: [
-            { name: 'Notification Pop' },
-            { name: 'Alert' },
-
-        ],
-    },
     // {
-    //     name: 'Cards',
+    //     name: 'Alert',
     //     components: [
-    //         { name: 'Article Card' },
-    //         { name: 'Product' },
-    //         { name: 'Product Evaluation' },
-    //         { name: 'Testimonial' },
-    //         { name: 'User Details' },
+    //         { name: 'Notification Pop' },
+    //         { name: 'Alert' },
+    //
     //     ],
     // },
+    {
+        name: 'Cards',
+        components: [
+            { name: 'Article Card' },
+            { name: 'Article Card With Image' },
+            // { name: 'Product' },
+            // { name: 'Product Evaluation' },
+            // { name: 'Testimonial' },
+            // { name: 'User Details' },
+        ],
+    },
     // {
     //     name: 'Forms',
     //     components: [
