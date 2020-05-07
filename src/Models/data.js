@@ -31,13 +31,13 @@ export default [
             {name: 'Sign In Form With Image'},
         ],
     },
-    // {
-    //     name: 'Heroes',
-    //     components: [
-    //         { name: 'Hero With Pattern' },
-    //         { name: 'Hero With Image' },
-    //     ],
-    // },
+    {
+        name: 'Heroes',
+        components: [
+            { name: 'Hero With Image' },
+            { name: 'Hero With Pattern' },
+        ],
+    },
     // {
     //     name: 'Navigation', 
     //     components: [

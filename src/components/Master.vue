@@ -8,8 +8,7 @@
                     <input class="w-full bg-white mt-6 px-6 py-4 border border-gray-300 text-gray-800 rounded-lg focus:outline-none focus:bg-gray-100 placeholder-gray-700"
                            type="text" placeholder="Search.." v-model="searchText">
                 </div>
-                <div class="flex flex-col md:flex-row items-center justify-start mt-5 ">
-                    <span class="text-gray-700">Categories : </span>
+                <div class="flex items-center justify-center mt-5 ">
                     <div class="mt-2 md:mt-0">
                         <button @click="searchText = ''"
                                 class="ml-1 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none"
@@ -42,40 +41,62 @@
 </template>
 
 <script>
+    // Alerts
+    import SuccessAlert from "./UI/Alert/SuccessAlert";
+    import InfoAlert from "./UI/Alert/InfoAlert";
+    import WarningAlert from "./UI/Alert/WarningAlert";
+    import ErrorAlert from "./UI/Alert/ErrorAlert";
     import NotificationPop from "./UI/Alert/NotificationPop";
-    import Alert from "./UI/Alert/Alert";
-    import UserDetails from "./UI/Cards/UserDetails";
-    import Testimonial from "./UI/Cards/Testimonial";
+    // Cards
     import ArticleCard from "./UI/Cards/ArticleCard";
     import ArticleCardWithImage from "./UI/Cards/ArticleCardWithImage";
-    import Product from "./UI/Cards/Product";
-    import ProductEvaluation from "./UI/Cards/ProductWithEvaluation";
-    import MultiColumnForm from "./UI/Forms/MultiColumnForm";
-    import CasualForm from "./UI/Forms/CasualForm";
-    import Login from "./UI/Forms/Login";
-    import Subscribe from "./UI/Forms/Subscribe";
+    import ProductCard from "./UI/Cards/ProductCard";
+    import ProductCardWithEvaluation from "./UI/Cards/ProductCardWithEvaluation";
+    import TestimonialCard from "./UI/Cards/TestimonialCard";
+    import UserCard from "./UI/Cards/UserCard";
+    import UserCardWithDetails from "./UI/Cards/UserCardWithDetails";
+    // Forms
+    import InputsForm from "./UI/Forms/InputsForm";
+    import NewsletterForm from "./UI/Forms/NewsletterForm";
+    import SignInForm from "./UI/Forms/SignInForm";
+    import SignInFormWithImage from "./UI/Forms/SignInFormWithImage";
+    // Heroes
+    import HeroWithImage from "./UI/Heroes/HeroWithImage";
     import HeroWithPattern from "./UI/Heroes/HeroWithPattern";
 
+    // import NavbarWithSearch from "./UI/Navigation/NavbarWithSearch";
+    // import FooterWithSubscribeForm from "./UI/Navigation/FooterWithSubscribeForm";
+    // import SimplePagination from "./UI/Paginations/SimplePagination";
+    // import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
 
     import Component from "../Models/Component";
     import ViewComponent from "./Utilities/ViewComponent";
 
     export default {
         components: {
+            SuccessAlert,
+            InfoAlert,
+            WarningAlert,
+            ErrorAlert,
             NotificationPop,
-            Alert,
-            UserDetails,
-            Testimonial,
+
             ArticleCard,
             ArticleCardWithImage,
-            Product,
-            ProductEvaluation,
-            MultiColumnForm,
-            CasualForm,
-            Login,
-            Subscribe,
+            ProductCard,
+            ProductCardWithEvaluation,
+            TestimonialCard,
+            UserCard,
+            UserCardWithDetails,
+
+            InputsForm,
+            NewsletterForm,
+            SignInForm,
+            SignInFormWithImage,
+
+            HeroWithImage,
             HeroWithPattern,
-            ViewComponent
+
+            ViewComponent,
         },
         data() {
             return {
