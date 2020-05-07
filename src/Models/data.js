@@ -38,13 +38,13 @@ export default [
             { name: 'Hero With Pattern' },
         ],
     },
-    // {
-    //     name: 'Navigation', 
-    //     components: [
-    //         { name: 'Navbar With Search' },
-    //         { name: 'Footer With Subscribe Form' },
-    //     ]
-    // },
+    {
+        name: 'Navbars', 
+        components: [
+            { name: 'Navbar' },
+            { name: 'Navbar With Search' },
+        ]
+    },
     // {
     //     name: 'Sections',
     //     components: [
