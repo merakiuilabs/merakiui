@@ -1,4 +1,4 @@
-# Meraki UI webiste
+# Meraki UI website
 
 ## Project setup
 ```
