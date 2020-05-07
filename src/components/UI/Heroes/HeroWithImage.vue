@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     
-                        <div class="absolute h-96 hidden lg:right-0 lg:block lg:w-1/2" style="clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);">
+                        <div class="absolute h-64 h-96 hidden lg:right-0 lg:block lg:w-1/2" style="clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);">
                             <div class="h-full bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80');">
                                 <div class="h-full bg-black opacity-25"></div>
                             </div>
