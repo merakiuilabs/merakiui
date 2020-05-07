@@ -13,7 +13,7 @@
                     </div>
                 </nav>
 
-                <div class="flex items-center flex-col py-6 md:py-16 md:flex-row md:h-96">
+                <div class="flex items-center flex-col md:flex-row" style="height:380px;">
                     <div class="md:w-1/2">
                         <h1 class="text-4xl font-semibold text-gray-100">Brand</h1>
                         <p class="text-2xl font-semibold text-gray-100">

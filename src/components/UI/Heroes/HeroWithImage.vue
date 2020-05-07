@@ -35,7 +35,7 @@
 
             <div class="bg-white relative">
                 <div class="container mx-auto px-6">
-                    <div class="flex h-64 md:h-96">
+                    <div class="flex" style="height:380px;">
                         <div class="flex items-center lg:w-1/2">
                             <div class="absolute left-0 mx-6 max-w-md">
                                 <h2 class="text-2xl font-semibold text-gray-800 md:text-3xl">
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     
-                        <div class="absolute h-64 h-96 hidden lg:right-0 lg:block lg:w-1/2" style="clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);">
+                        <div class="absolute hidden lg:right-0 lg:block lg:w-1/2" style="height:380px;clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);">
                             <div class="h-full bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80');">
                                 <div class="h-full bg-black opacity-25"></div>
                             </div>
