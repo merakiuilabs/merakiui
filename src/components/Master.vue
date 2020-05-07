@@ -23,6 +23,7 @@
                     </div>
                 </div>
             </div>
+            <p class="mt-8 text-gray-700">Heroes components require simple <a class="text-blue-600 hover:underline" href="https://github.com/merakiui/website/blob/master/tailwind.config.js" target="_blank">configuration</a></p>
         </div>
 
         <div class="w-full max-w-5xl mx-auto">
