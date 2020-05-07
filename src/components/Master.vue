@@ -63,9 +63,12 @@
     // Heroes
     import HeroWithImage from "./UI/Heroes/HeroWithImage";
     import HeroWithPattern from "./UI/Heroes/HeroWithPattern";
-    // Navbar
+    // Navbars
     import Navbar from "./UI/Navbars/Navbar";
     import NavbarWithSearch from "./UI/Navbars/NavbarWithSearch";
+    // Paginations
+    import Pagination from "./UI/Paginations/Pagination";
+
 
     import Component from "../Models/Component";
     import ViewComponent from "./Utilities/ViewComponent";
@@ -96,6 +99,8 @@
 
             Navbar,
             NavbarWithSearch,
+
+            Pagination,
 
             ViewComponent,
         },

@@ -45,16 +45,10 @@ export default [
             { name: 'Navbar With Search' },
         ]
     },
-    // {
-    //     name: 'Sections',
-    //     components: [
-    //         { name: 'Paragraph With Image' },
-    //     ]
-    // },
-    // {
-    //     name: 'Paginations',
-    //     components: [
-    //         { name: 'Simple Pagination' },
-    //     ]
-    // },
+    {
+        name: 'Paginations',
+        components: [
+            { name: 'Pagination' },
+        ]
+    },
 ];
