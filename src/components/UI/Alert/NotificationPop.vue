@@ -7,7 +7,7 @@
                 
                 <div class="mx-3">
                     <h2 class="text-xl font-semibold text-gray-800">Jane Doe</h2>
-                    <p class="text-gray-600">Sara was replied on the <a href="#" class="text-blue-500 hover:text-blue-400 hover:underline">Upload Image</a>.</p>
+                    <p class="text-gray-600">Sara was replied on the <a class="text-blue-500 hover:text-blue-400 hover:underline">Upload Image</a>.</p>
                 </div>
             </div>
         </div>

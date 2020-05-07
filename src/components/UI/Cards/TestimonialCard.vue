@@ -14,7 +14,7 @@
             </div>
             
             <div class="flex justify-end mt-4">
-                <a href="#" class="text-xl font-medium text-indigo-500">John Doe</a>
+                <a class="text-xl font-medium text-indigo-500">John Doe</a>
             </div>
         </div>
     </div>
