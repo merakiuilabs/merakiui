@@ -5,8 +5,8 @@
                 <div class="container mx-auto px-6 py-2">
                     <div class="md:flex items-center justify-between">
                         <div class="flex justify-between items-center">
-                            <div class="text-2xl font-bold text-gray-800 hover:text-gray-700 md:text-3xl">
-                                <a href="#">Brand</a>
+                            <div>
+                                <a class="text-xl font-bold text-gray-800 hover:text-gray-700 md:text-2xl" href="#">Brand</a>
                             </div>
                     
                             <div class="md:hidden">
@@ -26,11 +26,11 @@
                     
                         <div class="flex flex-col -mx-2 md:flex-row hidden md:block">
                             <a href="#"
-                                class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Home</a>
+                                class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
                             <a href="#"
-                                class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">About</a>
+                                class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
                             <a href="#"
-                                class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Contact</a>
+                                class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
                         </div>
                     </div>
                 </div>
