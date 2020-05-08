@@ -7,10 +7,10 @@
                 </h1>
 
                 <div class="flex justify-center mt-6">
-                    <div class="bg-white rounded-lg">
+                    <div class="bg-white rounded-md">
                         <div class="flex flex-wrap justify-between md:flex-row">
-                            <input type="email" class="m-1 p-2 appearance-none text-gray-700 text-sm focus:outline-none" placeholder="Enter your email">
-                            <button class="w-full m-1 p-2 text-sm bg-gray-800 rounded-lg font-semibold uppercase lg:w-auto">subscribe</button>
+                            <input type="email" class="m-1 p-2 appearance-none text-gray-700 text-sm focus:outline-none focus:placeholder-white" placeholder="Enter your email">
+                            <button class="w-full m-1 p-2 text-sm bg-gray-800 rounded font-semibold uppercase lg:w-auto hover:bg-gray-700">subscribe</button>
                         </div>
                     </div>
                 </div>

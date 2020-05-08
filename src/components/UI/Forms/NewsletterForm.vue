@@ -3,7 +3,7 @@
             <div class="flex flex-col max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden md:flex-row md:h-48">
                 <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-gray-700">
                     <div class="py-6 px-6 md:px-8 md:py-0">
-                        <h2 class="text-gray-700 text-lg font-bold md:text-gray-100">Sign Up For <span class="text-blue-300">Project</span> Updates</h2>
+                        <h2 class="text-gray-700 text-lg font-bold md:text-gray-100">Sign Up For <span class="text-blue-600 md:text-blue-300">Project</span> Updates</h2>
                         <p class="mt-2 text-gray-600 text-sm md:text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur obcaecati odio</p>
                     </div>
                 </div>

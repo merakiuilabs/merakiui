@@ -3,7 +3,7 @@
         <div class="flex max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden lg:max-w-4xl">
             <div class="hidden lg:block lg:w-1/2 bg-cover" style="background-image:url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')"></div>
             
-            <div class="w-full p-8 lg:w-1/2">
+            <div class="w-full py-8 px-6 md:px-8 lg:w-1/2">
                 <h2 class="text-2xl font-semibold text-gray-700 text-center">Brand</h2>
                 <p class="text-xl text-gray-600 text-center">Welcome back!</p>
                 <a href="#" class="flex items-center justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100">
