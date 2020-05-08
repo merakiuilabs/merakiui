@@ -6,7 +6,7 @@
                     <div class="md:flex items-center justify-between">
                         <div class="flex justify-between items-center">
                             <div>
-                                <a class="text-xl font-bold text-gray-800 hover:text-gray-700 md:text-2xl">Brand</a>
+                                <a href="#" class="text-xl font-bold text-gray-800 hover:text-gray-700 md:text-2xl">Brand</a>
                             </div>
                     
                             <div class="md:hidden">
@@ -25,9 +25,9 @@
                         </div>
                     
                         <div :class="!isOpen ? 'hidden' : ''" class="flex flex-col -mx-2 mt-2 md:mt-0 md:flex-row md:block">
-                            <a class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
-                            <a class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
-                            <a class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
+                            <a href="#" class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
+                            <a href="#" class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
+                            <a href="#" class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -47,11 +47,11 @@
                                 </p>
                     
                                 <div class="flex mt-6">
-                                    <a class="px-3 py-2 block bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800">
+                                    <a href="#" class="px-3 py-2 block bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800">
                                         Get Started
                                     </a>
                     
-                                    <a class="mx-4 px-3 py-2 block bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">
+                                    <a href="#" class="mx-4 px-3 py-2 block bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">
                                         Learn More
                                     </a>
                                 </div>

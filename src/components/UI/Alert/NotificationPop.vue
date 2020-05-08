@@ -6,8 +6,8 @@
                 <img class="w-12 h-12 object-cover rounded-full" src="https://images.unsplash.com/photo-1477118476589-bff2c5c4cfbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=200">
                 
                 <div class="mx-3">
-                    <h2 class="text-xl font-semibold text-gray-800">Jane Doe</h2>
-                    <p class="text-gray-600">Sara was replied on the <a class="text-blue-500 hover:text-blue-400 hover:underline">Upload Image</a>.</p>
+                    <h2 class="text-xl font-semibold text-gray-800 cur">Jane Doe</h2>
+                    <p class="text-gray-600">Sara was replied on the <a href="#" class="text-blue-500 hover:text-blue-400 hover:underline">Upload Image</a>.</p>
                 </div>
             </div>
         </div>

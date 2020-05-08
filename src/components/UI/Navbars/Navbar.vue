@@ -5,7 +5,7 @@
                 <div class="md:flex justify-between items-center">
                     <div class="flex justify-between items-center">
                         <div>
-                            <a class="text-gray-800 text-xl font-bold hover:text-gray-700 md:text-2xl">Brand</a>
+                            <a href="#" class="text-gray-800 text-xl font-bold hover:text-gray-700 md:text-2xl">Brand</a>
                         </div>
 
                         <div class="md:hidden">
@@ -18,9 +18,9 @@
                     </div>
                     
                     <div :class="!isOpen ? 'hidden' : ''" class="flex flex-col mt-3 md:flex-row md:mt-0 md:block">
-                        <a class="text-gray-800 text-sm hover:font-medium md:mx-4">Home</a>
-                        <a class="text-gray-800 text-sm hover:font-medium md:mx-4">Contact</a>
-                        <a class="text-gray-800 text-sm hover:font-medium md:mx-4">About Us</a>
+                        <a href="#" class="text-gray-800 text-sm hover:font-medium md:mx-4">Home</a>
+                        <a href="#" class="text-gray-800 text-sm hover:font-medium md:mx-4">Contact</a>
+                        <a href="#" class="text-gray-800 text-sm hover:font-medium md:mx-4">About Us</a>
                     </div>
                 </div>
             </div>
