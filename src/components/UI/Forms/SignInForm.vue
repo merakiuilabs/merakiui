@@ -14,7 +14,7 @@
                         <input class="w-full mt-2 py-2 px-4 bg-gray-100 text-gray-700 border border-gray-300 rounded  block appearance-none placeholder-gray-500 focus:outline-none focus:bg-white" type="password" placeholder="Password">
                     </div>
                     <div class="flex justify-between items-center mt-6">
-                        <a class="text-gray-600 text-sm hover:text-gray-500">Forget Password?</a>
+                        <a href="#" class="text-gray-600 text-sm hover:text-gray-500">Forget Password?</a>
                         <button class="py-2 px-4 bg-gray-700 text-white rounded hover:bg-gray-600 focus:outline-none" type="button">
                             Login
                         </button>
@@ -24,7 +24,7 @@
 
             <div class="flex items-center justify-center py-4 bg-gray-100 text-center">
                 <h1 class="text-gray-600 text-sm">Dont`t have an account? </h1>
-                <a class="text-blue-600 font-bold mx-2 text-sm hover:text-blue-500">Register</a>
+                <a href="#" class="text-blue-600 font-bold mx-2 text-sm hover:text-blue-500">Register</a>
             </div>
         </div>
     </div>

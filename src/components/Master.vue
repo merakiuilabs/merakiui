@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <p class="mt-8 text-gray-700">Heroes components require simple(Don't panic please😘) <a class="text-blue-600 hover:underline" href="https://gist.github.com/Miaababikir/052e31b345781c0f73180b80a285781b" target="_blank">configuration</a></p>
+            <p class="mt-8 text-gray-700">Header components require simple(Don't panic please😘) <a class="text-blue-600 hover:underline" href="https://gist.github.com/Miaababikir/052e31b345781c0f73180b80a285781b" target="_blank">configuration</a></p>
         </div>
 
         <div class="w-full max-w-5xl mx-auto">
@@ -61,14 +61,19 @@
     import NewsletterForm from "./UI/Forms/NewsletterForm";
     import SignInForm from "./UI/Forms/SignInForm";
     import SignInFormWithImage from "./UI/Forms/SignInFormWithImage";
-    // Heroes
-    import HeroWithImage from "./UI/Heroes/HeroWithImage";
-    import HeroWithPattern from "./UI/Heroes/HeroWithPattern";
+    // Header
+    import HeaderWithImage from "./UI/Header/HeaderWithImage";
+    import HeaderWithPattern from "./UI/Header/HeaderWithPattern";
     // Navbars
     import Navbar from "./UI/Navbars/Navbar";
     import NavbarWithSearch from "./UI/Navbars/NavbarWithSearch";
-    // Paginations
+    // Sections
+    import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
+    // Pagination
     import Pagination from "./UI/Paginations/Pagination";
+    // Footers
+    import FooterWithSubscribeForm from "./UI/Footers/FooterWithSubscribeForm";
+
 
 
     import Component from "../Models/Component";
@@ -95,13 +100,17 @@
             SignInForm,
             SignInFormWithImage,
 
-            HeroWithImage,
-            HeroWithPattern,
+            HeaderWithImage,
+            HeaderWithPattern,
 
             Navbar,
             NavbarWithSearch,
 
+            ParagraphWithImage,
+
             Pagination,
+
+            FooterWithSubscribeForm,
 
             ViewComponent,
         },
