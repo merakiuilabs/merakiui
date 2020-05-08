@@ -74,7 +74,7 @@
     export default {
         data() {
             return {
-                name: 'Hero With Image',
+                name: 'Header With Image',
                 isOpen: false,
             }
         }

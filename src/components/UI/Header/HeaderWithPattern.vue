@@ -52,7 +52,7 @@
     export default {
         data() {
             return {
-                name: 'Hero With Pattern'
+                name: 'Header With Pattern'
             }
         }
     }
