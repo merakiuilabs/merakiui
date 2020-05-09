@@ -16,6 +16,7 @@ export default [
             { name: 'Article card' },
             { name: 'Article card with image' },
             { name: 'Product card' },
+            { name: 'Product card with price' },
             { name: 'Product card with evaluation' },
             { name: 'Testimonial card' },
             { name: 'User card' },
