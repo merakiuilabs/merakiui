@@ -26,7 +26,7 @@
                 </div>
                 <div class="flex item-center justify-between mt-3">
                     <h1 class="text-gray-700 font-bold text-lg md:text-xl">$220</h1>
-                    <button class="px-2 py-1 bg-gray-800 text-white text-xs font-bold uppercase rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Add to Card</button>
+                    <button class="px-2 py-1 bg-gray-800 text-white text-xs font-bold uppercase rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Add to Cart</button>
                 </div>
             </div>
         </div>
