@@ -2,7 +2,7 @@
     <div class="bg-gray-300 border rounded-md overflow-hidden">
         <div class="bg-white p-4 border-b">
             <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="text-gray-700 font-medium md:text-lg">{{ name }}</div>
+                <div class="text-gray-700 font-medium capitalize md:text-lg">{{ name }}</div>
                 <div class="mt-4 md:mt-0">
                     <button @click="rtl =! rtl"
                             class="rounded-md p-1 hover:text-gray-700 hover:bg-gray-400 focus:outline-none"

@@ -1,17 +1,17 @@
 <template>
     <div class="min-h-screen bg-gray-100 font-roboto" id="app">
         <Header></Header>
-        <master-component></master-component>
+        <main-component></main-component>
     </div>
 </template>
 
 <script>
     import Header from "./components/Header";
-    import MasterComponent from "./components/Master";
+    import MainComponent from "./components/Main";
 
     export default {
         components: {
-            Header, MasterComponent
+            Header, MainComponent
         },
         mounted() {
             this.$ga.page('/');
