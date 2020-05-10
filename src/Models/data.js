@@ -59,6 +59,12 @@ export default [
         ]
     },
     {
+        name: 'Breadcrumbs',
+        components: [
+            { name: 'Breadcrumbs' },
+        ]
+    },
+    {
         name: 'Footers',
         components: [
             { name: 'Footer with subscribe form' },

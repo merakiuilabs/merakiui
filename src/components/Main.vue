@@ -72,6 +72,8 @@
     import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
     // Pagination
     import Pagination from "./UI/Paginations/Pagination";
+    // Breadcrumbs
+    import Breadcrumbs from "./UI/Breadcrumbs/Breadcrumbs";
     // Footers
     import FooterWithSubscribeForm from "./UI/Footers/FooterWithSubscribeForm";
 
@@ -112,6 +114,8 @@
 
             Pagination,
 
+            Breadcrumbs,
+            
             FooterWithSubscribeForm,
 
             ViewComponent,
