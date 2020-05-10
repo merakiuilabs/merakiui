@@ -51,8 +51,8 @@
     // Cards
     import ArticleCard from "./UI/Cards/ArticleCard";
     import ArticleCardWithImage from "./UI/Cards/ArticleCardWithImage";
+    import SimpleProductCard from "./UI/Cards/SimpleProductCard";
     import ProductCard from "./UI/Cards/ProductCard";
-    import ProductCardWithPrice from "./UI/Cards/ProductCardWithPrice";
     import ProductCardWithEvaluation from "./UI/Cards/ProductCardWithEvaluation";
     import TestimonialCard from "./UI/Cards/TestimonialCard";
     import UserCard from "./UI/Cards/UserCard";
@@ -90,8 +90,8 @@
 
             ArticleCard,
             ArticleCardWithImage,
+            SimpleProductCard,
             ProductCard,
-            ProductCardWithPrice,
             ProductCardWithEvaluation,
             TestimonialCard,
             UserCard,

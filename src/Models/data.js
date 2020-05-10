@@ -15,8 +15,8 @@ export default [
         components: [
             { name: 'Article card' },
             { name: 'Article card with image' },
+            { name: 'Simple product card' },
             { name: 'Product card' },
-            { name: 'Product card with price' },
             { name: 'Product card with evaluation' },
             { name: 'Testimonial card' },
             { name: 'User card' },
