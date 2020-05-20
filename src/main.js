@@ -8,7 +8,7 @@ Vue.config.productionTip = false;
 Vue.use(VueClipboard);
 
 Vue.use(VueAnalytics, {
-  id: 'UA-161702225-3'
+  id: 'UA-167213766-1'
 });
 
 Vue.filter('toId', (componentName) => {
