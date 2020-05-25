@@ -50,6 +50,8 @@ export default [
     {
         name: 'Sections',
         components: [
+            { name: 'About me' },
+            { name: 'Cards list' },
             { name: 'Paragraph with image' },
         ]
     },

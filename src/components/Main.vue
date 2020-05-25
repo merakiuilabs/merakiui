@@ -16,7 +16,7 @@
             <p class="mt-8 text-gray-700">Header components require simple(don't panic please 😎) <a class="text-blue-600 hover:underline" href="https://gist.github.com/Miaababikir/052e31b345781c0f73180b80a285781b" target="_blank">configuration</a></p>
         </div>
 
-        <div class="w-full max-w-5xl mx-auto">
+        <div class="w-full max-w-6xl mx-auto">
             <div class="mb-16" v-for="category in list" :key="category.name">
                 <h1 class="text-2xl text-gray-800 font-semibold mb-6 capitalize" v-text="category.name"></h1>
 
@@ -62,6 +62,7 @@
     import NavbarWithAvatar from "./UI/Navbars/NavbarWithAvatar";
     // Sections
     import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
+    import CardsList from "./UI/Sections/CardsList";
     // Pagination
     import Pagination from "./UI/Paginations/Pagination";
     // Footers
@@ -100,6 +101,7 @@
             NavbarWithAvatar,
 
             ParagraphWithImage,
+            CardsList,
 
             Pagination,
 
