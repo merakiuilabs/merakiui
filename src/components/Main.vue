@@ -59,6 +59,7 @@
     // Navbars
     import Navbar from "./UI/Navbars/Navbar";
     import NavbarWithSearch from "./UI/Navbars/NavbarWithSearch";
+    import NavbarWithAvatar from "./UI/Navbars/NavbarWithAvatar";
     // Sections
     import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
     // Pagination
@@ -96,6 +97,7 @@
 
             Navbar,
             NavbarWithSearch,
+            NavbarWithAvatar,
 
             ParagraphWithImage,
 

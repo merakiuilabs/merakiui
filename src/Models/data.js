@@ -37,6 +37,7 @@ export default [
         components: [
             { name: 'Navbar' },
             { name: 'Navbar with search' },
+            { name: 'Navbar with avatar' },
         ]
     },
     {
