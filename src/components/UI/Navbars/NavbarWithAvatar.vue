@@ -18,7 +18,7 @@
                     </div>
 
                     <div :class="!isOpen ? 'hidden' : ''" class="md:flex md:items-center md:justify-between flex-1">
-                        <div class="flex flex-col -mx-4 md:flex-row md:items-center md:mr-0 md:ml-8">
+                        <div class="flex flex-col -mx-4 md:flex-row md:items-center md:mx-8">
                             <a href="#" class="mx-2 mt-2 md:mt-0 px-2 py-1 text-sm text-gray-700 font-medium rounded-md hover:bg-gray-300">Join Slack</a>
                             <a href="#" class="mx-2 mt-2 md:mt-0 px-2 py-1 text-sm text-gray-700 font-medium rounded-md hover:bg-gray-300">Browse Topics</a>
                             <a href="#" class="mx-2 mt-2 md:mt-0 px-2 py-1 text-sm text-gray-700 font-medium rounded-md hover:bg-gray-300">Random Item</a>
