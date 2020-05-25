@@ -64,6 +64,7 @@ export default [
     {
         name: 'Footers',
         components: [
+            { name: 'Simple Footer' },
             { name: 'Footer with subscribe form' },
         ]
     },

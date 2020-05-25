@@ -67,6 +67,7 @@
     // Pagination
     import Pagination from "./UI/Paginations/Pagination";
     // Footers
+    import SimpleFooter from "./UI/Footers/SimpleFooter";
     import FooterWithSubscribeForm from "./UI/Footers/FooterWithSubscribeForm";
 
     import Component from "../Models/Component";
@@ -107,6 +108,7 @@
 
             Pagination,
 
+            SimpleFooter,
             FooterWithSubscribeForm,
 
             ViewComponent,
