@@ -1,8 +1,8 @@
 <template>
     <div :id="name | toId">
-        <div class="w-full">
+        <div>
             <nav class="bg-white">
-                <div class="container mx-auto px-6 py-2">
+                <div class="px-6 py-2">
                     <div class="md:flex items-center justify-between">
                         <div class="flex justify-between items-center">
                             <div>
@@ -33,36 +33,23 @@
                 </div>
             </nav>
 
-            <div class="bg-white relative">
-                <div class="container mx-auto px-6">
-                    <div class="flex h-64 md:h-96">
-                        <div class="flex items-center lg:w-1/2">
-                            <div class="absolute left-0 mx-6 max-w-md">
-                                <h2 class="text-2xl font-semibold text-gray-800 md:text-3xl">
-                                    Build Your New <span class="text-indigo-600">Idea</span>
-                                </h2>
-                    
-                                <p class="mt-2 text-sm text-gray-500 md:text-base">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.
-                                </p>
-                    
-                                <div class="flex mt-6">
-                                    <a href="#" class="px-3 py-2 block bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800">
-                                        Get Started
-                                    </a>
-                    
-                                    <a href="#" class="mx-4 px-3 py-2 block bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">
-                                        Learn More
-                                    </a>
-                                </div>
-                            </div>
+            <div class="flex bg-white py-8 md:py-0 md:h-96">
+                <div class="flex items-center justify-center px-6 lg:w-1/2">
+                    <div class="max-w-xl">
+                        <h2 class="text-2xl font-semibold text-gray-800 md:text-3xl">Build Your New <span class="text-indigo-600">Idea</span></h2>
+                            
+                        <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
+
+                        <div class="flex mt-6">
+                            <a href="#" class="px-3 py-2 block bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800">Get Started</a>
+                            <a href="#" class="mx-4 px-3 py-2 block bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">Learn More</a>
                         </div>
-                    
-                        <div class="absolute hidden h-96 lg:right-0 lg:block lg:w-1/2" style="clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);">
-                            <div class="h-full bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80');">
-                                <div class="h-full bg-black opacity-25"></div>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+                
+                <div class="hidden lg:block lg:w-1/2">
+                    <div class="h-full object-cover object-center" style="background-image: url(https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80)">
+                        <div class="h-full bg-black opacity-25"></div>
                     </div>
                 </div>
             </div>
