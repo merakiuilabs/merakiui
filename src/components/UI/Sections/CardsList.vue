@@ -118,7 +118,7 @@
     export default {
         data() {
             return {
-                name: 'Cards List Section'
+                name: 'Cards List'
             }
         }
     }

@@ -61,8 +61,9 @@
     import NavbarWithSearch from "./UI/Navbars/NavbarWithSearch";
     import NavbarWithAvatar from "./UI/Navbars/NavbarWithAvatar";
     // Sections
-    import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
+    import AboutMe from "./UI/Sections/AboutMe";
     import CardsList from "./UI/Sections/CardsList";
+    import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
     // Pagination
     import Pagination from "./UI/Paginations/Pagination";
     // Footers
@@ -100,8 +101,9 @@
             NavbarWithSearch,
             NavbarWithAvatar,
 
-            ParagraphWithImage,
+            AboutMe,
             CardsList,
+            ParagraphWithImage,
 
             Pagination,
 
