@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <div class="flex justify-center items-center p-3 sm:p-6">
+        <div class="flex justify-center items-center">
             <div class="w-full relative" :dir="rtl? 'rtl' : 'ltr'">
                 <slot class="w-full h-full absolute top-0 left-0" name="component"></slot>
                 <transition name="fade">

@@ -1,5 +1,5 @@
 <template>
-    <div :id="name | toId">
+    <div class="px-3" :id="name | toId">
         <div class="max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md">
             <h2 class="text-lg text-gray-700 font-semibold capitalize">Account settings</h2>
             

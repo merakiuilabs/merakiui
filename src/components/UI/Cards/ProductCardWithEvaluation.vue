@@ -1,5 +1,5 @@
 <template>
-    <div :id="name | toId">
+    <div class="px-3" :id="name | toId">
         <div class="flex max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
             <div class="w-1/3 bg-cover"
                     style="background-image: url('https://images.unsplash.com/photo-1494726161322-5360d4d0eeae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')"></div>

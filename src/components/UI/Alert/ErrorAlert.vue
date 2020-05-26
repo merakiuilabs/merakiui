@@ -1,5 +1,5 @@
 <template>
-    <div :id="name | toId">
+    <div class="px-3" :id="name | toId">
         <div class="flex max-w-sm mx-auto bg-white rounded-lg overflow-hidden">
             <div class="flex justify-center items-center w-12 bg-red-500">
                 <svg class="h-6 w-6 fill-current text-white" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">

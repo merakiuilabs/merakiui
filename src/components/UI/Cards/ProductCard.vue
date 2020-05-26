@@ -1,5 +1,5 @@
 <template>
-    <div :id="name | toId">
+    <div class="px-3" :id="name | toId">
         <div class="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
             <div class="px-4 py-2">
                 <h1 class="text-gray-900 font-bold text-3xl uppercase">NIKE AIR</h1>

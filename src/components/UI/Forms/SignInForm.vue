@@ -1,5 +1,5 @@
 <template>
-    <div :id="name | toId">
+    <div class="px-3" :id="name | toId">
         <div class="bg-white w-full max-w-sm rounded-lg overflow-hidden mx-auto">
             <div class="py-4 px-6">
                 <div class="text-center font-bold text-gray-700 text-3xl">Brand</div>

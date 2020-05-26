@@ -1,5 +1,5 @@
 <template>
-    <div :id="name | toId">
+    <div class="px-3" :id="name | toId">
         <div class="flex max-w-sm bg-white shadow-lg rounded-lg overflow-hidden mx-auto">
             <div class="w-2 bg-gray-800"></div>
             <div class="flex items-center px-2 py-3">

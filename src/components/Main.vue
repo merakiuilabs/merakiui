@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-6 pb-12">
+    <div class="container mx-auto px-6">
         <div class="py-16 text-center">
             <h1 class="text-xl md:text-3xl text-gray-800 font-medium">Discover new components. Build amazing things 🔥</h1>
 
