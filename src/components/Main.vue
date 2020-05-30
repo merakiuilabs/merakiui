@@ -13,16 +13,16 @@
                 </div>
             </div>
 
-            <p class="mt-8 text-gray-700">Header components require simple(don't panic please 😎) <a class="text-blue-600 hover:underline" href="https://gist.github.com/Miaababikir/052e31b345781c0f73180b80a285781b" target="_blank">configuration</a></p>
+            <p class="mt-8 text-gray-700">Header components require simple <span class="font-semibold">- don't panic please 😎 -</span> <a class="text-blue-600 hover:underline" href="https://gist.github.com/Miaababikir/052e31b345781c0f73180b80a285781b" target="_blank">configuration</a></p>
         </div>
 
-        <div class="w-full max-w-6xl mx-auto">
+        <div class="w-full max-w-5xl mx-auto">
             <div class="mb-16" v-for="category in list" :key="category.name">
                 <h1 class="text-2xl text-gray-800 font-semibold mb-6 capitalize" v-text="category.name"></h1>
 
                 <view-component v-for="component in category.components" :key="component.name" :name="component.name" class="mt-6">
                     <div slot="component">
-                        <div class="my-4">
+                        <div class="my-6">
                             <component :is="component.name | toId"></component>
                         </div>
                     </div>
@@ -33,100 +33,100 @@
 </template>
 
 <script>
-    // Alerts
-    import SuccessAlert from "./UI/Alert/SuccessAlert";
-    import InfoAlert from "./UI/Alert/InfoAlert";
-    import WarningAlert from "./UI/Alert/WarningAlert";
-    import ErrorAlert from "./UI/Alert/ErrorAlert";
-    import NotificationPop from "./UI/Alert/NotificationPop";
-    // Cards
-    import ArticleCard from "./UI/Cards/ArticleCard";
-    import ArticleCardWithImage from "./UI/Cards/ArticleCardWithImage";
-    import SimpleProductCard from "./UI/Cards/SimpleProductCard";
-    import ProductCard from "./UI/Cards/ProductCard";
-    import ProductCardWithEvaluation from "./UI/Cards/ProductCardWithEvaluation";
-    import TestimonialCard from "./UI/Cards/TestimonialCard";
-    import UserCard from "./UI/Cards/UserCard";
-    import UserCardWithDetails from "./UI/Cards/UserCardWithDetails";
-    // Forms
-    import InputsForm from "./UI/Forms/InputsForm";
-    import NewsletterForm from "./UI/Forms/NewsletterForm";
-    import SignInForm from "./UI/Forms/SignInForm";
-    import SignInFormWithImage from "./UI/Forms/SignInFormWithImage";
-    // Header
-    import HeaderWithImage from "./UI/Header/HeaderWithImage";
-    import HeaderWithPattern from "./UI/Header/HeaderWithPattern";
-    // Navbars
-    import Navbar from "./UI/Navbars/Navbar";
-    import NavbarWithSearch from "./UI/Navbars/NavbarWithSearch";
-    import NavbarWithAvatar from "./UI/Navbars/NavbarWithAvatar";
-    // Sections
-    import AboutMe from "./UI/Sections/AboutMe";
-    import CardsList from "./UI/Sections/CardsList";
-    import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
-    // Pagination
-    import Pagination from "./UI/Paginations/Pagination";
-    // Footers
-    import SimpleFooter from "./UI/Footers/SimpleFooter";
-    import FooterWithSubscribeForm from "./UI/Footers/FooterWithSubscribeForm";
+// Alerts
+import SuccessAlert from "./UI/Alert/SuccessAlert";
+import InfoAlert from "./UI/Alert/InfoAlert";
+import WarningAlert from "./UI/Alert/WarningAlert";
+import ErrorAlert from "./UI/Alert/ErrorAlert";
+import NotificationPop from "./UI/Alert/NotificationPop";
+// Cards
+import ArticleCard from "./UI/Cards/ArticleCard";
+import ArticleCardWithImage from "./UI/Cards/ArticleCardWithImage";
+import SimpleProductCard from "./UI/Cards/SimpleProductCard";
+import ProductCard from "./UI/Cards/ProductCard";
+import ProductCardWithEvaluation from "./UI/Cards/ProductCardWithEvaluation";
+import TestimonialCard from "./UI/Cards/TestimonialCard";
+import UserCard from "./UI/Cards/UserCard";
+import UserCardWithDetails from "./UI/Cards/UserCardWithDetails";
+// Forms
+import InputsForm from "./UI/Forms/InputsForm";
+import NewsletterForm from "./UI/Forms/NewsletterForm";
+import SignInForm from "./UI/Forms/SignInForm";
+import SignInFormWithImage from "./UI/Forms/SignInFormWithImage";
+// Header
+import HeaderWithImage from "./UI/Header/HeaderWithImage";
+import HeaderWithPattern from "./UI/Header/HeaderWithPattern";
+// Navbars
+import Navbar from "./UI/Navbars/Navbar";
+import NavbarWithSearch from "./UI/Navbars/NavbarWithSearch";
+import NavbarWithAvatar from "./UI/Navbars/NavbarWithAvatar";
+// Sections
+import AboutMe from "./UI/Sections/AboutMe";
+import CardsList from "./UI/Sections/CardsList";
+import ParagraphWithImage from "./UI/Sections/ParagraphWithImage";
+// Pagination
+import Pagination from "./UI/Paginations/Pagination";
+// Footers
+import SimpleFooter from "./UI/Footers/SimpleFooter";
+import FooterWithSubscribeForm from "./UI/Footers/FooterWithSubscribeForm";
 
-    import Component from "../Models/Component";
-    import ViewComponent from "./Utilities/ViewComponent";
+import Component from "../Models/Component";
+import ViewComponent from "./Utilities/ViewComponent";
 
-    export default {
-        components: {
-            SuccessAlert,
-            InfoAlert,
-            WarningAlert,
-            ErrorAlert,
-            NotificationPop,
+export default {
+    components: {
+        SuccessAlert,
+        InfoAlert,
+        WarningAlert,
+        ErrorAlert,
+        NotificationPop,
 
-            ArticleCard,
-            ArticleCardWithImage,
-            SimpleProductCard,
-            ProductCard,
-            ProductCardWithEvaluation,
-            TestimonialCard,
-            UserCard,
-            UserCardWithDetails,
+        ArticleCard,
+        ArticleCardWithImage,
+        SimpleProductCard,
+        ProductCard,
+        ProductCardWithEvaluation,
+        TestimonialCard,
+        UserCard,
+        UserCardWithDetails,
 
-            InputsForm,
-            NewsletterForm,
-            SignInForm,
-            SignInFormWithImage,
+        InputsForm,
+        NewsletterForm,
+        SignInForm,
+        SignInFormWithImage,
 
-            HeaderWithImage,
-            HeaderWithPattern,
+        HeaderWithImage,
+        HeaderWithPattern,
 
-            Navbar,
-            NavbarWithSearch,
-            NavbarWithAvatar,
+        Navbar,
+        NavbarWithSearch,
+        NavbarWithAvatar,
 
-            AboutMe,
-            CardsList,
-            ParagraphWithImage,
+        AboutMe,
+        CardsList,
+        ParagraphWithImage,
 
-            Pagination,
+        Pagination,
 
-            SimpleFooter,
-            FooterWithSubscribeForm,
+        SimpleFooter,
+        FooterWithSubscribeForm,
 
-            ViewComponent,
+        ViewComponent,
+    },
+    data() {
+        return {
+            categories: [],
+            searchText: 'Alert',
+            component: new Component(),
+        }
+    },
+    created() {
+        this.categories = this.component.all();
+    },
+    computed: {
+        list() {
+            return this.component.whereCategory(this.searchText);
         },
-        data() {
-            return {
-                categories: [],
-                searchText: 'Alert',
-                component: new Component(),
-            }
-        },
-        created() {
-            this.categories = this.component.all();
-        },
-        computed: {
-            list() {
-                return this.component.whereCategory(this.searchText);
-            },
-        },
-    }
+    },
+}
 </script>
