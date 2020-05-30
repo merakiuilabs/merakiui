@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-6">
+    <div class="container mx-auto px-6" id="main">
         <div class="py-16 text-center">
             <h1 class="text-xl md:text-3xl text-gray-800 font-medium">Discover new components. Build amazing things 🔥</h1>
 
@@ -29,6 +29,8 @@
                 </view-component>
             </div>
         </div>
+
+        <goto-top></goto-top>
     </div>
 </template>
 
@@ -72,6 +74,7 @@ import FooterWithSubscribeForm from "./UI/Footers/FooterWithSubscribeForm";
 
 import Component from "../Models/Component";
 import ViewComponent from "./Utilities/ViewComponent";
+import GotoTop from "./Utilities/GotoTop";
 
 export default {
     components: {
@@ -111,6 +114,7 @@ export default {
         SimpleFooter,
         FooterWithSubscribeForm,
 
+        GotoTop,
         ViewComponent,
     },
     data() {

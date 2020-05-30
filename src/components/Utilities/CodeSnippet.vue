@@ -5,25 +5,25 @@
 </template>
 
 <script>
-    import hljs from 'highlight.js/lib/core';
+import hljs from 'highlight.js/lib/core';
 
-    hljs.registerLanguage('html', require('highlight.js/lib/languages/xml'));
-    import 'highlight.js/styles/atom-one-dark.css';
+hljs.registerLanguage('html', require('highlight.js/lib/languages/xml'));
+import 'highlight.js/styles/atom-one-dark.css';
 
-    export default {
-        props: ['code'],
-        mounted() {
-            this.highlightCode();
-        },
+export default {
+    props: ['code'],
+    mounted() {
+        this.highlightCode();
+    },
 
-        methods: {
-            highlightCode() {
-                this.$nextTick(() => {
-                    document.querySelectorAll('pre code').forEach((block) => {
-                        hljs.highlightBlock(block);
-                    });
+    methods: {
+        highlightCode() {
+            this.$nextTick(() => {
+                document.querySelectorAll('pre code').forEach((block) => {
+                    hljs.highlightBlock(block);
                 });
-            },
+            });
         },
-    }
+    },
+}
 </script>
