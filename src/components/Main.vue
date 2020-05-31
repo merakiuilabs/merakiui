@@ -4,12 +4,10 @@
             <h1 class="text-xl md:text-3xl text-gray-800 font-medium">Discover new components. Build amazing things 🔥</h1>
 
             <div class="max-w-2xl mx-auto">
-                <div class="flex items-center justify-center mt-5 ">
-                    <div class="mt-2 md:mt-0">
-                        <span v-for="category in categories" :key="category.name">
-                            <button @click="searchText = category.name" class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none" :class="category.name === searchText? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ category.name }}</button>
-                        </span>
-                    </div>
+                <div class="mt-4">
+                    <span v-for="category in categories" :key="category.name">
+                        <button @click="searchText = category.name" class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none" :class="category.name === searchText? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ category.name }}</button>
+                    </span>
                 </div>
             </div>
 
