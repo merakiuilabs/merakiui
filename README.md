@@ -1,6 +1,14 @@
-# Meraki UI website
+## Meraki UI
 
-## Project setup
+🎉 🚀 Beautiful [Tailwindcss](https://tailwindcss.com) components that support RTL languages & fully responsive based on Flexbox & CSS Grid 🏗.
+
+### Resources
+
+- [Tailwindcss](https://tailwindcss.com)
+- [Heroicons](https://heroicons.dev)
+- [CSS Icons](https://css.gg)
+
+### Project setup
 ```
 npm install
 ```
@@ -20,5 +28,8 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Authors
+
+- **Mosab Ibrahim** [Github](https://github.com/Miaababikir)
+- **Khatab Wedaa** [Github](https://github.com/khatabwedaa)
+
