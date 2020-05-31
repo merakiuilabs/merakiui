@@ -11,11 +11,11 @@
     "autoprefixer": "^9.7.6",
     "core-js": "^3.6.4",
     "highlight.js": "^10.0.2",
-    "jquery": "^3.5.1",
     "js-beautify": "^1.11.0",
     "tailwindcss": "^1.4.4",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
+    "vue-backtotop": "^1.6.1",
     "vue-clipboard2": "^0.3.1"
   },
   "devDependencies": {

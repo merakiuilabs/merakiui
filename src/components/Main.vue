@@ -30,7 +30,13 @@
             </div>
         </div>
 
-        <goto-top></goto-top>
+        <back-to-top visibleoffset="800">
+            <button class="bg-gray-800 text-white fixed bottom-0 right-0 my-10 mx-10 p-2 rounded-md">
+                <svg class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/>
+                </svg>
+            </button>
+        </back-to-top>
     </div>
 </template>
 
@@ -72,9 +78,9 @@ import Pagination from "./UI/Paginations/Pagination";
 import SimpleFooter from "./UI/Footers/SimpleFooter";
 import FooterWithSubscribeForm from "./UI/Footers/FooterWithSubscribeForm";
 
+import BackToTop from 'vue-backtotop';
 import Component from "../Models/Component";
 import ViewComponent from "./Utilities/ViewComponent";
-import GotoTop from "./Utilities/GotoTop";
 
 export default {
     components: {
@@ -114,7 +120,7 @@ export default {
         SimpleFooter,
         FooterWithSubscribeForm,
 
-        GotoTop,
+        BackToTop,
         ViewComponent,
     },
     data() {
