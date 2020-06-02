@@ -29,8 +29,8 @@
 
                                 <form action="#">
                                     <div class="mt-4">
-                                        <input class="w-full py-2 px-4 bg-gray-100 border border-gray-300 rounded focus:outline-none focus:bg-white" type="email" placeholder="Email address">
-                                        <input class="w-full mt-4 py-2 px-4 bg-gray-100 border border-gray-300 rounded focus:outline-none focus:bg-white" type="password" placeholder="Password">
+                                        <input class="w-full py-2 px-4 bg-gray-100 border border-gray-300 rounded focus:outline-none focus:bg-white" type="email" placeholder="Email address" aria-label="Email address">
+                                        <input class="w-full mt-4 py-2 px-4 bg-gray-100 border border-gray-300 rounded focus:outline-none focus:bg-white" type="password" placeholder="Password" aria-label="Password">
                                     </div>
 
                                     <div class="mt-4 flex items-center justify-between">
