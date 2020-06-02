@@ -1,6 +1,6 @@
-import categories from "./data";
+import categories from "./components";
 
-export default class Component {
+export default class Filter {
 
     constructor() {
         this.categories = categories;

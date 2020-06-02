@@ -5,8 +5,8 @@
 
             <div class="max-w-2xl mx-auto">
                 <div class="mt-4">
-                    <span v-for="category in categories" :key="category.name">
-                        <button @click="searchText = category.name" class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none" :class="category.name === searchText? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ category.name }}</button>
+                    <span v-for="i in categories" :key="i.name">
+                        <button @click="category = i.name" class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none" :class="i.name === category? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ i.name }}</button>
                     </span>
                 </div>
             </div>
@@ -77,7 +77,7 @@ import SimpleFooter from "./UI/Footers/SimpleFooter";
 import FooterWithSubscribeForm from "./UI/Footers/FooterWithSubscribeForm";
 
 import BackToTop from 'vue-backtotop';
-import Component from "../Models/Component";
+import Filter from "../Models/Filter";
 import ViewComponent from "./Utilities/ViewComponent";
 
 export default {
@@ -123,17 +123,19 @@ export default {
     },
     data() {
         return {
+            category: 'Alert',
             categories: [],
-            searchText: 'Alert',
-            component: new Component(),
+            component: new Filter(),
         }
     },
+    
     created() {
         this.categories = this.component.all();
     },
+
     computed: {
         list() {
-            return this.component.whereCategory(this.searchText);
+            return this.component.whereCategory(this.category);
         },
     },
 }
