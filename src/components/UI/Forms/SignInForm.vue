@@ -8,14 +8,17 @@
 
                 <form>
                     <div class="mt-4 w-full">
-                        <input class="w-full mt-2 py-2 px-4 bg-gray-100 text-gray-700 border border-gray-300 rounded  block appearance-none placeholder-gray-500 focus:outline-none focus:bg-white" type="email" placeholder="Email Address">
+                        <input class="w-full mt-2 py-2 px-4 bg-gray-100 text-gray-700 border border-gray-300 rounded  block appearance-none placeholder-gray-500 focus:outline-none focus:bg-white"
+                               type="email" placeholder="Email Address" aria-label="Email Address">
                     </div>
                     <div class="mt-4 w-full">
-                        <input class="w-full mt-2 py-2 px-4 bg-gray-100 text-gray-700 border border-gray-300 rounded  block appearance-none placeholder-gray-500 focus:outline-none focus:bg-white" type="password" placeholder="Password">
+                        <input class="w-full mt-2 py-2 px-4 bg-gray-100 text-gray-700 border border-gray-300 rounded  block appearance-none placeholder-gray-500 focus:outline-none focus:bg-white"
+                               type="password" placeholder="Password" aria-label="Password">
                     </div>
                     <div class="flex justify-between items-center mt-6">
                         <a href="#" class="text-gray-600 text-sm hover:text-gray-500">Forget Password?</a>
-                        <button class="py-2 px-4 bg-gray-700 text-white rounded hover:bg-gray-600 focus:outline-none" type="button">
+                        <button class="py-2 px-4 bg-gray-700 text-white rounded hover:bg-gray-600 focus:outline-none"
+                                type="button">
                             Login
                         </button>
                     </div>

@@ -11,7 +11,7 @@
                     
                             <div class="md:hidden">
                                 <button type="button" @click="isOpen = !isOpen"
-                                    class="block text-gray-700 hover:text-gray-600 focus:text-gray-600 focus:outline-none">
+                                    class="block text-gray-700 hover:text-gray-600 focus:text-gray-600 focus:outline-none" aria-label="Toggle menu">
                                     <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
                                         <path
                                             d="M16.24 14.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 0 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12l2.83 2.83z"
