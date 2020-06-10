@@ -1,5 +1,9 @@
 <template>
 <div class="border-b-4 border-blue-500">
+    <div class="py-3 px-6 text-center bg-black text-white font-bold">
+        #BlackLivesMatter ✊🏽 👨🏽‍💻
+    </div>
+
     <nav class="bg-gray-900">
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
