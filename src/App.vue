@@ -1,19 +1,25 @@
 <template>
-    <div class="min-h-screen bg-white font-roboto" id="app">
+    <div class="bg-white font-roboto" id="app">
         <Header></Header>
 
-        <main-component></main-component>
+        <div class="container mx-auto px-6" id="main">
+            <div class="py-16 text-center">
+                <h1 class="text-xl md:text-3xl text-gray-800 font-medium">Discover new components. Build amazing things 🔥</h1>
+            </div>
+
+            <router-view></router-view>
+        </div>
     </div>
 </template>
 
 <script>
 import Header from "./components/Header";
-import MainComponent from "./components/Main";
 
 export default {
     components: {
-        Header, MainComponent
+        Header
     },
+    
     mounted() {
         this.$ga.page('/');
     }
