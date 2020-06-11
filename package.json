@@ -16,7 +16,8 @@
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
     "vue-backtotop": "^1.6.1",
-    "vue-clipboard2": "^0.3.1"
+    "vue-clipboard2": "^0.3.1",
+    "vue-router": "^3.3.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.3.0",
