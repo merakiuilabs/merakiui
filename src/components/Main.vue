@@ -45,6 +45,10 @@ import InfoPop from "./UI/Alert/InfoPop";
 import WarningPop from "./UI/Alert/WarningPop";
 import ErrorPop from "./UI/Alert/ErrorPop";
 import NotificationPop from "./UI/Alert/NotificationPop";
+import SuccessFullWidth from "./UI/Alert/SuccessFullWidth";
+import InfoFullWidth from "./UI/Alert/InfoFullWidth";
+import WarningFullWidth from "./UI/Alert/WarningFullWidth";
+import ErrorFullWidth from "./UI/Alert/ErrorFullWidth";
 // Cards
 import ArticleCard from "./UI/Cards/ArticleCard";
 import ArticleCardWithImage from "./UI/Cards/ArticleCardWithImage";
@@ -87,6 +91,10 @@ export default {
         WarningPop,
         ErrorPop,
         NotificationPop,
+        SuccessFullWidth,
+        InfoFullWidth,
+        WarningFullWidth,
+        ErrorFullWidth,
 
         ArticleCard,
         ArticleCardWithImage,

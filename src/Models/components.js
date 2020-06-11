@@ -7,6 +7,10 @@ export default [
             { name: 'Warning pop' },
             { name: 'Error pop' },
             { name: 'Notification pop' },
+            { name: 'Success full width' },
+            { name: 'Info full width' },
+            { name: 'Warning full width' },
+            { name: 'Error full width' },
 
         ],
     },
