@@ -40,10 +40,10 @@
 
 <script>
 // Alerts
-import SuccessAlert from "./UI/Alert/SuccessAlert";
-import InfoAlert from "./UI/Alert/InfoAlert";
-import WarningAlert from "./UI/Alert/WarningAlert";
-import ErrorAlert from "./UI/Alert/ErrorAlert";
+import SuccessPop from "./UI/Alert/SuccessPop";
+import InfoPop from "./UI/Alert/InfoPop";
+import WarningPop from "./UI/Alert/WarningPop";
+import ErrorPop from "./UI/Alert/ErrorPop";
 import NotificationPop from "./UI/Alert/NotificationPop";
 // Cards
 import ArticleCard from "./UI/Cards/ArticleCard";
@@ -82,10 +82,10 @@ import ViewComponent from "./Utilities/ViewComponent";
 
 export default {
     components: {
-        SuccessAlert,
-        InfoAlert,
-        WarningAlert,
-        ErrorAlert,
+        SuccessPop,
+        InfoPop,
+        WarningPop,
+        ErrorPop,
         NotificationPop,
 
         ArticleCard,

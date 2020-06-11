@@ -2,10 +2,10 @@ export default [
     {
         name: 'Alert',
         components: [
-            { name: 'Success alert' },
-            { name: 'Info alert' },
-            { name: 'Warning alert' },
-            { name: 'Error alert' },
+            { name: 'Success pop' },
+            { name: 'Info pop' },
+            { name: 'Warning pop' },
+            { name: 'Error pop' },
             { name: 'Notification pop' },
 
         ],
