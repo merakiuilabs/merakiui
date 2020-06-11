@@ -1,6 +1,6 @@
 <template>
     <div :id="name | toId">
-        <div class="bg-green-500 text-white">
+        <div class="w-full bg-green-500 text-white">
             <div class="flex justify-between items-center container mx-auto py-4 px-6">
                 <div class="flex">
                     <svg viewBox="0 0 40 40" class="h-6 w-6 fill-current">
