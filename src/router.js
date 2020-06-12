@@ -6,10 +6,7 @@ const Alerts = () =>
 
   export default new VueRouter({
     routes: [
-      {
-        path: "/alerts",
-        component: Alerts,
-        name: "Alerts",
-      },
+      { path: '/', redirect: '/alerts' },
+      { path: "/alerts", component: Alerts, name: "Alerts" },
     ],
   });
