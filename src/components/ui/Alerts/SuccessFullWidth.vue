@@ -1,5 +1,6 @@
 <template>
-    <div :id="name | toId">
+    <view-component :name="name">
+        <div slot="component">
         <div class="w-full bg-green-500 text-white">
             <div class="flex justify-between items-center container mx-auto py-4 px-6">
                 <div class="flex">
@@ -17,7 +18,8 @@
                 </button>
             </div>
         </div>
-    </div>
+        </div>
+    </view-component>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
     <div class="rounded overflow-hidden">
-        <pre><code class="px-8 py-6 rounded-md overflow-x-scroll overflow-hidden">{{ code }}</code></pre>
+        <pre><code class="px-8 py-2 rounded-md overflow-x-scroll overflow-hidden">{{ code }}</code></pre>
     </div>
 </template>
 

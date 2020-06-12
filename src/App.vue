@@ -3,11 +3,21 @@
         <Header></Header>
 
         <main class="container mx-auto px-6" id="main">
-            <div class="py-16 text-center">
+            <div class="mt-16 text-center">
                 <h1 class="text-xl md:text-3xl text-gray-800 font-medium">Discover new components. Build amazing things 🔥</h1>
             </div>
 
-            <router-view></router-view>
+            <div class="max-w-2xl mx-auto mt-6">
+                <span v-for="route in routes" :key="route.path">
+                    <router-link class="inline-block px-3 py-1 rounded text-sm font-medium bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-700 hover:text-gray-200" :to="route.path">
+                        {{route.name}}
+                    </router-link>
+                </span>
+            </div>
+
+            <div class="mt-20">
+                <router-view></router-view>
+            </div>
         </main>
 
         <back-to-top visibleoffset="800">
@@ -28,6 +38,12 @@ export default {
     components: {
         Header,
         BackToTop
+    },
+
+    data() {
+        return {
+            routes: this.$router.options.routes,
+        };
     },
     
     mounted() {

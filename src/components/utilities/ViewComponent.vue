@@ -32,6 +32,7 @@
         <div class="flex justify-center items-center">
             <div class="w-full relative" :dir="rtl? 'rtl' : 'ltr'">
                 <slot class="w-full h-full absolute top-0 left-0" name="component"></slot>
+
                 <transition name="fade">
                     <div v-if="copied">
                         <div class="w-full h-full absolute top-0 left-0 z-10">
@@ -53,10 +54,8 @@
 <script>
 import CodeSnippet from "./CodeSnippet";
 
-let beautify_html = require('js-beautify').html;
-
 export default {
-    props: ['name'],
+    props: ['name' , 'code'],
 
     components: {
         CodeSnippet
@@ -67,14 +66,7 @@ export default {
             viewCode: false,
             rtl: false,
             copied: false,
-            code: null,
         }
-    },
-    created() {
-        this.$nextTick(() => {
-            let id = this.$options.filters.toId(this.name);
-            this.code = beautify_html(document.getElementById(id).innerHTML);
-        });
     },
     methods: {
         onCopy() {
