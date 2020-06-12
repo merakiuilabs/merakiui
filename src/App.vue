@@ -8,7 +8,7 @@
             </div>
 
             <div class="max-w-2xl mx-auto mt-6">
-                <span v-for="route in routes" :key="route.path">
+                <span class="ml-2" v-for="route in routes" :key="route.path">
                     <router-link class="inline-block px-3 py-1 rounded text-sm font-medium bg-gray-200 text-gray-700 cursor-pointer hover:bg-gray-700 hover:text-gray-200" :to="route.path">
                         {{route.name}}
                     </router-link>
