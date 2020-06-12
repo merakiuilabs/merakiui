@@ -11,6 +11,7 @@ const Forms = () =>
 
 
   export default new VueRouter({
+    mode: 'history',
     routes: [
       // { path: '/', redirect: '/alerts' },
       { path: "/alerts", component: Alerts, name: "Alerts" },
