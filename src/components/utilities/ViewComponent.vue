@@ -3,6 +3,7 @@
         <div class="bg-white px-4 py-2 border-b">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="text-gray-700 font-medium capitalize md:text-lg">{{ name }}</div>
+
                 <div class="mt-4 md:mt-0">
                     <button @click="rtl =! rtl" class="rounded-md p-1 hover:text-gray-700 hover:bg-gray-400 focus:outline-none" :class="rtl? 'bg-gray-400 text-gray-700' : 'bg-gray-200 text-gray-600'" aria-label="Rtl">
                         <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" fill="none">
@@ -46,7 +47,7 @@
         </div>
 
         <div v-if="viewCode">
-            <code-snippet :code="code"></code-snippet>
+            <code-snippet @onCopy="onCopy" :code="code"></code-snippet>
         </div>
     </div>
 </template>

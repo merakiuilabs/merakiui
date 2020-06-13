@@ -4,8 +4,7 @@
             <div class="container mx-auto px-6 py-4">
                 <div class="flex justify-between items-center">
                     <a href="/" class="text-white text-xl font-bold md:text-2xl inline-flex items-center hover:text-blue-400">
-                        <img class="h-10 w-10 mr-1" src="../assets/svg/logo.svg" alt="logo">
-                        Meraki <span class="text-blue-400">UI</span>
+                        <img class="h-10 w-10 mr-1" src="../assets/svg/logo.svg" alt="logo"> Meraki <span class="text-blue-400">UI</span>
                     </a>
 
                     <a class="text-white text-sm font-normal hover:text-blue-400" href="https://github.com/merakiui/website" target="_blank" aria-label="Github link">
@@ -18,8 +17,8 @@
         </nav>
 
         <div class="bg-gray-900">
-            <div class="container mx-auto px-6">
-                <div class="md:flex py-8 md:py-0">
+            <div class="container mx-auto px-6 py-8">
+                <div class="md:flex">
                     <div class="flex items-center w-full md:w-1/2">
                         <div class="max-w-sm text-white">
                             <div class="text-xs font-light">Simple UI Starter</div>
