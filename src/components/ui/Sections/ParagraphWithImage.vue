@@ -12,7 +12,7 @@
                         <p class="mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
                         
                         <div class="mt-8">
-                            <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Start Now</a>
+                            <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded hover:bg-gray-800">Start Now</a>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <p class="mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
                     
                     <div class="mt-8">
-                        <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Start Now</a>
+                        <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded hover:bg-gray-800">Start Now</a>
                     </div>
                 </div>
             </div>

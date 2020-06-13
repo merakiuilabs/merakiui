@@ -1,10 +1,10 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
-            <footer class="flex flex-col justify-between items-center px-6 py-2 bg-gray-800 text-gray-100 sm:flex-row">
-                <a href="#" class="text-xl font-bold">Brand</a>
+            <footer class="flex flex-col justify-between items-center px-6 py-2 bg-gray-800 sm:flex-row">
+                <a href="#" class="text-xl font-bold text-gray-100 hover:text-gray-400">Brand</a>
                 
-                <p class="py-2 sm:py-0">All rights reserved</p>
+                <p class="py-2 text-gray-100 sm:py-0">All rights reserved</p>
 
                 <div class="flex -mx-2">
                     <a href="#" class="mx-2 text-gray-100 hover:text-gray-400" aria-label="Linkden">
@@ -36,10 +36,10 @@
             return {
                 name: 'Simple',
                 code: `
-        <footer class="flex flex-col justify-between items-center px-6 py-2 bg-gray-800 text-gray-100 sm:flex-row">
-            <a href="#" class="text-xl font-bold">Brand</a>
+        <footer class="flex flex-col justify-between items-center px-6 py-2 bg-gray-800 sm:flex-row">
+            <a href="#" class="text-xl font-bold text-gray-100 hover:text-gray-400">Brand</a>
             
-            <p class="py-2 sm:py-0">All rights reserved</p>
+            <p class="py-2 text-gray-100 sm:py-0">All rights reserved</p>
 
             <div class="flex -mx-2">
                 <a href="#" class="mx-2 text-gray-100 hover:text-gray-400" aria-label="Linkden">

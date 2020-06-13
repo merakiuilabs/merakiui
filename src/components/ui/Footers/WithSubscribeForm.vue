@@ -20,15 +20,15 @@
 
                     <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
                         <div>
-                            <a href="#" class="text-xl font-bold">Brand</a>
+                            <a href="#" class="text-xl font-bold text-gray-100 hover:text-gray-400">Brand</a>
                         </div>
 
                         <div class="flex mt-4 md:m-0">
                             <div class="-mx-4">
-                                <a href="#" class="px-4 text-sm">About</a>
-                                <a href="#" class="px-4 text-sm">Blog</a>
-                                <a href="#" class="px-4 text-sm">News</a>
-                                <a href="#" class="px-4 text-sm">Contact</a>
+                                <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">About</a>
+                                <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">Blog</a>
+                                <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">News</a>
+                                <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
     export default {
         data() {
             return {
-                name: 'Footer With Subscribe Form',
+                name: 'With Subscribe Form',
                 code: `
         <footer class="flex justify-center px-4 text-gray-100 bg-gray-800">
             <div class="container py-6">
@@ -63,15 +63,15 @@
 
                 <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
                     <div>
-                        <a href="#" class="text-xl font-bold">Brand</a>
+                        <a href="#" class="text-xl font-bold text-gray-100 hover:text-gray-400">Brand</a>
                     </div>
 
                     <div class="flex mt-4 md:m-0">
                         <div class="-mx-4">
-                            <a href="#" class="px-4 text-sm">About</a>
-                            <a href="#" class="px-4 text-sm">Blog</a>
-                            <a href="#" class="px-4 text-sm">News</a>
-                            <a href="#" class="px-4 text-sm">Contact</a>
+                            <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">About</a>
+                            <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">Blog</a>
+                            <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">News</a>
+                            <a href="#" class="px-4 text-sm text-gray-100 font-medium hover:text-gray-400">Contact</a>
                         </div>
                     </div>
                 </div>
