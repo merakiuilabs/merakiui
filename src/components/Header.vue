@@ -19,8 +19,8 @@
 
         <div class="bg-gray-900">
             <div class="container mx-auto px-6">
-                <div class="md:flex md:h-96 py-16 md:py-0">
-                    <div class="flex items-center w-full w-1/2">
+                <div class="md:flex py-8 md:py-0">
+                    <div class="flex items-center w-full md:w-1/2">
                         <div class="max-w-sm text-white">
                             <div class="text-xs font-light">Simple UI Starter</div>
 
@@ -35,9 +35,9 @@
                         </div>
                     </div>
                     
-                    <div class="hidden justify-end items-end w-full w-1/2 md:flex">
-                        <div class="max-w-md">
-                            <img src="../assets/svg/undraw_moonlight_5ksn.svg" alt="moon">
+                    <div class="mt-6 w-full md:w-1/2 flex justify-center items-center md:mt-0">
+                        <div class="w-full max-w-lg">
+                            <img src="../assets/svg/Responsive-bro.svg" alt="moon">
                         </div>
                     </div>
                 </div>
