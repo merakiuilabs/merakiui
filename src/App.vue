@@ -7,15 +7,17 @@
                 <h1 class="text-xl md:text-3xl text-gray-800 font-medium">Discover new components. Build amazing things 🔥</h1>
             </div>
 
-            <div class="max-w-2xl mx-auto mt-6">
+            <div class="max-w-2xl mx-auto mt-4">
                 <span class="ml-2" v-for="route in routes" :key="route.path">
-                    <router-link class="inline-block px-3 py-1 rounded text-sm  cursor-pointer hover:bg-gray-700 hover:text-gray-200" :class="currentPage == route.path ? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'" :to="route.path">
+                    <router-link class="inline-block mt-2 px-3 py-1 rounded text-sm  cursor-pointer hover:bg-gray-700 hover:text-gray-200" :class="currentPage == route.path ? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'" :to="route.path">
                         {{ route.name }}
                     </router-link>
                 </span>
+
+                <p class="mt-8 text-gray-700 text-center">Headers components require simple <span class="font-semibold">- don't panic please 😎 -</span> <a href="https://gist.github.com/Miaababikir/052e31b345781c0f73180b80a285781b" target="_blank" class="text-blue-600 hover:underline">configuration</a></p>
             </div>
 
-            <div class="mt-20">
+            <div class="mt-16">
                 <router-view></router-view>
             </div>
         </main>

@@ -6,7 +6,6 @@
                 
                 <div class="py-5 text-center">
                     <a href="#" class="block text-2xl text-gray-800 font-bold">John Doe</a>
-
                     <span class="text-sm text-gray-700">Software Engineer</span>
                 </div>
             </div>
@@ -25,7 +24,6 @@
             
             <div class="py-5 text-center">
                 <a href="#" class="block text-2xl text-gray-800 font-bold">John Doe</a>
-                
                 <span class="text-sm text-gray-700">Software Engineer</span>
             </div>
         </div>`
