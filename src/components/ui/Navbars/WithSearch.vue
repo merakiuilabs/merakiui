@@ -21,9 +21,9 @@
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                     <div :class="!isOpen ? 'hidden' : ''" class="w-full md:flex md:items-center md:justify-between md:block">
                         <div class="flex flex-col -mx-4 px-2 py-3 md:flex-row md:mx-0 md:py-0">
-                            <a href="#" class="py-1 px-2 text-gray-800 rounded text-sm hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
-                            <a href="#" class="py-1 px-2 text-gray-800 rounded text-sm hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
-                            <a href="#" class="py-1 px-2 text-gray-800 rounded text-sm hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
+                            <a href="#" class="py-1 px-2 text-gray-700 rounded text-sm font-medium hover:bg-gray-900 hover:text-gray-100 md:mx-2">Home</a>
+                            <a href="#" class="py-1 px-2 text-gray-700 rounded text-sm font-medium hover:bg-gray-900 hover:text-gray-100 md:mx-2">About</a>
+                            <a href="#" class="py-1 px-2 text-gray-700 rounded text-sm font-medium hover:bg-gray-900 hover:text-gray-100 md:mx-2">Contact</a>
                         </div>
                         
                         <div>

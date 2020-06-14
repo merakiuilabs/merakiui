@@ -3,6 +3,7 @@
         <h1 class="text-2xl text-gray-800 font-semibold capitalize mb-6">Sections</h1>
 
         <about-me></about-me>
+        <feature></feature>
         <our-team></our-team>
         <paragraph-with-image></paragraph-with-image>
     </div>
@@ -10,12 +11,14 @@
 
 <script>
 import AboutMe from "../ui/Sections/AboutMe";
+import Feature from "../ui/Sections/Feature";
 import OurTeam from "../ui/Sections/OurTeam";
 import ParagraphWithImage from "../ui/Sections/ParagraphWithImage";
 
 export default {
     components: { 
         AboutMe,
+        Feature,
         OurTeam,
         ParagraphWithImage,
     },

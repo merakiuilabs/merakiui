@@ -2,7 +2,11 @@
     <div class="bg-gray-300 border rounded-md overflow-hidden mb-12">
         <div class="bg-white px-4 py-2 border-b">
             <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="text-gray-700 font-medium capitalize md:text-lg">{{ name }}</div>
+                <div class="flex items-center">
+                    <h3 class="text-gray-700 font-medium capitalize md:text-lg">{{ name }}</h3>
+
+                    <span v-if="mark" class="mx-4 px-2 text-xs rounded-full bg-green-300 text-green-600">New</span>
+                </div>
 
                 <div class="mt-4 md:mt-0">
                     <button @click="rtl =! rtl" class="rounded-md p-1 hover:text-gray-700 hover:bg-gray-400 focus:outline-none" :class="rtl? 'bg-gray-400 text-gray-700' : 'bg-gray-200 text-gray-600'" aria-label="Rtl">
@@ -56,7 +60,7 @@
 import CodeSnippet from "./CodeSnippet";
 
 export default {
-    props: ['name' , 'code'],
+    props: ['name' , 'code' , 'mark'],
 
     components: {
         CodeSnippet

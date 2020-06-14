@@ -7,6 +7,10 @@
         <warning-pop></warning-pop>
         <error-pop></error-pop>
         <notification-pop></notification-pop>
+        <success-full-width></success-full-width>
+        <info-full-width></info-full-width>
+        <warning-full-width></warning-full-width>
+        <error-full-width></error-full-width>
     </div>
 </template>
 
@@ -16,6 +20,10 @@ import InfoPop from "../ui/Alerts/InfoPop";
 import WarningPop from "../ui/Alerts/WarningPop";
 import ErrorPop from "../ui/Alerts/ErrorPop";
 import NotificationPop from "../ui/Alerts/NotificationPop";
+import SuccessFullWidth from "../ui/Alerts/SuccessFullWidth";
+import InfoFullWidth from "../ui/Alerts/InfoFullWidth";
+import WarningFullWidth from "../ui/Alerts/WarningFullWidth";
+import ErrorFullWidth from "../ui/Alerts/ErrorFullWidth";
 
 export default {
     components: { 
@@ -24,6 +32,10 @@ export default {
         WarningPop,
         ErrorPop,
         NotificationPop,
+        SuccessFullWidth,
+        InfoFullWidth,
+        WarningFullWidth,
+        ErrorFullWidth,
     },
 };
 </script>
