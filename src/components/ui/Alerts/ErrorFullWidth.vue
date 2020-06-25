@@ -1,5 +1,5 @@
 <template>
-    <view-component :mark="true" :name="name" :code="code">
+    <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
             <div class="w-full bg-red-500 text-white">
                 <div class="flex justify-between items-center container mx-auto py-4 px-6">
