@@ -79,7 +79,7 @@
                     </div>
                 
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-                    <div class="flex flex-col -mx-2 mt-2 hidden md:mt-0 md:flex-row md:block">
+                    <div class="flex flex-col -mx-2 mt-2 md:mt-0 md:flex-row md:block">
                         <a href="#" class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
                         <a href="#" class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
                         <a href="#" class="py-2 px-2 text-sm text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
