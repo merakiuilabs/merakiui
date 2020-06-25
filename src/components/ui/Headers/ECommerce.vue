@@ -45,7 +45,7 @@
                             <div class="max-w-lg">
                                 <h1 class="text-gray-800 text-2xl font-semibold uppercase md:text-3xl">Best Place To Chose Your Clothes</h1>
                                 <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? Reiciendis natus perspiciatis optio.</p>
-                                <button class="mt-4 px-3 py-2 bg-indigo-600 text-white text-sm uppercase font-medium rounded hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">Shop Now</button>
+                                <button class="mt-6 px-3 py-2 bg-indigo-600 text-white text-xs uppercase font-medium rounded hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">Shop Now</button>
                             </div>
                         </div>
                 
