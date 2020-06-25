@@ -12,6 +12,7 @@ const Footers = () => import("./components/categories/Footers");
   export default new VueRouter({
     mode: 'history',
     routes: [
+      { path: "/", redirect: "/alerts" },
       { path: "/alerts", component: Alerts, name: "Alerts" },
       { path: "/cards", component: Cards, name: "Cards" },
       { path: "/forms", component: Forms, name: "Forms" },

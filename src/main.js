@@ -17,5 +17,3 @@ Vue.use(VueClipboard);
 Vue.use(VueAnalytics, { id: 'UA-167213766-1' });
 
 new Vue({ render: h => h(App), router }).$mount('#app');
-
-router.replace('/alerts');

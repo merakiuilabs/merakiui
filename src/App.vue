@@ -10,9 +10,11 @@
             <div class="max-w-2xl mx-auto mt-4">
                 <div class="flex flex-wrap items-center justify-center">
                     <span class="ml-2" v-for="route in routes" :key="route.path">
-                        <router-link class="inline-block mt-2 px-3 py-1 rounded text-sm  cursor-pointer hover:bg-gray-700 hover:text-gray-200" :class="currentPage == route.path ? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'" :to="route.path">
-                            {{ route.name }}
-                        </router-link>
+                        <span v-if="route.path != '/'">
+                            <router-link class="inline-block mt-2 px-3 py-1 rounded text-sm  cursor-pointer hover:bg-gray-700 hover:text-gray-200" :class="currentPage == route.path ? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'" :to="route.path">
+                                {{ route.name }}
+                            </router-link>
+                        </span>
                     </span>
                 </div>
 
