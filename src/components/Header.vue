@@ -17,25 +17,25 @@
         </nav>
 
         <div class="bg-gray-900">
-            <div class="container mx-auto px-6 py-8">
+            <div class="container mx-auto px-6 py-8 md:py-0">
                 <div class="md:flex">
                     <div class="flex items-center w-full md:w-1/2">
-                        <div class="max-w-sm text-white">
+                        <div class="max-w-lg text-white">
                             <div class="text-xs font-light">Simple UI Starter</div>
 
                             <h1 class="font-semibold text-2xl mt-2 text-white md:text-3xl">Meraki <span class="text-blue-400">UI </span> Components</h1>
                             
                             <p class="mt-2 text-gray-300">
                                 Beautiful <a href="https://tailwindcss.com" class="text-blue-400 hover:underline font-normal">tailwindcss</a> 
-                                components that support RTL languages & fully responsive based on Flexbox & CSS Grid, built by 
+                                components that support RTL languages & fully responsive based on Flexbox & CSS Grid. built by 
                                 <a href="https://twitter.com/khatabwedaa" class="text-blue-400 hover:underline">@khatabwedaa</a> &
                                 <a href="https://twitter.com/miaababikir" class="text-blue-400 hover:underline">@miaababikir</a>
                             </p>
                         </div>
                     </div>
                     
-                    <div class="mt-6 w-full md:w-1/2 flex justify-center items-center md:mt-0">
-                        <div class="w-full max-w-lg">
+                    <div class="mt-6 w-full md:w-1/2 flex justify-center md:justify-end items-center md:mt-0">
+                        <div class="w-full max-w-md">
                             <img src="../assets/svg/Responsive-bro.svg" alt="moon">
                         </div>
                     </div>
