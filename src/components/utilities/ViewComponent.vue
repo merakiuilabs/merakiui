@@ -4,8 +4,6 @@
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex items-center">
                     <h3 class="text-gray-700 font-medium capitalize md:text-lg">{{ name }}</h3>
-
-                    <span v-if="mark" class="mx-4 px-2 text-xs rounded-full bg-green-300 text-green-600">New</span>
                 </div>
 
                 <div class="mt-4 md:mt-0">
@@ -60,7 +58,7 @@
 import CodeSnippet from "./CodeSnippet";
 
 export default {
-    props: ['name' , 'code' , 'mark'],
+    props: ['name' , 'code'],
 
     components: {
         CodeSnippet

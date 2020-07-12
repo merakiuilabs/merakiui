@@ -1,5 +1,5 @@
 <template>
-    <view-component :mark="true" :name="name" :code="code">
+    <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
             <header class="bg-white">
                 <nav class="shadow">
