@@ -19,4 +19,6 @@ Vue.use(VueClipboard);
 
 Vue.use(VueAnalytics, { id: "UA-167213766-1" });
 
+console.log("Hello 😎, If you like it star it on Github 🚀");
+
 new Vue({ render: (h) => h(App), router }).$mount("#app");
