@@ -1,17 +1,15 @@
 module.exports = {
-    purge: [
-        './src/**/*.vue',
-    ],
+    purge: ["./src/**/*.vue"],
     theme: {
         extend: {
             fontFamily: {
-                roboto: ['Roboto'],
+                roboto: ["Roboto"],
             },
             spacing: {
-                '96': '24rem',
+                "96": "24rem",
             },
         },
     },
     variants: {},
     plugins: [],
-}
+};
