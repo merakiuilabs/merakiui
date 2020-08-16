@@ -56,7 +56,7 @@
     export default {
         data() {
             return {
-                name: 'Header With Pattern',
+                name: 'With Pattern',
                 code: `
         <header class="pattern bg-gray-900">
             <div class="container mx-auto px-6">

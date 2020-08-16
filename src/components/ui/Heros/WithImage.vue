@@ -57,7 +57,7 @@
     export default {
         data() {
             return {
-                name: 'Header With Image',
+                name: 'With Image',
                 isOpen: false,
                 code: `
         <header class="bg-white">

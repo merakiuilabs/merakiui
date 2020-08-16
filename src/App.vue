@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white font-roboto" id="app">
-        <Header></Header>
+        <main-header></main-header>
 
         <main class="container mx-auto px-6" id="main">
             <div class="mt-16 text-center">
@@ -21,7 +21,7 @@
                 </div>
 
                 <p class="mt-8 text-gray-700 text-center">
-                    Headers components require simple <span class="font-semibold">- don't panic please 😎 -</span>
+                    Heros components require simple <span class="font-semibold">- don't panic please 😎 -</span>
                     <a href="https://gist.github.com/Miaababikir/052e31b345781c0f73180b80a285781b" target="_blank" class="text-blue-600 hover:underline"> configuration</a>
                 </p>
             </div>
@@ -42,12 +42,12 @@
 </template>
 
 <script>
-import Header from "./components/Header";
+import MainHeader from "./components/Header";
 import BackToTop from "vue-backtotop";
 
 export default {
     components: {
-        Header,
+        MainHeader,
         BackToTop,
     },
 
