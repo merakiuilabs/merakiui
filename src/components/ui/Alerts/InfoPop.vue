@@ -11,12 +11,12 @@
                 <div class="-mx-3 py-2 px-4">
                     <div class="mx-3">
                         <span class="text-blue-500 font-semibold">Info</span>
-                        <p class="text-gray-600 text-sm">This channel archived by owner !</p>
+                        <p class="text-gray-600 text-sm">This channel archived by the owner!</p>
                     </div>
                 </div>
             </div>
         </div>
-    </view-component>
+    </view-component>   
 </template>
 
 <script>
@@ -35,7 +35,7 @@
             <div class="-mx-3 py-2 px-4">
                 <div class="mx-3">
                     <span class="text-blue-500 font-semibold">Info</span>
-                    <p class="text-gray-600 text-sm">This channel archived by owner !</p>
+                    <p class="text-gray-600 text-sm">This channel archived by the owner!</p>
                 </div>
             </div>
         </div>`
