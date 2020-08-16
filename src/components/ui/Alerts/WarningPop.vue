@@ -11,7 +11,7 @@
                 <div class="-mx-3 py-2 px-4">
                     <div class="mx-3">
                         <span class="text-yellow-500 font-semibold">Warning</span>
-                        <p class="text-gray-600 text-sm">Your image size is to large !</p>
+                        <p class="text-gray-600 text-sm">Your image size is too large!</p>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
             <div class="-mx-3 py-2 px-4">
                 <div class="mx-3">
                     <span class="text-yellow-500 font-semibold">Warning</span>
-                    <p class="text-gray-600 text-sm">Your image size is to large !</p>
+                    <p class="text-gray-600 text-sm">Your image size is too large!</p>
                 </div>
             </div>
         </div>`
