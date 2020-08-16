@@ -42,7 +42,7 @@
     export default {
         data() {
             return {
-                name: 'Sign In',
+                name: 'Simple Card',
                 code: `
         <div class="bg-white w-full max-w-sm rounded-lg shadow-md overflow-hidden mx-auto">
             <div class="py-4 px-6">

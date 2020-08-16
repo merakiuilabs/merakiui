@@ -4,23 +4,17 @@
 
         <simple></simple>
         <newsletter></newsletter>
-        <sign-in></sign-in>
-        <sign-in-with-image></sign-in-with-image>
     </div>
 </template>
 
 <script>
 import Simple from "../ui/Forms/Simple";
 import Newsletter from "../ui/Forms/Newsletter";
-import SignIn from "../ui/Forms/SignIn";
-import SignInWithImage from "../ui/Forms/SignInWithImage";
 
 export default {
     components: { 
         Simple,
         Newsletter,
-        SignIn,
-        SignInWithImage
     },
 };
 </script>
