@@ -55,7 +55,7 @@
     export default {
         data() {
             return {
-                name: 'Navbar With Avatar',
+                name: 'With Avatar',
                 isOpen: false,
                 code: `
         <nav class="bg-white shadow">

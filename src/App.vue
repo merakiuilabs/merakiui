@@ -1,35 +1,7 @@
 <template>
     <div class="bg-white font-roboto" id="app">
-        <main-header></main-header>
-
-        <main class="container mx-auto px-6" id="main">
-            <div class="mt-16 text-center">
-                <h1 class="text-xl md:text-3xl text-gray-800 font-medium">
-                    Discover new components. Build amazing things 🔥
-                </h1>
-            </div>
-
-            <div class="max-w-2xl mx-auto mt-4">
-                <div class="flex flex-wrap items-center justify-center">
-                    <span class="ml-2" v-for="route in routes" :key="route.path">
-                        <span v-if="route.path != '/'">
-                            <router-link class="inline-block mt-2 px-3 py-1 rounded text-sm cursor-pointer hover:bg-gray-700 hover:text-gray-200" :class="currentPage == route.path ? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'" :to="route.path">
-                                {{ route.name }}
-                            </router-link>
-                        </span>
-                    </span>
-                </div>
-
-                <p class="mt-8 text-gray-700 text-center">
-                    Heros components require simple <span class="font-semibold">- don't panic please 😎 -</span>
-                    <a href="https://gist.github.com/Miaababikir/052e31b345781c0f73180b80a285781b" target="_blank" class="text-blue-600 hover:underline"> configuration</a>
-                </p>
-            </div>
-
-            <div class="mt-16">
-                <router-view></router-view>
-            </div>
-        </main>
+        <header-component></header-component>
+        <main-component></main-component>
 
         <back-to-top visibleoffset="800">
             <button class="bg-gray-800 text-white fixed bottom-0 right-0 my-10 mx-10 p-2 rounded-md focus:outline-none" aria-label="Back to top">
@@ -42,24 +14,15 @@
 </template>
 
 <script>
-import MainHeader from "./components/Header";
+import HeaderComponent from "./components/Header";
+import MainComponent from "./components/Main";
 import BackToTop from "vue-backtotop";
 
 export default {
-    components: {
-        MainHeader,
-        BackToTop,
-    },
-
-    computed: {
-        currentPage() {
-            return this.$route.path;
-        },
-    },
+    components: { HeaderComponent, MainComponent, BackToTop },
 
     data() {
         return {
-            routes: this.$router.options.routes,
             og: "https://merakiui.com" + require("./assets/merakiui-og.png"),
         };
     },
@@ -67,7 +30,6 @@ export default {
     metaInfo() {
         return {
             meta: [
-              // Twitter Card
                 { name: "twitter:card", content: "summary_large_image" },
                 { name: "twitter:title", content: "Meraki UI Tailwindcss Components" },
                 {
@@ -75,9 +37,7 @@ export default {
                   content:
                     "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
                 },
-                // image must be an absolute path
                 { name: "twitter:image", content: this.og },
-                // Facebook OpenGraph
                 { property: "og:title", content: "Meraki UI Tailwindcss Components" },
                 { property: "og:site_name", content: "Meraki UI" },
                 { property: "og:type", content: "website" },
