@@ -1,7 +1,6 @@
 import components from "./Components";
 
 export default class ComponentsFilter {
-
     constructor() {
         this.components = components;
     }
@@ -11,16 +10,16 @@ export default class ComponentsFilter {
     }
 
     whereCategory(category) {
+        if (this.isEmpty(category)) return this.components;
 
-        if(this.isEmpty(category)) return this.components;
+        let pattern = new RegExp(`^${category}`, "i");
 
-        let pattern = new RegExp(`^${category}`, 'i');
-
-        return this.components.filter(category => category.name.match(pattern));
+        return this.components.filter((category) =>
+            category.name.match(pattern)
+        );
     }
 
     isEmpty(string) {
         return string.length === 0;
     }
-
 }
