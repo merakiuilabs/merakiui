@@ -1,6 +1,6 @@
 <template>
-    <div class="border-b-4 border-blue-500">
-        <nav class="bg-gray-900">
+    <header class="bg-gray-900 border-b-4 border-blue-500">
+        <nav>
             <div class="container mx-auto px-6 py-4">
                 <div class="flex justify-between items-center">
                     <a href="/" class="text-white text-xl font-bold md:text-2xl inline-flex items-center hover:text-blue-400">
@@ -16,10 +16,10 @@
             </div>
         </nav>
 
-        <div class="bg-gray-900">
+        <div>
             <div class="container mx-auto px-6 py-8 md:py-0">
                 <div class="md:flex">
-                    <div class="flex items-center w-full md:w-1/2">
+                    <div class="flex items-center w-full md:w-1/2 md:h-112">
                         <div class="max-w-lg text-white">
                             <div class="text-xs font-light">Simple UI Starter</div>
 
@@ -42,5 +42,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 </template>
