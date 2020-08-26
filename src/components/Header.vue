@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gray-900 border-b-4 border-blue-500">
+    <header class="bg-gradient-to-br from-gray-900 to-blue-900 border-b-4 border-blue-500">
         <nav>
             <div class="container mx-auto px-6 py-4">
                 <div class="flex justify-between items-center">
@@ -26,8 +26,8 @@
                             <h1 class="font-semibold text-2xl mt-2 text-white md:text-3xl">Meraki <span class="text-blue-400">UI </span> Components</h1>
                             
                             <p class="mt-2 text-gray-300">
-                                Beautiful <a href="https://tailwindcss.com" class="text-blue-400 hover:underline font-normal">tailwindcss</a> 
-                                components that support RTL languages & fully responsive based on Flexbox & CSS Grid. built by 
+                                Beautiful <a href="https://tailwindcss.com" class="text-blue-400 hover:underline font-normal">Tailwindcss</a> 
+                                components that support RTL languages & fully responsive based on Flexbox & CSS Grid. Built by 
                                 <a href="https://twitter.com/khatabwedaa" class="text-blue-400 hover:underline">@khatabwedaa</a> &
                                 <a href="https://twitter.com/miaababikir" class="text-blue-400 hover:underline">@miaababikir</a>
                             </p>
