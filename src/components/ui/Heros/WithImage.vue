@@ -29,7 +29,7 @@
                 </nav>
 
                 <div class="md:flex">
-                    <div class="flex items-center justify-center px-6 py-8 md:h-96 w-full md:w-1/2">
+                    <div class="flex items-center justify-center px-6 py-8 md:h-128 w-full md:w-1/2">
                         <div class="max-w-xl">
                             <h2 class="text-2xl font-semibold text-gray-800 md:text-3xl">Build Your New <span class="text-indigo-600">Idea</span></h2>
                                 
@@ -43,7 +43,7 @@
                     </div>
                     
                     <div class="w-full h-64 md:w-1/2 md:h-auto">
-                        <div class="h-full w-full object-cover object-center" style="background-image: url(https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80)">
+                        <div class="h-full w-full bg-cover" style="background-image: url(https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80)">
                             <div class="h-full w-full bg-black opacity-25"></div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                 isOpen: false,
                 code: `
         <header class="bg-white">
-            <nav class="px-6 py-2 shadow">
+            <nav class="px-6 py-3 shadow">
                 <div class="md:flex items-center justify-between">
                     <div class="flex justify-between items-center">
                         <div>
@@ -87,8 +87,8 @@
                 </div>
             </nav>
 
-            <div class="flex py-8 md:py-0 md:h-96">
-                <div class="flex items-center justify-center px-6 md:w-1/2">
+            <div class="md:flex">
+                <div class="flex items-center justify-center px-6 py-8 md:h-128 w-full md:w-1/2">
                     <div class="max-w-xl">
                         <h2 class="text-2xl font-semibold text-gray-800 md:text-3xl">Build Your New <span class="text-indigo-600">Idea</span></h2>
                             
@@ -101,9 +101,9 @@
                     </div>
                 </div>
                 
-                <div class="hidden md:block md:w-1/2">
-                    <div class="h-full object-cover object-center" style="background-image: url(https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80)">
-                        <div class="h-full bg-black opacity-25"></div>
+                <div class="w-full h-64 md:w-1/2 md:h-auto">
+                    <div class="h-full w-full bg-cover" style="background-image: url(https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=748&q=80)">
+                        <div class="h-full w-full bg-black opacity-25"></div>
                     </div>
                 </div>
             </div>

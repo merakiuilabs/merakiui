@@ -14,7 +14,7 @@
                         </div>
                     </nav>
 
-                    <div class="flex items-center flex-col py-6 md:h-96 md:flex-row">
+                    <div class="flex items-center flex-col py-6 md:h-128 md:flex-row">
                         <div class="md:w-1/2">
                             <h2 class="text-4xl font-semibold text-gray-100">Brand</h2>
 
@@ -71,7 +71,7 @@
                     </div>
                 </nav>
 
-                <div class="flex items-center flex-col py-6 md:h-96 md:flex-row">
+                <div class="flex items-center flex-col py-6 md:h-128 md:flex-row">
                     <div class="md:w-1/2">
                         <h2 class="text-4xl font-semibold text-gray-100">Brand</h2>
 
