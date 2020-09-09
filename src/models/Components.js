@@ -18,6 +18,14 @@ export default [
         components: [{ name: "SimpleLogin" }, { name: "LoginWithSideImage" }],
     },
     {
+        name: 'Buttons',
+        components: [
+            { name: "Primary" },
+            { name: "WithIcon" },
+            { name: "WithMenu" }
+        ]
+    },
+    {
         name: "Cards",
         components: [
             { name: "Article" },
@@ -36,11 +44,16 @@ export default [
         components: [{ name: "Simple" }, { name: "Newsletter" }],
     },
     {
+        name: "Dropdowns",
+        components: [{ name: "Simple" }, { name: "Notification" }],
+    },
+    {
         name: "Navbars",
         components: [
             { name: "ECommerce" },
             { name: "WithSearch" },
             { name: "WithAvatar" },
+            { name: "WithCategories" },
         ],
     },
     {
@@ -48,6 +61,7 @@ export default [
         components: [
             { name: "ECommerce" },
             { name: "WithImage" },
+            { name: "WithBGImage" },
             { name: "WithPattern" },
         ],
     },

@@ -35,7 +35,7 @@
 
                 <transition name="fade">
                     <div v-if="copied">
-                        <div class="w-full h-full absolute top-0 left-0 z-10">
+                        <div class="w-full h-full absolute top-0 left-0 z-50">
                             <div class="bg-gray-300 h-full flex items-center justify-center">
                                 <p class="text-gray-700 text-2xl">Copied!</p>
                             </div>

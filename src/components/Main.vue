@@ -41,6 +41,10 @@ import AlertsErrorFullWidth from "./ui/Alerts/ErrorFullWidth";
 // Authentication
 import AuthenticationSimpleLogin from "./ui/Authentication/SimpleLogin";
 import AuthenticationLoginWithSideImage from "./ui/Authentication/LoginWithSideImage";
+// Buttons
+import ButtonsPrimary from "./ui/Buttons/Primary";
+import ButtonsWithIcon from "./ui/Buttons/WithIcon";
+import ButtonsWithMenu from "./ui/Buttons/WithMenu";
 // Cards
 import CardsArticle from "./ui/Cards/Article";
 import CardsArticleWithImage from "./ui/Cards/ArticleWithImage";
@@ -51,16 +55,21 @@ import CardsSimpleProduct from "./ui/Cards/SimpleProduct";
 import CardsTestimonial from "./ui/Cards/Testimonial";
 import CardsUser from "./ui/Cards/User";
 import CardsUserWithDetails from "./ui/Cards/UserWithDetails";
+// Dropdowns
+import DropdownsSimple from "./ui/Dropdowns/Simple";
+import DropdownsNotification from "./ui/Dropdowns/Notification";
 // Forms
 import FormsNewsletter from "./ui/Forms/Newsletter";
 import FormsSimple from "./ui/Forms/Simple";
 // Navbars
 import NavbarsECommerce from "./ui/Navbars/ECommerce";
 import NavbarsWithAvatar from "./ui/Navbars/WithAvatar";
+import NavbarsWithCategories from "./ui/Navbars/WithCategories";
 import NavbarsWithSearch from "./ui/Navbars/WithSearch";
 // Heros
 import HerosECommerce from "./ui/Heros/ECommerce";
 import HerosWithImage from "./ui/Heros/WithImage";
+import HerosWithBGImage from "./ui/Heros/WithBGImage";
 import HerosWithPattern from "./ui/Heros/WithPattern";
 // Sections
 import SectionsAboutMe from "./ui/Sections/AboutMe";
@@ -73,10 +82,6 @@ import PaginationsSimple from "./ui/Paginations/Simple";
 import FootersSimple from "./ui/Footers/Simple";
 import FootersWithDetails from "./ui/Footers/WithDetails";
 import FootersWithSubscribeForm from "./ui/Footers/WithSubscribeForm";
-
-
-
-
 
 import Component from "../models/ComponentsFilter";
 
@@ -93,6 +98,9 @@ export default {
         AlertsErrorFullWidth,
         AuthenticationSimpleLogin,
         AuthenticationLoginWithSideImage,
+        ButtonsPrimary,
+        ButtonsWithIcon,
+        ButtonsWithMenu,
         CardsArticle,
         CardsArticleWithImage,
         CardsArticleWithSMIcons,
@@ -102,13 +110,17 @@ export default {
         CardsTestimonial,
         CardsUser,
         CardsUserWithDetails,
+        DropdownsSimple,
+        DropdownsNotification,
         FormsNewsletter,
         FormsSimple,
         NavbarsECommerce,
         NavbarsWithAvatar,
+        NavbarsWithCategories,
         NavbarsWithSearch,
         HerosECommerce,
         HerosWithImage,
+        HerosWithBGImage,
         HerosWithPattern,
         SectionsAboutMe,
         SectionsFeature,
