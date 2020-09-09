@@ -18,12 +18,12 @@ export default [
         components: [{ name: "SimpleLogin" }, { name: "LoginWithSideImage" }],
     },
     {
-        name: 'Buttons',
+        name: "Buttons",
         components: [
             { name: "Primary" },
             { name: "WithIcon" },
-            { name: "WithMenu" }
-        ]
+            { name: "WithMenu" },
+        ],
     },
     {
         name: "Cards",
