@@ -31,6 +31,8 @@
                                 <a href="https://twitter.com/khatabwedaa" class="text-blue-400 hover:underline">@khatabwedaa</a> &
                                 <a href="https://twitter.com/miaababikir" class="text-blue-400 hover:underline">@miaababikir</a>
                             </p>
+
+                            <p v-text="started"></p>
                         </div>
                     </div>
                     
@@ -44,3 +46,21 @@
         </div>
     </header>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            started: 0
+        }
+    },
+
+    created() {
+        this.fetchStar();
+    },
+
+    methods: {
+        fetchStar() {}
+    }
+}
+</script>
