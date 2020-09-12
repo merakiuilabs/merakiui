@@ -12,8 +12,8 @@
 
                 <div class="flex items-center justify-center pb-6 md:py-0 md:w-1/2 md:border-b-8 border-gray-700">
                     <form>
-                        <div class="flex flex-col rounded-lg overflow-hidden lg:flex-row">
-                            <input class="py-3 px-6 bg-gray-200 text-gray-700 outline-none placeholder-gray-500 focus:bg-gray-100" type="text" name="email" placeholder="Enter your email" aria-label="Enter your email">
+                        <div class="flex flex-col rounded-lg border overflow-hidden lg:flex-row">
+                            <input class="py-3 px-6 bg-white text-gray-700 outline-none placeholder-gray-500 focus:placeholder-transparent" type="text" name="email" placeholder="Enter your email" aria-label="Enter your email">
                             
                             <button class="py-3 px-4 bg-gray-700 text-gray-100 text-sm font-semibold uppercase hover:bg-gray-600 focus:bg-gray-600 focus:outline-none">subscribe</button>
                         </div>
@@ -41,8 +41,8 @@
 
             <div class="flex items-center justify-center pb-6 md:py-0 md:w-1/2 md:border-b-8 border-gray-700">
                 <form>
-                    <div class="flex flex-col rounded-lg overflow-hidden lg:flex-row">
-                        <input class="py-3 px-6 bg-gray-200 text-gray-700 outline-none placeholder-gray-500 focus:bg-gray-100" type="text" name="email" placeholder="Enter your email" aria-label="Enter your email">
+                    <div class="flex flex-col rounded-lg border overflow-hidden lg:flex-row">
+                        <input class="py-3 px-6 bg-white text-gray-700 outline-none placeholder-gray-500 focus:placeholder-transparent" type="text" name="email" placeholder="Enter your email" aria-label="Enter your email">
                         
                         <button class="py-3 px-4 bg-gray-700 text-gray-100 text-sm font-semibold uppercase hover:bg-gray-600 focus:bg-gray-600 focus:outline-none">subscribe</button>
                     </div>
