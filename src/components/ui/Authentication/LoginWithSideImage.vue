@@ -31,17 +31,17 @@
                     </div>
 
                     <div class="mt-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="LoggingEmailAddress">Email Address</label>
-                        <input id="LoggingEmailAddress" class="bg-gray-200 text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full appearance-none focus:outline-none focus:bg-white" type="email">
+                        <label class="block text-gray-600 text-sm font-medium mb-2" for="LoggingEmailAddress">Email Address</label>
+                        <input id="LoggingEmailAddress" class="bg-white text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full focus:border-blue-500 focus:outline-none focus:shadow-outline" type="email">
                     </div>
 
                     <div class="mt-4">
                         <div class="flex justify-between">
-                            <label class="block text-gray-700 text-sm font-bold mb-2" for="loggingPassword">Password</label>
+                            <label class="block text-gray-600 text-sm font-medium mb-2" for="loggingPassword">Password</label>
                             <a href="#" class="text-xs text-gray-500 hover:underline">Forget Password?</a>
                         </div>
 
-                        <input id="loggingPassword" class="bg-gray-200 text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full appearance-none focus:outline-none focus:bg-white" type="password">
+                        <input id="loggingPassword" class="bg-white text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full focus:border-blue-500 focus:outline-none focus:shadow-outline" type="password">
                     </div>
 
                     <div class="mt-8">
@@ -99,17 +99,17 @@
                 </div>
 
                 <div class="mt-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="LoggingEmailAddress">Email Address</label>
-                    <input id="LoggingEmailAddress" class="bg-gray-200 text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full appearance-none focus:outline-none focus:bg-white" type="email">
+                    <label class="block text-gray-600 text-sm font-medium mb-2" for="LoggingEmailAddress">Email Address</label>
+                    <input id="LoggingEmailAddress" class="bg-white text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full focus:border-blue-500 focus:outline-none focus:shadow-outline" type="email">
                 </div>
 
                 <div class="mt-4">
                     <div class="flex justify-between">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="loggingPassword">Password</label>
+                        <label class="block text-gray-600 text-sm font-medium mb-2" for="loggingPassword">Password</label>
                         <a href="#" class="text-xs text-gray-500 hover:underline">Forget Password?</a>
                     </div>
 
-                    <input id="loggingPassword" class="bg-gray-200 text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full appearance-none focus:outline-none focus:bg-white" type="password">
+                    <input id="loggingPassword" class="bg-white text-gray-700 border border-gray-300 rounded py-2 px-4 block w-full focus:border-blue-500 focus:outline-none focus:shadow-outline" type="password">
                 </div>
 
                 <div class="mt-8">
