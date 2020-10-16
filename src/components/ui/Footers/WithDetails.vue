@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="mt-6 lg:mt-0 lg:flex-1">
-                            <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                            <div class="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
                                 <div>
                                     <h3 class="text-gray-100 uppercase">About</h3>
                                     <a href="#" class="block mt-2 text-sm text-gray-400">Company</a>
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="mt-6 lg:mt-0 lg:flex-1">
-                        <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                        <div class="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
                             <div>
                                 <h3 class="text-gray-100 uppercase">About</h3>
                                 <a href="#" class="block mt-2 text-sm text-gray-400">Company</a>
