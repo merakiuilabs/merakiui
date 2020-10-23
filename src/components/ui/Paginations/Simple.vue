@@ -3,7 +3,7 @@
         <div class="px-3 py-6" slot="component">
             <div class="flex justify-center items-center">
                 <div class="flex">
-                    <a href="#" class="md:mx-1 px-3 py-2 bg-white text-gray-500 rounded-md cursor-not-allowed">
+                    <a href="#" class="mx-1 px-3 py-2 bg-white text-gray-500 rounded-md cursor-not-allowed">
                         previous
                     </a>
 
@@ -35,7 +35,7 @@
                 name: 'Pagination',
                 code: `
         <div class="flex">
-            <a href="#" class="md:mx-1 px-3 py-2 bg-white text-gray-500 rounded-md cursor-not-allowed">
+            <a href="#" class="mx-1 px-3 py-2 bg-white text-gray-500 rounded-md cursor-not-allowed">
                 previous
             </a>
 
