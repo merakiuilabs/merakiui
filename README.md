@@ -34,5 +34,5 @@ npm run lint
 
 ### Authors
 
-- [**Mosab Ibrahim**](https://twitter.com/miaababikir)
-- [**Khatab Wedaa**](https://twitter.com/khatabwedaa)
+-   [**Mosab Ibrahim**](https://twitter.com/miaababikir)
+-   [**Khatab Wedaa**](https://twitter.com/khatabwedaa)
