@@ -5,6 +5,8 @@
 ### Resources
 
 -   [Tailwindcss](https://tailwindcss.com)
+-   [Unsplash](https://unsplash.com)
+-   [Freepik Stories](https://stories.freepik.com)
 -   [Heroicons](https://heroicons.dev)
 -   [CSS Icons](https://css.gg)
 
@@ -26,13 +28,12 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Credits
 
-```
-npm run lint
-```
+-   [Mosab Ibrahim](https://twitter.com/miaababikir)
+-   [Khatab Wedaa](https://twitter.com/khatabwedaa)
+-   [All Contributors](../../contributors)
 
-### Authors
+### License
 
--   [**Mosab Ibrahim**](https://twitter.com/miaababikir)
--   [**Khatab Wedaa**](https://twitter.com/khatabwedaa)
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
