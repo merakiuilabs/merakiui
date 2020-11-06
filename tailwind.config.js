@@ -14,7 +14,7 @@ module.exports = {
         },
     },
     variants: {
-        transitionProperty: ({ after }) => after(['motion-reduce']),
+        transitionProperty: ({ after }) => after(["motion-reduce"]),
     },
     plugins: [],
 };
