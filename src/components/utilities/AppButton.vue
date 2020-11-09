@@ -9,6 +9,9 @@
 </template>
 
 <script>
+/**
+ * Button wrapper component that added some smooth color transition.
+ */
 export default {
   name: 'AppButton'
 }
