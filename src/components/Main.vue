@@ -6,7 +6,7 @@
                 <div class="flex items-center justify-center mt-5 ">
                     <div class="mt-2 md:mt-0">
                         <span v-for="category in categories" :key="category.name">
-                            <button @click="searchText = category.name" class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 motion-reduce:transition-none transition-colors duration-150 ease-in-out rounded text-sm focus:outline-none" :class="category.name === searchText? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ category.name }}</button>
+                            <app-button @click="searchText = category.name" class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none" :class="category.name === searchText? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ category.name }}</app-button>
                         </span> 
                     </div>
                 </div>
@@ -28,6 +28,9 @@
 </template>
 
 <script>
+// Application components
+import AppButton from "@/components/utilities/AppButton.vue";
+
 // Alerts
 import AlertsSuccessPop from "./ui/Alerts/SuccessPop";
 import AlertsInfoPop from "./ui/Alerts/InfoPop";
@@ -87,6 +90,7 @@ import Component from "../models/ComponentsFilter";
 
 export default {
     components: {
+        AppButton,
         AlertsSuccessPop,
         AlertsInfoPop,
         AlertsWarningPop,
