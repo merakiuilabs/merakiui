@@ -11,11 +11,11 @@
 
                     <form>
                         <div class="mt-4 w-full">
-                            <input class="w-full mt-2 py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded block placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:shadow-outline" type="email" placeholder="Email Address" aria-label="Email Address">
+                            <input class="w-full mt-2 py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded block placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email Address" aria-label="Email Address">
                         </div>
 
                         <div class="mt-4 w-full">
-                            <input class="w-full mt-2 py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded block placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:shadow-outline" type="password" placeholder="Password" aria-label="Password">
+                            <input class="w-full mt-2 py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded block placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
                         </div>
 
                         <div class="flex justify-between items-center mt-4">
@@ -54,11 +54,11 @@
 
                 <form>
                     <div class="mt-4 w-full">
-                        <input class="w-full mt-2 py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded block placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:shadow-outline" type="email" placeholder="Email Address" aria-label="Email Address">
+                        <input class="w-full mt-2 py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded block placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email Address" aria-label="Email Address">
                     </div>
 
                     <div class="mt-4 w-full">
-                        <input class="w-full mt-2 py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded block placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:shadow-outline" type="password" placeholder="Password" aria-label="Password">
+                        <input class="w-full mt-2 py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded block placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
                     </div>
 
                     <div class="flex justify-between items-center mt-4">
