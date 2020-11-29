@@ -13,7 +13,6 @@
             </div>
 
             <p class="mt-8 text-gray-700 text-center"> Heros components require simple <span class="font-semibold">- don't panic please 😎 -</span><a href="https://gist.github.com/khatabwedaa/352573904a5b2d5ff3598bcd54ce9f04" target="_blank" class="text-blue-600 hover:underline"> configuration</a></p>
-            <p class="mt-4 text-gray-700 text-center underline">Note Meraki UI use Tailwindcss V1 color we are working to Support V2 colors</p>
         </div>
 
         <div class="w-full max-w-6xl mx-auto">

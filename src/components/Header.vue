@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gradient-to-br from-gray-900 to-blue-900 border-b-4 border-blue-500">
+    <header class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 border-b-4 border-blue-500">
         <nav>
             <div class="container mx-auto px-6 py-4">
                 <div class="flex justify-between items-center">
@@ -27,9 +27,9 @@
                         <div class="max-w-lg text-white">
                             <div class="text-xs font-light">Simple UI Starter</div>
 
-                            <h1 class="font-semibold text-2xl mt-2 text-white md:text-3xl">Meraki <span class="text-blue-400">UI </span> Components</h1>
+                            <h1 class="font-semibold text-2xl mt-3 text-white md:text-3xl">Meraki <span class="text-blue-400">UI </span> Components</h1>
                             
-                            <p class="mt-2 text-gray-300">
+                            <p class="mt-3 text-gray-300">
                                 Beautiful <a href="https://tailwindcss.com" class="text-blue-400 hover:underline font-normal">Tailwindcss</a> 
                                 components that support RTL languages & fully responsive based on Flexbox & CSS Grid. Built by 
                                 <a href="https://twitter.com/khatabwedaa" class="text-blue-400 hover:underline">@khatabwedaa</a> &
@@ -38,7 +38,7 @@
 
                             <div class="flex flex-wrap items-center mt-4">
                                 <a class="flex text-white hover:underline cursor-pointer">
-                                    <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <svg class="h-5 w-5 text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
                                     </svg>
 
@@ -46,7 +46,7 @@
                                 </a>
 
                                 <a class="flex text-white hover:underline ml-2" href="https://github.com/merakiui/merakiui/blob/master/LICENSE">
-                                    <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <svg class="h-5 w-5 text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1zm-5 8.274l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L5 10.274zm10 0l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L15 10.274z" clip-rule="evenodd" />
                                     </svg>
 

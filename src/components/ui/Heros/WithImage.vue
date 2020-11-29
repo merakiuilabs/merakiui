@@ -36,8 +36,8 @@
                             <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
 
                             <div class="flex mt-6">
-                                <a href="#" class="px-3 py-2 block bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800">Get Started</a>
-                                <a href="#" class="mx-4 px-3 py-2 block bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">Learn More</a>
+                                <a href="#" class="px-3 py-2 block bg-gray-900 text-white text-xs font-semibold rounded hover:bg-gray-800">Get Started</a>
+                                <a href="#" class="mx-4 px-3 py-2 block bg-gray-200 text-gray-700 text-xs font-semibold rounded hover:bg-gray-300">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -95,8 +95,8 @@
                         <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
 
                         <div class="flex mt-6">
-                            <a href="#" class="px-3 py-2 block bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800">Get Started</a>
-                            <a href="#" class="mx-4 px-3 py-2 block bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400">Learn More</a>
+                            <a href="#" class="px-3 py-2 block bg-gray-900 text-white text-xs font-semibold rounded hover:bg-gray-800">Get Started</a>
+                            <a href="#" class="mx-4 px-3 py-2 block bg-gray-200 text-gray-700 text-xs font-semibold rounded hover:bg-gray-300">Learn More</a>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
-            <div class="w-full bg-yellow-500 text-white">
+            <div class="w-full bg-yellow-400 text-white">
                 <div class="flex justify-between items-center container mx-auto py-4 px-6">
                     <div class="flex">
                         <svg viewBox="0 0 40 40" class="h-6 w-6 fill-current">
@@ -28,7 +28,7 @@
             return {
                 name: 'Warning Full Width',
                 code: `
-        <div class="w-full bg-yellow-500 text-white">
+        <div class="w-full bg-yellow-400 text-white">
             <div class="flex justify-between items-center container mx-auto py-4 px-6">
                 <div class="flex">
                     <svg viewBox="0 0 40 40" class="h-6 w-6 fill-current">
