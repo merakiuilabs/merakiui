@@ -1,5 +1,6 @@
 module.exports = {
     purge: ["./src/**/*.vue"],
+    darkMode: "class",
     theme: {
         extend: {
             fontFamily: {
