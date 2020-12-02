@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-300 dark:bg-gray-700 border dark:border-gray-900 rounded-md overflow-hidden mb-12">
+    <div class="bg-gray-300 dark:bg-gray-600 border dark:border-gray-900 rounded-md overflow-hidden mb-12">
         <div class="bg-white dark:bg-gray-800 px-4 py-2 border-b dark:border-gray-900">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex items-center">
@@ -36,7 +36,7 @@
                 <transition name="fade">
                     <div v-if="copied">
                         <div class="w-full h-full absolute top-0 left-0 z-50">
-                            <div class="bg-gray-300 dark:bg-gray-600 h-full flex items-center justify-center">
+                            <div class="bg-gray-300 dark:bg-gray-700 h-full flex items-center justify-center">
                                 <p class="text-gray-700 dark:text-gray-200 text-2xl">Copied!</p>
                             </div>
                         </div>

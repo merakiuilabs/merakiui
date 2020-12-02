@@ -4,7 +4,7 @@
             <div class="flex items-center">
                 <button class="py-2 px-4 capitalize tracking-wide bg-gray-800 text-white font-medium rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Download</button>
                 
-                <span class="border"></span>
+                <span class="border border-transparent"></span>
 
                 <div class="relative">
                     <button @click="menuOpen = !menuOpen" class="relative z-10 block bg-gray-800 rounded p-2 hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
@@ -33,7 +33,7 @@
         <div class="flex items-center">
             <button class="py-2 px-4 capitalize tracking-wide bg-gray-800 text-white font-medium rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Download</button>
             
-            <span class="border"></span>
+            <span class="border border-transparent"></span>
 
             <div class="relative">
                 <!-- Menu toggle button --> 
