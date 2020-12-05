@@ -32,7 +32,7 @@
 
                     <div class="mt-4">
                         <label class="block text-gray-600 dark:text-gray-200 text-sm font-medium mb-2" for="LoggingEmailAddress">Email Address</label>
-                        <input id="LoggingEmailAddress" class="bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 focus:outline-none focus:ring" type="email">
+                        <input id="LoggingEmailAddress" class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email">
                     </div>
 
                     <div class="mt-4">
@@ -41,7 +41,7 @@
                             <a href="#" class="text-xs text-gray-500 dark:text-gray-300 hover:underline">Forget Password?</a>
                         </div>
 
-                        <input id="loggingPassword" class="bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 focus:outline-none focus:ring" type="password">
+                        <input id="loggingPassword" class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password">
                     </div>
 
                     <div class="mt-8">
@@ -100,7 +100,7 @@
 
                 <div class="mt-4">
                     <label class="block text-gray-600 dark:text-gray-200 text-sm font-medium mb-2" for="LoggingEmailAddress">Email Address</label>
-                    <input id="LoggingEmailAddress" class="bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 focus:outline-none focus:ring" type="email">
+                    <input id="LoggingEmailAddress" class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email">
                 </div>
 
                 <div class="mt-4">
@@ -109,7 +109,7 @@
                         <a href="#" class="text-xs text-gray-500 dark:text-gray-300 hover:underline">Forget Password?</a>
                     </div>
 
-                    <input id="loggingPassword" class="bg-wbg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 focus:outline-none focus:ringpe="password">
+                    <input id="loggingPassword" class="bg-wbg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ringpe="password">
                 </div>
 
                 <div class="mt-8">
