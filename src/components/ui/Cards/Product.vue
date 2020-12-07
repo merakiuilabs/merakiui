@@ -1,10 +1,10 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="px-3 py-6" slot="component">
-            <div class="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="max-w-xs mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
                 <div class="px-4 py-2">
-                    <h1 class="text-gray-900 font-bold text-3xl uppercase">NIKE AIR</h1>
-                    <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
+                    <h1 class="text-gray-800 dark:text-white  font-bold text-3xl uppercase">NIKE AIR</h1>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
                 </div>
 
                 <img class="h-48 w-full object-cover mt-2" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80" alt="NIKE AIR">
@@ -24,10 +24,10 @@
             return {
                 name: 'Product',
                 code: `
-        <div class="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="max-w-xs mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
             <div class="px-4 py-2">
-                <h1 class="text-gray-900 font-bold text-3xl uppercase">NIKE AIR</h1>
-                <p class="text-gray-600 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
+                <h1 class="text-gray-800 dark:text-white  font-bold text-3xl uppercase">NIKE AIR</h1>
+                <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
             </div>
 
             <img class="h-48 w-full object-cover mt-2" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80" alt="NIKE AIR">
