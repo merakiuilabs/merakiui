@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-gray-300 dark:bg-gray-600 border dark:border-gray-900 rounded-md overflow-hidden mb-12">
-        <div class="bg-white dark:bg-gray-800 px-4 py-2 border-b dark:border-gray-900">
+    <div class="bg-gray-300 dark:bg-gray-600 border dark:border-gray-600 rounded-md overflow-hidden mb-12">
+        <div class="bg-white dark:bg-gray-800 px-4 py-2 border-b dark:border-gray-600">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex items-center">
                     <h3 class="text-gray-700 dark:text-gray-200 font-medium capitalize md:text-lg">{{ name }}</h3>
