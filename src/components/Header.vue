@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 border-b-4 border-blue-500">
+    <header class="bg-gray-800 dark:bg-gray-900 border-b-4 border-blue-500">
         <nav>
             <div class="container mx-auto px-6 py-4">
                 <div class="flex justify-between items-center">

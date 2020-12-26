@@ -1,23 +1,23 @@
 <template>
     <div class="container mx-auto px-6 pb-12">
         <div class="py-16 text-center">
-            <h1 class="text-xl md:text-3xl text-gray-800 font-medium">Discover new components. Build amazing things 🔥</h1>
+            <h1 class="text-xl md:text-3xl text-gray-800 dark:text-white font-medium">Discover new components. Build amazing things 🔥</h1>
             <div class="max-w-2xl mx-auto">
                 <div class="flex items-center justify-center mt-5 ">
                     <div class="mt-2 md:mt-0">
                         <span v-for="category in categories" :key="category.name">
-                            <app-button @click="searchText = category.name" class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 rounded text-sm focus:outline-none" :class="category.name === searchText? 'bg-gray-700 text-gray-200' : 'bg-gray-200 text-gray-700'">{{ category.name }}</app-button>
+                            <app-button @click="searchText = category.name" class="ml-2 mt-2 px-3 py-1 cursor-pointer hover:bg-gray-700 hover:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-gray-200 rounded text-sm focus:outline-none" :class="category.name === searchText? 'bg-gray-700 text-gray-200 dark:bg-gray-600 dark:text-gray-200' : 'bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-200'">{{ category.name }}</app-button>
                         </span> 
                     </div>
                 </div>
             </div>
 
-            <p class="mt-8 text-gray-700 text-center"> Heros components require simple <span class="font-semibold">- don't panic please 😎 -</span><a href="https://gist.github.com/khatabwedaa/352573904a5b2d5ff3598bcd54ce9f04" target="_blank" class="text-blue-600 hover:underline"> configuration</a></p>
+            <p class="mt-8 text-gray-700 dark:text-gray-300 text-center"> Heros components require simple <span class="font-semibold">- don't panic please 😎 -</span><a href="https://gist.github.com/khatabwedaa/352573904a5b2d5ff3598bcd54ce9f04" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline"> configuration</a></p>
         </div>
 
         <div class="w-full max-w-6xl mx-auto">
             <div class="mb-16" v-for="category in list" :key="category.name">
-                <h1 class="text-2xl text-gray-800 font-semibold mb-6 capitalize" v-text="category.name"></h1>
+                <h1 class="text-2xl text-gray-800 dark:text-white font-semibold mb-6 capitalize" v-text="category.name"></h1>
 
                 <div v-for="component in category.components" :key="component.name" :name="component.name">
                     <component :is="category.name + component.name"></component>

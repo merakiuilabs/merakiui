@@ -1,34 +1,34 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="px-3 py-6" slot="component">
-            <div class="max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md">
-                <h2 class="text-lg text-gray-700 font-semibold capitalize">Account settings</h2>
+            <div class="max-w-4xl p-6 mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md">
+                <h2 class="text-lg text-gray-700 dark:text-white font-semibold capitalize">Account settings</h2>
                 
                 <form>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
                         <div>
-                            <label class="text-gray-700" for="username">Username</label>
-                            <input id="username" type="text" class="w-full mt-2 px-4 py-2 block rounded bg-white text-gray-800 border border-gray-300 focus:border-blue-500 focus:outline-none focus:ring">
+                            <label class="text-gray-700 dark:text-gray-200" for="username">Username</label>
+                            <input id="username" type="text" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                         </div>
 
                         <div>
-                            <label class="text-gray-700" for="emailAddress">Email Address</label>
-                            <input id="emailAddress" type="email" class="w-full mt-2 px-4 py-2 block rounded bg-white text-gray-800 border border-gray-300 focus:border-blue-500 focus:outline-none focus:ring">
+                            <label class="text-gray-700 dark:text-gray-200" for="emailAddress">Email Address</label>
+                            <input id="emailAddress" type="email" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                         </div>
 
                         <div>
-                            <label class="text-gray-700" for="password">Password</label>
-                            <input id="password" type="password" class="w-full mt-2 px-4 py-2 block rounded bg-white text-gray-800 border border-gray-300 focus:border-blue-500 focus:outline-none focus:ring">
+                            <label class="text-gray-700 dark:text-gray-200" for="password">Password</label>
+                            <input id="password" type="password" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                         </div>
 
                         <div>
-                            <label class="text-gray-700" for="passwordConfirmation">Password Confirmation</label>
-                            <input id="passwordConfirmation" type="password" class="w-full mt-2 px-4 py-2 block rounded bg-white text-gray-800 border border-gray-300 focus:border-blue-500 focus:outline-none focus:ring">
+                            <label class="text-gray-700 dark:text-gray-200" for="passwordConfirmation">Password Confirmation</label>
+                            <input id="passwordConfirmation" type="password" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                         </div>
                     </div>
 
                     <div class="flex justify-end mt-6">
-                        <button class="px-4 py-2 bg-gray-800 text-gray-200 rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Update Account Information</button>
+                        <button class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Update Account Information</button>
                     </div>
                 </form>
             </div>
@@ -42,34 +42,34 @@
             return {
                 name: 'Simple',
                 code: `
-        <div class="max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md">
-            <h2 class="text-lg text-gray-700 font-semibold capitalize">Account settings</h2>
+        <div class="max-w-4xl p-6 mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md">
+            <h2 class="text-lg text-gray-700 dark:text-white font-semibold capitalize">Account settings</h2>
             
             <form>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
                     <div>
-                        <label class="text-gray-700" for="username">Username</label>
-                        <input id="username" type="text" class="w-full mt-2 px-4 py-2 block rounded bg-white text-gray-800 border border-gray-300 focus:border-blue-500 focus:outline-none focus:ring">
+                        <label class="text-gray-700 dark:text-gray-200" for="username">Username</label>
+                        <input id="username" type="text" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-gray-700" for="emailAddress">Email Address</label>
-                        <input id="emailAddress" type="email" class="w-full mt-2 px-4 py-2 block rounded bg-white text-gray-800 border border-gray-300 focus:border-blue-500 focus:outline-none focus:ring">
+                        <label class="text-gray-700 dark:text-gray-200" for="emailAddress">Email Address</label>
+                        <input id="emailAddress" type="email" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-gray-700" for="password">Password</label>
-                        <input id="password" type="password" class="w-full mt-2 px-4 py-2 block rounded bg-white text-gray-800 border border-gray-300 focus:border-blue-500 focus:outline-none focus:ring">
+                        <label class="text-gray-700 dark:text-gray-200" for="password">Password</label>
+                        <input id="password" type="password" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
 
                     <div>
-                        <label class="text-gray-700" for="passwordConfirmation">Password Confirmation</label>
-                        <input id="passwordConfirmation" type="password" class="w-full mt-2 px-4 py-2 block rounded bg-white text-gray-800 border border-gray-300 focus:border-blue-500 focus:outline-none focus:ring">
+                        <label class="text-gray-700 dark:text-gray-200" for="passwordConfirmation">Password Confirmation</label>
+                        <input id="passwordConfirmation" type="password" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                     </div>
                 </div>
 
                 <div class="flex justify-end mt-6">
-                    <button class="px-4 py-2 bg-gray-800 text-gray-200 rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Update Account Information</button>
+                    <button class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Update Account Information</button>
                 </div>
             </form>
         </div>`
