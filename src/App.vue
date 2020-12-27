@@ -1,5 +1,5 @@
 <template>
-    <div :class="darkMode ? 'dark' : ''">
+    <div :class="{ 'dark' : darkMode }">
         <div class="bg-white dark:bg-gray-900 font-roboto" id="app">
             <header-component></header-component>
             <main-component></main-component>
@@ -35,8 +35,8 @@ export default {
 
     data() {
         return {
+            darkMode: JSON.parse(localStorage.getItem("merakiuiDarkMode")) || false,
             og: "https://merakiui.com" + require("./assets/merakiui-og.png"),
-            darkMode: false,
         };
     },
 
@@ -67,6 +67,13 @@ export default {
     mounted() {
         this.$ga.page("/");
     },
+
+    watch: {
+		darkMode() {
+			localStorage.setItem("merakiuiDarkMode", this.darkMode);
+			console.log('Night Mode: ' + this.darkMode);
+		}
+	},
 };
 </script>
 
