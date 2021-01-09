@@ -72,7 +72,7 @@
 export default {
     data() {
         return {
-            components_count: 43,
+            components_count: 46,
             SHARE_LINK: `https://twitter.com/intent/tweet?text=${encodeURIComponent(
             'Check out Meraki UI Awesome @tailwindcss Components that support RTL and fully responsive by @khatabwedaa and @miaababikir 🔥.'
             )}&url=${encodeURIComponent('https://merakiui.com')}`
