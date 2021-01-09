@@ -37,20 +37,20 @@
                         <div class="mx-2 w-full">
                             <label class="block text-gray-600 dark:text-gray-200 text-sm font-medium mb-2">Name</label>
 
-                            <input class="bg-wbg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="text">
+                            <input class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="text">
                         </div>
 
                         <div class="mx-2 w-full mt-4 md:mt-0">
                             <label class="block text-gray-600 dark:text-gray-200 text-sm font-medium mb-2">E-mail</label>
 
-                            <input class="bg-wbg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email">
+                            <input class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email">
                         </div>
                     </div>
 
                     <div class="mt-4 w-full">
                         <label class="block text-gray-600 dark:text-gray-200 text-sm font-medium mb-2">Message</label>
 
-                        <textarea class="bg-wbg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full h-40 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"></textarea>
+                        <textarea class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full h-40 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"></textarea>
                     </div>
 
                     <div class="flex justify-center mt-6">
@@ -104,20 +104,20 @@
                     <div class="mx-2 w-full">
                         <label class="block text-gray-600 dark:text-gray-200 text-sm font-medium mb-2">Name</label>
 
-                        <input class="bg-wbg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="text">
+                        <input class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="text">
                     </div>
 
                     <div class="mx-2 w-full mt-4 md:mt-0">
                         <label class="block text-gray-600 dark:text-gray-200 text-sm font-medium mb-2">E-mail</label>
 
-                        <input class="bg-wbg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email">
+                        <input class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email">
                     </div>
                 </div>
 
                 <div class="mt-4 w-full">
                     <label class="block text-gray-600 dark:text-gray-200 text-sm font-medium mb-2">Message</label>
 
-                    <textarea class="bg-wbg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full h-40 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"></textarea>
+                    <textarea class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full h-40 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"></textarea>
                 </div>
 
                 <div class="flex justify-center mt-6">
