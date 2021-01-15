@@ -15,7 +15,8 @@
             <p class="mt-8 text-gray-700 dark:text-gray-300 text-center"> Heros components require simple <span class="font-semibold">- don't panic please 😎 -</span><a href="https://gist.github.com/khatabwedaa/352573904a5b2d5ff3598bcd54ce9f04" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline"> configuration</a></p>
 
             <a href="https://a.paddle.com/v2/click/37973/124351?link=3167" class="block max-w-5xl mx-auto mt-8 overflow-hidden rounded-md">
-                <img src="../assets/tails.jpg" alt="devdojo tails">
+                <img class="hidden md:block" src="../assets/tails.jpg" alt="devdojo tails">
+                <img class="md:hidden" src="../assets/tails_mobile.jpg" alt="devdojo tails">
             </a>
         </div>
 
