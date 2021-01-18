@@ -112,7 +112,7 @@
                     </div>
 
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-                    <div class="hidden md:flex items-center">
+                    <div class="md:flex items-center">
                         <div class="flex flex-col mt-2 md:flex-row md:mt-0 md:mx-1">
                             <a class="my-1 text-sm text-gray-700 dark:text-gray-200 leading-5 hover:text-blue-600 dark:hover:text-indigo-400 hover:underline md:mx-4 md:my-0" href="#">Home</a>
                             <a class="my-1 text-sm text-gray-700 dark:text-gray-200 leading-5 hover:text-blue-600 dark:hover:text-indigo-400 hover:underline md:mx-4 md:my-0" href="#">Blog</a>

@@ -92,8 +92,8 @@
                         </div>
                     </div>
             
-                    <div class="flex items-center justify-center w-full h-72 md:w-1/2">
-                        <img class="max-w-2xl w-full h-full rounded object-cover" src="https://images.unsplash.com/photo-1590412732351-8afb84aa0dd4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="glasses photo">
+                    <div class="flex items-center justify-center w-full h-96 md:w-1/2">
+                        <img class="max-w-2xl w-full h-full rounded object-cover" src="https://images.unsplash.com/photo-1555181126-cf46a03827c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="glasses photo">
                     </div>
                 </div>
             </header>
@@ -199,8 +199,8 @@
                     </div>
                 </div>
         
-                <div class="flex items-center justify-center w-full h-72 md:w-1/2">
-                    <img class="max-w-2xl w-full h-full rounded object-cover" src="https://images.unsplash.com/photo-1590412732351-8afb84aa0dd4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="glasses photo">
+                <div class="flex items-center justify-center w-full h-96 md:w-1/2">
+                    <img class="max-w-2xl w-full h-full rounded object-cover" src="https://images.unsplash.com/photo-1555181126-cf46a03827c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="glasses photo">
                 </div>
             </div>
         </header>`,
