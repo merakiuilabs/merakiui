@@ -72,7 +72,7 @@ export default [
     },
     {
         name: "Sidebars",
-        components: [{ name: "WithSearch" }],
+        components: [{ name: "WithSearch" }, { name: "WithAvatar" }],
     },
     {
         name: "Sections",

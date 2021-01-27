@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div slot="component">
-             <div class="flex flex-col w-64 h-screen bg-white dark:bg-gray-800 px-4 py-8">
+             <div class="flex flex-col w-64 h-screen border-r bg-white dark:bg-gray-800 dark:border-gray-600 px-4 py-8">
                 <h2 class="text-3xl font-semibold text-gray-800 dark:text-white">Brand</h2>
 
                 <input class="mt-6 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="text" placeholder="Search" />
@@ -78,7 +78,7 @@
             return {
                 name: 'With Search',
                 code: `
-        <div class="flex flex-col w-64 h-screen bg-white dark:bg-gray-800 px-4 py-8">
+        <div class="flex flex-col w-64 h-screen border-r bg-white dark:bg-gray-800 dark:border-gray-600 px-4 py-8">
             <h2 class="text-3xl font-semibold text-gray-800 dark:text-white">Brand</h2>
 
             <input class="mt-6 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="text" placeholder="Search" />

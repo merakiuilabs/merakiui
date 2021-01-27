@@ -83,6 +83,7 @@ import HerosWithBGImage from "./ui/Heros/WithBGImage";
 import HerosWithPattern from "./ui/Heros/WithPattern";
 // Sidebars
 import SidebarsWithSearch from "./ui/Sidebars/WithSearch";
+import SidebarsWithAvatar from "./ui/Sidebars/WithAvatar";
 // Sections
 import SectionsAboutMe from "./ui/Sections/AboutMe";
 import SectionsFeature from "./ui/Sections/Feature";
@@ -137,6 +138,7 @@ export default {
         HerosWithSideImage,
         HerosWithBGImage,
         HerosWithPattern,
+        SidebarsWithAvatar,
         SidebarsWithSearch,
         SectionsAboutMe,
         SectionsFeature,
