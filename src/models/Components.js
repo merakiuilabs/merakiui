@@ -43,7 +43,9 @@ export default [
         name: "Forms",
         components: [
             { name: "Simple" },
+            { name: "Search" },
             { name: "Contact" },
+            { name: "SimpleNewsletter" },
             { name: "Newsletter" },
         ],
     },

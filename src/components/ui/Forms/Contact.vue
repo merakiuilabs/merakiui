@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="px-3 py-6" slot="component">
-            <div class="max-w-2xl w-full mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md px-6 py-4">
+            <section class="max-w-2xl w-full mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md px-6 py-4">
                 <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">Get in touch</h2>
                 <p class="text-gray-600 dark:text-gray-400 text-center mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 
@@ -57,7 +57,7 @@
                         <button class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Send Message</button>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>   
     </view-component>
 </template>
@@ -68,7 +68,7 @@
             return {
                 name: 'Contact',
                 code: `
-        <div class="max-w-2xl w-full mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md px-6 py-4">
+        <section class="max-w-2xl w-full mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md px-6 py-4">
             <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">Get in touch</h2>
             <p class="text-gray-600 dark:text-gray-400 text-center mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             
@@ -124,7 +124,7 @@
                     <button class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Send Message</button>
                 </div>
             </div>
-        </div>`
+        </section>`
             }
         }
     }

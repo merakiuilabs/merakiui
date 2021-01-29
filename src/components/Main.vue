@@ -68,7 +68,9 @@ import DropdownsSimple from "./ui/Dropdowns/Simple";
 import DropdownsNotification from "./ui/Dropdowns/Notification";
 // Forms
 import FormsNewsletter from "./ui/Forms/Newsletter";
+import FormsSimpleNewsletter from "./ui/Forms/SimpleNewsletter";
 import FormsSimple from "./ui/Forms/Simple";
+import FormsSearch from "./ui/Forms/Search";
 import FormsContact from "./ui/Forms/Contact";
 // Navbars
 import NavbarsECommerce from "./ui/Navbars/ECommerce";
@@ -127,7 +129,9 @@ export default {
         DropdownsSimple,
         DropdownsNotification,
         FormsNewsletter,
+        FormsSimpleNewsletter,
         FormsSimple,
+        FormsSearch,
         FormsContact,
         NavbarsECommerce,
         NavbarsWithAvatar,

@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="px-3 py-6" slot="component">
-            <div class="max-w-4xl p-6 mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md">
+            <section class="max-w-4xl p-6 mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md">
                 <h2 class="text-lg text-gray-700 dark:text-white font-semibold capitalize">Account settings</h2>
                 
                 <form>
@@ -31,7 +31,7 @@
                         <button class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Update Account Information</button>
                     </div>
                 </form>
-            </div>
+            </section>
         </div>
     </view-component>
 </template>
@@ -42,7 +42,7 @@
             return {
                 name: 'Simple',
                 code: `
-        <div class="max-w-4xl p-6 mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md">
+        <section class="max-w-4xl p-6 mx-auto bg-white dark:bg-gray-800 rounded-md shadow-md">
             <h2 class="text-lg text-gray-700 dark:text-white font-semibold capitalize">Account settings</h2>
             
             <form>
@@ -72,7 +72,7 @@
                     <button class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Update Account Information</button>
                 </div>
             </form>
-        </div>`
+        </section>`
             }
         }
     }
