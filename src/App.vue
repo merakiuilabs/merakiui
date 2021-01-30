@@ -35,7 +35,7 @@ export default {
 
     data() {
         return {
-            darkMode: JSON.parse(localStorage.getItem("merakiuiDarkMode")) || false,
+            darkMode: JSON.parse(localStorage.getItem("darkMode")) || false,
             og: "https://merakiui.com" + require("./assets/merakiui-og.png"),
         };
     },
@@ -70,7 +70,7 @@ export default {
 
     watch: {
 		darkMode() {
-			localStorage.setItem("merakiuiDarkMode", this.darkMode);
+			localStorage.setItem("darkMode", this.darkMode);
 			console.log('Night Mode: ' + this.darkMode);
 		}
 	},

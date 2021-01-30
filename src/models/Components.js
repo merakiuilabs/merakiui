@@ -41,7 +41,13 @@ export default [
     },
     {
         name: "Forms",
-        components: [{ name: "Simple" }, { name: "Newsletter" }],
+        components: [
+            { name: "Simple" },
+            { name: "Search" },
+            { name: "Contact" },
+            { name: "SimpleNewsletter" },
+            { name: "Newsletter" },
+        ],
     },
     {
         name: "Dropdowns",
@@ -61,9 +67,14 @@ export default [
         components: [
             { name: "ECommerce" },
             { name: "WithImage" },
+            { name: "WithSideImage" },
             { name: "WithBGImage" },
             { name: "WithPattern" },
         ],
+    },
+    {
+        name: "Sidebars",
+        components: [{ name: "WithSearch" }, { name: "WithAvatar" }],
     },
     {
         name: "Sections",

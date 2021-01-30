@@ -77,7 +77,7 @@
                     </div>
 
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-                    <div class="hidden md:flex md:items-center md:justify-between flex-1">
+                    <div class="md:flex md:items-center md:justify-between flex-1">
                         <div class="flex flex-col -mx-4 md:flex-row md:items-center md:mx-8">
                             <a href="#" class="mx-2 mt-2 md:mt-0 px-2 py-1 text-sm text-gray-700 dark:text-gray-200 font-medium rounded-md hover:bg-gray-300 dark:hover:bg-gray-700">Join Slack</a>
                             <a href="#" class="mx-2 mt-2 md:mt-0 px-2 py-1 text-sm text-gray-700 dark:text-gray-200 font-medium rounded-md hover:bg-gray-300 dark:hover:bg-gray-700">Browse Topics</a>

@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="px-3 py-6" slot="component">
-            <div class="flex flex-col max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden md:flex-row md:h-48">
+            <section class="flex flex-col max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden md:flex-row md:h-48">
                 <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-gray-700 md:dark:bg-gray-800">
                     <div class="py-6 px-6 md:px-8 md:py-0">
                         <h2 class="text-gray-700 dark:text-white text-lg font-bold md:text-gray-100">Sign Up For <span class="text-blue-600 dark:text-blue-400 md:text-blue-300">Project</span> Updates</h2>
@@ -19,7 +19,7 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </section>
         </div>   
     </view-component>
 </template>
@@ -30,7 +30,7 @@
             return {
                 name: 'Newsletter',
                 code: `
-        <div class="flex flex-col max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden md:flex-row md:h-48">
+        <section class="flex flex-col max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden md:flex-row md:h-48">
             <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-gray-700 md:dark:bg-gray-800">
                 <div class="py-6 px-6 md:px-8 md:py-0">
                     <h2 class="text-gray-700 dark:text-white text-lg font-bold md:text-gray-100">Sign Up For <span class="text-blue-600 dark:text-blue-400 md:text-blue-300">Project</span> Updates</h2>
@@ -48,7 +48,7 @@
                     </div>
                 </form>
             </div>
-        </div>`
+        </section>`
             }
         }
     }

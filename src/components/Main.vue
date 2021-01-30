@@ -68,7 +68,10 @@ import DropdownsSimple from "./ui/Dropdowns/Simple";
 import DropdownsNotification from "./ui/Dropdowns/Notification";
 // Forms
 import FormsNewsletter from "./ui/Forms/Newsletter";
+import FormsSimpleNewsletter from "./ui/Forms/SimpleNewsletter";
 import FormsSimple from "./ui/Forms/Simple";
+import FormsSearch from "./ui/Forms/Search";
+import FormsContact from "./ui/Forms/Contact";
 // Navbars
 import NavbarsECommerce from "./ui/Navbars/ECommerce";
 import NavbarsWithAvatar from "./ui/Navbars/WithAvatar";
@@ -77,8 +80,12 @@ import NavbarsWithSearch from "./ui/Navbars/WithSearch";
 // Heros
 import HerosECommerce from "./ui/Heros/ECommerce";
 import HerosWithImage from "./ui/Heros/WithImage";
+import HerosWithSideImage from "./ui/Heros/WithSideImage";
 import HerosWithBGImage from "./ui/Heros/WithBGImage";
 import HerosWithPattern from "./ui/Heros/WithPattern";
+// Sidebars
+import SidebarsWithSearch from "./ui/Sidebars/WithSearch";
+import SidebarsWithAvatar from "./ui/Sidebars/WithAvatar";
 // Sections
 import SectionsAboutMe from "./ui/Sections/AboutMe";
 import SectionsFeature from "./ui/Sections/Feature";
@@ -122,15 +129,21 @@ export default {
         DropdownsSimple,
         DropdownsNotification,
         FormsNewsletter,
+        FormsSimpleNewsletter,
         FormsSimple,
+        FormsSearch,
+        FormsContact,
         NavbarsECommerce,
         NavbarsWithAvatar,
         NavbarsWithCategories,
         NavbarsWithSearch,
         HerosECommerce,
         HerosWithImage,
+        HerosWithSideImage,
         HerosWithBGImage,
         HerosWithPattern,
+        SidebarsWithAvatar,
+        SidebarsWithSearch,
         SectionsAboutMe,
         SectionsFeature,
         SectionsOurTeam,
