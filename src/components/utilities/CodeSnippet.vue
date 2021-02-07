@@ -1,10 +1,10 @@
 <template>
-    <div class="relative rounded overflow-hidden">
-        <pre><code class="px-8 py-6 rounded-md overflow-x-scroll overflow-hidden text-sm">{{ code }}</code></pre>
+    <div class="relative overflow-hidden rounded">
+        <pre><code class="px-8 py-6 overflow-hidden overflow-x-scroll text-sm rounded-md">{{ code }}</code></pre>
 
-        <div class="absolute right-0 top-0">
+        <div class="absolute top-0 right-0">
             <button class="px-3 py-2 text-gray-600 hover:text-gray-400 focus:outline-none" v-clipboard:success="onCopy" v-clipboard:copy="code">
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" />
                     <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z" />
                 </svg>
