@@ -2,7 +2,7 @@
   <button
     v-bind="$attrs"
     v-on="$listeners"
-    class="motion-reduce:transition-none transition-colors duration-150 ease-in-out"
+    class="transition-colors duration-300 ease-in-out"
   >
     <slot />
   </button>
