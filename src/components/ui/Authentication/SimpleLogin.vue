@@ -1,37 +1,37 @@
 <template>
      <view-component :name="name" :code="code">
         <div class="px-3 py-6" slot="component">
-            <div class="bg-white dark:bg-gray-800 w-full max-w-sm rounded-lg shadow-md overflow-hidden mx-auto">
-                <div class="py-4 px-6">
-                    <h2 class="text-center font-bold text-gray-700 dark:text-white text-3xl">Brand</h2>
+            <div class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+                <div class="px-6 py-4">
+                    <h2 class="text-3xl font-bold text-center text-gray-700 dark:text-white">Brand</h2>
 
-                    <h3 class="mt-1 text-center font-medium text-gray-600 dark:text-gray-200 text-xl">Welcome Back</h3>
+                    <h3 class="mt-1 text-xl font-medium text-center text-gray-600 dark:text-gray-200">Welcome Back</h3>
 
                     <p class="mt-1 text-center text-gray-500 dark:text-gray-400">Login or create account</p>
 
                     <form>
-                        <div class="mt-4 w-full">
-                            <input class="w-full mt-2 py-2 px-4 bg-white dark:bg-gray-800 text-gray-700 border border-gray-300 dark:border-gray-600 rounded block placeholder-gray-500 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email Address" aria-label="Email Address">
+                        <div class="w-full mt-4">
+                            <input class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email Address" aria-label="Email Address">
                         </div>
 
-                        <div class="mt-4 w-full">
-                            <input class="w-full mt-2 py-2 px-4 bg-white dark:bg-gray-800 text-gray-700 border border-gray-300 dark:border-gray-600 rounded block placeholder-gray-500 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
+                        <div class="w-full mt-4">
+                            <input class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
                         </div>
 
-                        <div class="flex justify-between items-center mt-4">
-                            <a href="#" class="text-gray-600 dark:text-gray-200 text-sm hover:text-gray-500">Forget Password?</a>
+                        <div class="flex items-center justify-between mt-4">
+                            <a href="#" class="text-sm text-gray-600 dark:text-gray-200 hover:text-gray-500">Forget Password?</a>
 
-                            <button class="py-2 px-4 bg-gray-700 text-white rounded hover:bg-gray-600 focus:outline-none" type="button">
+                            <button class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none" type="button">
                                 Login
                             </button>
                         </div>
                     </form>
                 </div>
 
-                <div class="flex items-center justify-center py-4 bg-gray-100 dark:bg-gray-700 text-center">
-                    <span class="text-gray-600 dark:text-gray-200 text-sm">Don't have an account? </span>
+                <div class="flex items-center justify-center py-4 text-center bg-gray-100 dark:bg-gray-700">
+                    <span class="text-sm text-gray-600 dark:text-gray-200">Don't have an account? </span>
                     
-                    <a href="#" class="text-blue-600 dark:text-blue-400 font-bold mx-2 text-sm hover:text-blue-500">Register</a>
+                    <a href="#" class="mx-2 text-sm font-bold text-blue-600 dark:text-blue-400 hover:text-blue-500">Register</a>
                 </div>
             </div>
         </div>
@@ -44,37 +44,37 @@
             return {
                 name: 'Simple Login',
                 code: `
-        <div class="bg-white dark:bg-gray-800 w-full max-w-sm rounded-lg shadow-md overflow-hidden mx-auto">
-            <div class="py-4 px-6">
-                <h2 class="text-center font-bold text-gray-700 dark:text-white text-3xl">Brand</h2>
+        <div class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+            <div class="px-6 py-4">
+                <h2 class="text-3xl font-bold text-center text-gray-700 dark:text-white">Brand</h2>
 
-                <h3 class="mt-1 text-center font-medium text-gray-600 dark:text-gray-200 text-xl">Welcome Back</h3>
+                <h3 class="mt-1 text-xl font-medium text-center text-gray-600 dark:text-gray-200">Welcome Back</h3>
 
                 <p class="mt-1 text-center text-gray-500 dark:text-gray-400">Login or create account</p>
 
                 <form>
-                    <div class="mt-4 w-full">
-                        <input class="w-full mt-2 py-2 px-4 bg-white dark:bg-gray-800 text-gray-700 border border-gray-300 dark:border-gray-600 rounded block placeholder-gray-500 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email Address" aria-label="Email Address">
+                    <div class="w-full mt-4">
+                        <input class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email Address" aria-label="Email Address">
                     </div>
 
-                    <div class="mt-4 w-full">
-                        <input class="w-full mt-2 py-2 px-4 bg-white dark:bg-gray-800 text-gray-700 border border-gray-300 dark:border-gray-600 rounded block placeholder-gray-500 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
+                    <div class="w-full mt-4">
+                        <input class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
                     </div>
 
-                    <div class="flex justify-between items-center mt-4">
-                        <a href="#" class="text-gray-600 dark:text-gray-200 text-sm hover:text-gray-500">Forget Password?</a>
+                    <div class="flex items-center justify-between mt-4">
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-200 hover:text-gray-500">Forget Password?</a>
 
-                        <button class="py-2 px-4 bg-gray-700 text-white rounded hover:bg-gray-600 focus:outline-none" type="button">
+                        <button class="px-4 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none" type="button">
                             Login
                         </button>
                     </div>
                 </form>
             </div>
 
-            <div class="flex items-center justify-center py-4 bg-gray-100 dark:bg-gray-700 text-center">
-                <span class="text-gray-600 dark:text-gray-200 text-sm">Don't have an account? </span>
+            <div class="flex items-center justify-center py-4 text-center bg-gray-100 dark:bg-gray-700">
+                <span class="text-sm text-gray-600 dark:text-gray-200">Don't have an account? </span>
                 
-                <a href="#" class="text-blue-600 dark:text-blue-400 font-bold mx-2 text-sm hover:text-blue-500">Register</a>
+                <a href="#" class="mx-2 text-sm font-bold text-blue-600 dark:text-blue-400 hover:text-blue-500">Register</a>
             </div>
         </div>`
             }
