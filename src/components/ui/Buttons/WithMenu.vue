@@ -13,11 +13,20 @@
                         </svg>
                     </button>
 
-                    <div v-show="menuOpen" class="absolute right-0 z-20 w-48 mt-2 overflow-hidden bg-white rounded-md shadow-xl dark:bg-gray-700">
-                        <a href="#" class="block px-4 py-2 text-sm text-gray-800 border-b dark:text-gray-200 dark:border-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600">small <span class="text-gray-600 dark:text-gray-400">(640x426)</span></a>
-                        <a href="#" class="block px-4 py-2 text-sm text-gray-800 border-b dark:text-gray-200 dark:border-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600">medium <span class="text-gray-600 dark:text-gray-400">(1920x1280)</span></a>
-                        <a href="#" class="block px-4 py-2 text-sm text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600">large <span class="text-gray-600 dark:text-gray-400">(2400x1600)</span></a>
-                    </div>
+                    <transition
+                        enter-active-class="transition duration-150 ease-out transform"
+                        enter-class="scale-95 opacity-0"
+                        enter-to-class="scale-100 opacity-100"
+                        leave-active-class="transition duration-150 ease-in transform"
+                        leave-class="scale-100 opacity-100"
+                        leave-to-class="scale-95 opacity-0"
+                    >
+                        <div v-show="menuOpen" class="absolute right-0 z-20 w-48 mt-2 overflow-hidden bg-white rounded-md shadow-xl dark:bg-gray-700">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-800 border-b dark:text-gray-200 dark:border-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600">small <span class="text-gray-600 dark:text-gray-400">(640x426)</span></a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-800 border-b dark:text-gray-200 dark:border-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600">medium <span class="text-gray-600 dark:text-gray-400">(1920x1280)</span></a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600">large <span class="text-gray-600 dark:text-gray-400">(2400x1600)</span></a>
+                        </div>
+                    </transition>
                 </div>
             </div>
         </div>
