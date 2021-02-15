@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/src/assets/merakiui-og.png" alt="Ibis logo" width="480">
+    <img src="assets/merakiui-og.png" alt="Ibis logo" width="480">
 
 ## Meraki UI
 

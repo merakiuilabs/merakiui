@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import AppButton from "@/components/utilities/AppButton.vue";
+import AppButton from "~/components/utilities/AppButton.vue";
 import CodeSnippet from "./CodeSnippet";
 
 export default {
@@ -70,6 +70,7 @@ export default {
             copied: false,
         }
     },
+    
     methods: {
         onCopy() {
             this.copied = ! this.copied;

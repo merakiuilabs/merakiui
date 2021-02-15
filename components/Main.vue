@@ -34,7 +34,7 @@
 
 <script>
 // Application components
-import AppButton from "@/components/utilities/AppButton.vue";
+import AppButton from "~/components/utilities/AppButton.vue";
 
 // Alerts
 import AlertsSuccessPop from "./ui/Alerts/SuccessPop";
@@ -98,7 +98,7 @@ import FootersSimple from "./ui/Footers/Simple";
 import FootersWithDetails from "./ui/Footers/WithDetails";
 import FootersWithSubscribeForm from "./ui/Footers/WithSubscribeForm";
 
-import Component from "../models/ComponentsFilter";
+import Component from "~/models/ComponentsFilter";
 
 export default {
     components: {

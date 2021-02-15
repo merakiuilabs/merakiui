@@ -1,6 +1,6 @@
 <template>
     <div :class="{ 'dark' : darkMode }">
-        <div class="bg-white dark:bg-gray-900 font-roboto" id="app">
+        <div class="bg-white dark:bg-gray-900 font-roboto">
             <header-component></header-component>
             <main-component></main-component>
 
@@ -25,9 +25,9 @@
 </template>
 
 <script>
-import AppButton from "@/components/utilities/AppButton.vue";
-import HeaderComponent from "./components/Header";
-import MainComponent from "./components/Main";
+import AppButton from "~/components/utilities/AppButton.vue";
+import HeaderComponent from "~/components/Header";
+import MainComponent from "~/components/Main";
 import BackToTop from "vue-backtotop";
 
 export default {
@@ -36,45 +36,14 @@ export default {
     data() {
         return {
             darkMode: JSON.parse(localStorage.getItem("darkMode")) || false,
-            og: "https://merakiui.com" + require("./assets/merakiui-og.png"),
         };
-    },
-
-    metaInfo() {
-        return {
-            meta: [
-                { name: "twitter:card", content: "summary_large_image" },
-                { name: "twitter:title", content: "Meraki UI Tailwindcss Components" },
-                {
-                  name: "twitter:description",
-                  content:
-                    "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
-                },
-                { name: "twitter:image", content: this.og },
-                { property: "og:title", content: "Meraki UI Tailwindcss Components" },
-                { property: "og:site_name", content: "Meraki UI" },
-                { property: "og:type", content: "website" },
-                { property: "og:image", content: this.og },
-                {
-                  property: "og:description",
-                  content:
-                    "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
-                },
-            ],
-        };
-    },
-
-    mounted() {
-        this.$ga.page("/");
     },
 
     watch: {
-		darkMode() {
-			localStorage.setItem("darkMode", this.darkMode);
-			console.log('Night Mode: ' + this.darkMode);
-		}
+      darkMode() {
+        localStorage.setItem("darkMode", this.darkMode);
+        console.log('Night Mode: ' + this.darkMode);
+      }
 	},
 };
 </script>
-
-<style src="./assets/css/app.css"></style>
