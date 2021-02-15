@@ -7,14 +7,31 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'merakiui',
+    title: 'Meraki UI Tailwindcss Components',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.' },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Meraki UI Tailwindcss Components" },
+      {
+        name: "twitter:description",
+        content:
+          "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
+      },
+      { name: "twitter:image", content: '~/assets/merakiui-og.png' },
+      { property: "og:title", content: "Meraki UI Tailwindcss Components" },
+      { property: "og:site_name", content: "Meraki UI" },
+      { property: "og:type", content: "website" },
+      { property: "og:image", content: '~/assets/merakiui-og.png' },
+      {
+        property: "og:description",
+        content:
+          "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

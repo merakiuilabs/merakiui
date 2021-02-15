@@ -1,6 +1,6 @@
 <template>
     <div :class="{ 'dark' : darkMode }">
-        <div class="bg-white dark:bg-gray-900 font-roboto" id="app">
+        <div class="bg-white dark:bg-gray-900 font-roboto">
             <header-component></header-component>
             <main-component></main-component>
 
