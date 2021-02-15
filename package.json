@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12"
   },

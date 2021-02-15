@@ -5,6 +5,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  googleAnalytics: {
+    id: "UA-167213766-1"
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Meraki UI Tailwindcss Components',
@@ -52,7 +56,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
