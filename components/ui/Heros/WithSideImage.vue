@@ -21,9 +21,9 @@
                     
                         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                         <div :class="!isOpen ? 'hidden' : ''" class="flex flex-col mt-2 -mx-2 md:mt-0 md:flex-row md:block">
-                            <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
-                            <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
-                            <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
+                            <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded-md dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
+                            <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded-md dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
+                            <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded-md dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
                         </div>
                     </div>
                 </nav>
@@ -36,8 +36,8 @@
                             <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
 
                             <div class="flex mt-6">
-                                <a href="#" class="block px-3 py-2 text-xs font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded hover:bg-gray-700">Get Started</a>
-                                <a href="#" class="block px-3 py-2 mx-4 text-xs font-semibold text-gray-700 transition-colors duration-200 transform bg-gray-200 rounded hover:bg-gray-300">Learn More</a>
+                                <a href="#" class="block px-3 py-2 text-xs font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">Get Started</a>
+                                <a href="#" class="block px-3 py-2 mx-4 text-xs font-semibold text-gray-700 transition-colors duration-200 transform bg-gray-200 rounded-md hover:bg-gray-300">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -80,9 +80,9 @@
                 
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                     <div class="flex flex-col mt-2 -mx-2 md:mt-0 md:flex-row md:block">
-                        <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
-                        <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
-                        <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
+                        <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded-md dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Home</a>
+                        <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded-md dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">About</a>
+                        <a href="#" class="px-2 py-2 text-sm text-gray-800 rounded-md dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -95,8 +95,8 @@
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
 
                         <div class="flex mt-6">
-                            <a href="#" class="block px-3 py-2 text-xs font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded hover:bg-gray-700">Get Started</a>
-                            <a href="#" class="block px-3 py-2 mx-4 text-xs font-semibold text-gray-700 transition-colors duration-200 transform bg-gray-200 rounded hover:bg-gray-300">Learn More</a>
+                            <a href="#" class="block px-3 py-2 text-xs font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">Get Started</a>
+                            <a href="#" class="block px-3 py-2 mx-4 text-xs font-semibold text-gray-700 transition-colors duration-200 transform bg-gray-200 rounded-md hover:bg-gray-300">Learn More</a>
                         </div>
                     </div>
                 </div>

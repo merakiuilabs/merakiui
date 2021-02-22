@@ -9,8 +9,8 @@
                         </div>
 
                         <div class="flex items-center mt-2 -mx-2 sm:mt-0">
-                            <a href="#" class="px-3 py-1 text-sm font-semibold text-white transition-colors duration-200 transform border-2 rounded hover:bg-gray-700">Sign In</a>
-                            <a href="#" class="px-3 py-2 mx-2 text-sm font-semibold text-white transition-colors duration-200 transform bg-black rounded hover:bg-gray-800">Sign Up</a>
+                            <a href="#" class="px-3 py-1 text-sm font-semibold text-white transition-colors duration-200 transform border-2 rounded-md hover:bg-gray-700">Sign In</a>
+                            <a href="#" class="px-3 py-2 mx-2 text-sm font-semibold text-white transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-800">Sign Up</a>
                         </div>
                     </nav>
 
@@ -32,14 +32,14 @@
 
                                     <form action="#">
                                         <div class="mt-4">
-                                            <input class="w-full px-4 py-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email address" aria-label="Email address">
-                                            <input class="w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
+                                            <input class="w-full px-4 py-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email address" aria-label="Email address">
+                                            <input class="w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
                                         </div>
 
                                         <div class="flex items-center justify-between mt-4">
                                             <a href="#" class="text-sm text-gray-600 dark:text-gray-200 hover:underline">Forget Password?</a>
 
-                                            <button class="px-4 py-2 font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded hover:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-800 dark:focus:bg-gray-700">Login</button>
+                                            <button class="px-4 py-2 font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-800 dark:focus:bg-gray-700">Login</button>
                                         </div>
                                     </form>
                                 </div>
@@ -73,8 +73,8 @@
                     </div>
 
                     <div class="flex items-center mt-2 -mx-2 sm:mt-0">
-                        <a href="#" class="px-3 py-1 text-sm font-semibold text-white transition-colors duration-200 transform border-2 rounded hover:bg-gray-700">Sign In</a>
-                        <a href="#" class="px-3 py-2 mx-2 text-sm font-semibold text-white transition-colors duration-200 transform bg-black rounded hover:bg-gray-800">Sign Up</a>
+                        <a href="#" class="px-3 py-1 text-sm font-semibold text-white transition-colors duration-200 transform border-2 rounded-md hover:bg-gray-700">Sign In</a>
+                        <a href="#" class="px-3 py-2 mx-2 text-sm font-semibold text-white transition-colors duration-200 transform bg-black rounded-md hover:bg-gray-800">Sign Up</a>
                     </div>
                 </nav>
 
@@ -96,14 +96,14 @@
 
                                 <form action="#">
                                     <div class="mt-4">
-                                        <input class="block w-full px-4 py-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email address" aria-label="Email address">
-                                        <input class="block w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
+                                        <input class="block w-full px-4 py-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email address" aria-label="Email address">
+                                        <input class="block w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
                                     </div>
 
                                     <div class="flex items-center justify-between mt-4">
                                         <a href="#" class="text-sm text-gray-600 dark:text-gray-200 hover:underline">Forget Password?</a>
 
-                                        <button class="px-4 py-2 font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded hover:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-800 dark:focus:bg-gray-700">Login</button>
+                                        <button class="px-4 py-2 font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-800 dark:focus:bg-gray-700">Login</button>
                                     </div>
                                 </form>
                             </div>

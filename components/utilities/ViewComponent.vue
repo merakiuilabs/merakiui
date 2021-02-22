@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-12 overflow-hidden bg-gray-300 border rounded-md dark:bg-gray-600 dark:border-gray-600">
+    <div class="mb-12 overflow-hidden bg-gray-300 border rounded-lg dark:bg-gray-600 dark:border-gray-600">
         <div class="px-4 py-2 bg-white border-b dark:bg-gray-800 dark:border-gray-600">
             <div class="flex flex-col items-center justify-between md:flex-row">
                 <div class="flex items-center">
