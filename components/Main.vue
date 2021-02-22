@@ -48,6 +48,7 @@ import AlertsWarningFullWidth from "./ui/Alerts/WarningFullWidth";
 import AlertsErrorFullWidth from "./ui/Alerts/ErrorFullWidth";
 // Authentication
 import AuthenticationSimpleLogin from "./ui/Authentication/SimpleLogin";
+import AuthenticationLoginWithSocailMediaLinks from "./ui/Authentication/LoginWithSocailMediaLinks";
 import AuthenticationLoginWithSideImage from "./ui/Authentication/LoginWithSideImage";
 // Buttons
 import ButtonsPrimary from "./ui/Buttons/Primary";
@@ -96,6 +97,7 @@ import PaginationsSimple from "./ui/Paginations/Simple";
 // Footers
 import FootersSimple from "./ui/Footers/Simple";
 import FootersWithDetails from "./ui/Footers/WithDetails";
+import FootersWithLinks from "./ui/Footers/WithLinks";
 import FootersWithSubscribeForm from "./ui/Footers/WithSubscribeForm";
 
 import Component from "~/models/ComponentsFilter";
@@ -113,6 +115,7 @@ export default {
         AlertsWarningFullWidth,
         AlertsErrorFullWidth,
         AuthenticationSimpleLogin,
+        AuthenticationLoginWithSocailMediaLinks,
         AuthenticationLoginWithSideImage,
         ButtonsPrimary,
         ButtonsWithIcon,
@@ -151,6 +154,7 @@ export default {
         PaginationsSimple,
         FootersSimple,
         FootersWithDetails,
+        FootersWithLinks,
         FootersWithSubscribeForm,
     },
     data() {

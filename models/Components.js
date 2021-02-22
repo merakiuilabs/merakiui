@@ -15,7 +15,11 @@ export default [
     },
     {
         name: "Authentication",
-        components: [{ name: "SimpleLogin" }, { name: "LoginWithSideImage" }],
+        components: [
+            { name: "SimpleLogin" }, 
+            { name: "LoginWithSocailMediaLinks" }, 
+            { name: "LoginWithSideImage" }
+        ],
     },
     {
         name: "Buttons",
@@ -94,6 +98,7 @@ export default [
         components: [
             { name: "Simple" },
             { name: "WithDetails" },
+            { name: "WithLinks" },
             { name: "WithSubscribeForm" },
         ],
     },
