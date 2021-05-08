@@ -20,18 +20,20 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.' },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Meraki UI Tailwindcss Components" },
+      { hid: "twitter:title", name: "twitter:title", content: "Meraki UI Tailwindcss Components" },
       {
+        hid: "twitter:description",
         name: "twitter:description",
         content:
           "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
       },
-      { name: "twitter:image", content: '~/assets/merakiui-og.png' },
-      { property: "og:title", content: "Meraki UI Tailwindcss Components" },
+      { hid: "twitter:image", name: "twitter:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/merakiui-og.png' },
+      { hid: "og:title", property: "og:title", content: "Meraki UI Tailwindcss Components" },
       { property: "og:site_name", content: "Meraki UI" },
-      { property: "og:type", content: "website" },
-      { property: "og:image", content: '~/assets/merakiui-og.png' },
+      { hid: "og:type", property: "og:type", content: "website" },
+      { hid: "og:image", property: "og:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/merakiui-og.png' },
       {
+        hid: "og:description",
         property: "og:description",
         content:
           "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
