@@ -5,7 +5,7 @@
                 <div class="container px-6 py-3 mx-auto md:flex md:justify-between md:items-center">
                     <div class="flex items-center justify-between">
                         <div>
-                            <a class="text-xl font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
+                            <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
                         </div>
 
                         <div class="flex md:hidden">
@@ -52,7 +52,7 @@
             <div class="container px-6 py-3 mx-auto md:flex md:justify-between md:items-center">
                 <div class="flex items-center justify-between">
                     <div>
-                        <a class="text-xl font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
+                        <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
                     </div>
                     
                     <!-- Mobile menu button -->
