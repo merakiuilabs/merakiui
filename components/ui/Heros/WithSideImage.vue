@@ -2,7 +2,7 @@
     <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
             <header class="bg-white dark:bg-gray-800">
-                <nav class="px-6 py-3 shadow">
+                <nav class="px-6 py-4 shadow">
                     <div class="items-center justify-between md:flex">
                         <div class="flex items-center justify-between">
                             <div>
@@ -61,7 +61,7 @@
                 isOpen: false,
                 code: `
         <header class="bg-white dark:bg-gray-800">
-            <nav class="px-6 py-3 shadow">
+            <nav class="px-6 py-4 shadow">
                 <div class="items-center justify-between md:flex">
                     <div class="flex items-center justify-between">
                         <div>

@@ -3,7 +3,7 @@
         <div class="py-6" slot="component">
             <header>
                 <nav class="bg-white shadow dark:bg-gray-800">
-                    <div class="container px-6 py-3 mx-auto ">
+                    <div class="container px-6 py-4 mx-auto">
                         <div class="md:flex md:items-center md:justify-between">
                             <div class="flex items-center justify-between">
                                 <div class="text-xl font-semibold text-gray-700">
@@ -51,7 +51,7 @@
                 code: `
         <header>
             <nav class="bg-white shadow dark:bg-gray-800">
-                <div class="container px-6 py-3 mx-auto ">
+                <div class="container px-6 py-4 mx-auto">
                     <div class="md:flex md:items-center md:justify-between">
                         <div class="flex items-center justify-between">
                             <div class="text-xl font-semibold text-gray-700">

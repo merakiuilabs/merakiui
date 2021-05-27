@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="flex justify-end px-3 pt-6 pb-96 md:justify-center" slot="component">
-            <div class="relative">
+            <div class="relative inline-block">
                 <!-- Dropdown toggle button -->
                 <button @click="dropdownOpen = !dropdownOpen" class="relative z-10 block p-2 bg-white rounded-md dark:bg-gray-800 focus:outline-none">
                     <svg class="w-5 h-5 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">

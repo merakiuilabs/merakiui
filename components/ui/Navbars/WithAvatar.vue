@@ -2,7 +2,7 @@
     <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
             <nav class="bg-white shadow dark:bg-gray-800">
-                <div class="container px-6 py-3 mx-auto">
+                <div class="container px-6 py-4 mx-auto">
                     <div class="md:flex md:items-center md:justify-between">
                         <div class="flex items-center justify-between">
                             <div class="text-xl font-semibold text-gray-700">
@@ -59,7 +59,7 @@
                 isOpen: false,
                 code: `
         <nav class="bg-white shadow dark:bg-gray-800">
-            <div class="container px-6 py-3 mx-auto">
+            <div class="container px-6 py-4 mx-auto">
                 <div class="md:flex md:items-center md:justify-between">
                     <div class="flex items-center justify-between">
                         <div class="text-xl font-semibold text-gray-700">
@@ -94,7 +94,7 @@
 
                             <button type="button" class="flex items-center focus:outline-none" aria-label="toggle profile dropdown">
                                 <div class="w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full">
-                                    <img src="https://lh3.googleusercontent.com/a-/AOh14Gi0DgItGDTATTFV6lPiVrqtja6RZ_qrY91zg42o-g" class="object-cover w-full h-full" alt="avatar">
+                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" class="object-cover w-full h-full" alt="avatar">
                                 </div>
 
                                 <h3 class="mx-2 text-sm font-medium text-gray-700 dark:text-gray-200 md:hidden">Khatab wedaa</h3>
