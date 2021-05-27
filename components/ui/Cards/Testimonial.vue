@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="px-3 pt-16 pb-6" slot="component">
-            <div class="max-w-md px-8 py-4 mx-auto bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
                 <div class="flex justify-center -mt-16 md:justify-end">
                     <img class="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400" alt="Testimonial avatar" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=76&q=80">
                 </div>
@@ -24,7 +24,7 @@
             return {
                 name: 'Testimonial',
                 code: `
-        <div class="max-w-md px-8 py-4 mx-auto bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
             <div class="flex justify-center -mt-16 md:justify-end">
                 <img class="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400" alt="Testimonial avatar" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=76&q=80">
             </div>

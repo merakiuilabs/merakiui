@@ -3,11 +3,11 @@
         <div class="py-6" slot="component">
             <header>
                 <nav class="bg-white shadow dark:bg-gray-800">
-                    <div class="container px-6 py-3 mx-auto ">
+                    <div class="container px-6 py-4 mx-auto">
                         <div class="md:flex md:items-center md:justify-between">
                             <div class="flex items-center justify-between">
                                 <div class="text-xl font-semibold text-gray-700">
-                                    <a class="text-xl font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
+                                    <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
                                 </div>
 
                                 <div class="flex md:hidden">
@@ -51,11 +51,11 @@
                 code: `
         <header>
             <nav class="bg-white shadow dark:bg-gray-800">
-                <div class="container px-6 py-3 mx-auto ">
+                <div class="container px-6 py-4 mx-auto">
                     <div class="md:flex md:items-center md:justify-between">
                         <div class="flex items-center justify-between">
                             <div class="text-xl font-semibold text-gray-700">
-                                <a class="text-xl font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
+                                <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
                             </div>
 
                             <!-- Mobile menu button -->
