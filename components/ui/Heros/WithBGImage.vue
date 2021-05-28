@@ -49,6 +49,17 @@
                 name: 'With Background Image',
                 isOpen: false,
                 code: `
+        <!-- Add this to your tailwind.config.js -->
+        module.exports = {
+            theme: {
+                extend: {
+                    spacing: {
+                        128: '32rem',
+                    },
+                },
+            },
+        }
+        
         <header>
             <nav class="bg-white shadow dark:bg-gray-800">
                 <div class="container px-6 py-4 mx-auto">

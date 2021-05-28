@@ -11,8 +11,6 @@
                     </div>
                 </div>
             </div>
-
-            <p class="mt-8 text-center text-gray-700 dark:text-gray-300"> Heros components require simple <span class="font-semibold">- don't panic please 😎 -</span><a href="https://gist.github.com/khatabwedaa/352573904a5b2d5ff3598bcd54ce9f04" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline"> configuration</a></p>
         </div>
 
         <div class="flex justify-center mb-10">

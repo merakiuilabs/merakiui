@@ -108,6 +108,17 @@
                 name: 'With Image',
                 isOpen: false,
                 code: `
+        <!-- Add this to your tailwind.config.js -->
+        module.exports = {
+            theme: {
+                extend: {
+                    spacing: {
+                        128: '32rem',
+                    },
+                },
+            },
+        }
+
         <header class="bg-white dark:bg-gray-800">
             <nav class="border-b dark:border-gray-700">
                 <div class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">

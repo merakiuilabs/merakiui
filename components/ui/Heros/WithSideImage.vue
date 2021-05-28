@@ -60,6 +60,17 @@
                 name: 'With Side Image',
                 isOpen: false,
                 code: `
+        <!-- Add this to your tailwind.config.js -->
+        module.exports = {
+            theme: {
+                extend: {
+                    spacing: {
+                        128: '32rem',
+                    },
+                },
+            },
+        }
+
         <header class="bg-white dark:bg-gray-800">
             <nav class="px-6 py-4 shadow">
                 <div class="items-center justify-between md:flex">

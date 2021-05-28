@@ -58,6 +58,17 @@
             return {
                 name: 'With Pattern',
                 code: `
+        <!-- Add this to your tailwind.config.js -->
+        module.exports = {
+            theme: {
+                extend: {
+                    spacing: {
+                        128: '32rem',
+                    },
+                },
+            },
+        }
+
         <!-- Require css -->
         <style>
         .pattern {
