@@ -77,7 +77,7 @@ export default [
         ],
     },
     {
-        name: "Sidebars",
+        name: "Sidebar",
         components: [{ name: "WithSearch" }, { name: "WithAvatar" }],
     },
     {
@@ -94,7 +94,7 @@ export default [
         components: [{ name: "Simple" }],
     },
     {
-        name: "Paginations",
+        name: "Pagination",
         components: [{ name: "Simple" }],
     },
     {

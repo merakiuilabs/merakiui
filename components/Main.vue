@@ -105,8 +105,8 @@ import HerosWithSideImage from "./ui/Heros/WithSideImage";
 import HerosWithBGImage from "./ui/Heros/WithBGImage";
 import HerosWithPattern from "./ui/Heros/WithPattern";
 // Sidebars
-import SidebarsWithSearch from "./ui/Sidebars/WithSearch";
-import SidebarsWithAvatar from "./ui/Sidebars/WithAvatar";
+import SidebarWithSearch from "./ui/Sidebar/WithSearch";
+import SidebarWithAvatar from "./ui/Sidebar/WithAvatar";
 // Sections
 import SectionsAboutMe from "./ui/Sections/AboutMe";
 import SectionsFeature from "./ui/Sections/Feature";
@@ -115,7 +115,7 @@ import SectionsParagraphWithImage from "./ui/Sections/ParagraphWithImage";
 // Pricing
 import PricingSimple from "./ui//Pricing/Simple";
 // paginations
-import PaginationsSimple from "./ui/Paginations/Simple";
+import PaginationSimple from "./ui/Pagination/Simple";
 // Footers
 import FootersSimple from "./ui/Footers/Simple";
 import FootersWithDetails from "./ui/Footers/WithDetails";
@@ -167,14 +167,14 @@ export default {
         HerosWithSideImage,
         HerosWithBGImage,
         HerosWithPattern,
-        SidebarsWithAvatar,
-        SidebarsWithSearch,
+        SidebarWithAvatar,
+        SidebarWithSearch,
         SectionsAboutMe,
         SectionsFeature,
         SectionsOurTeam,
         SectionsParagraphWithImage,
         PricingSimple,
-        PaginationsSimple,
+        PaginationSimple,
         FootersSimple,
         FootersWithDetails,
         FootersWithLinks,
