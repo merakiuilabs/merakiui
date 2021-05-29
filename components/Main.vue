@@ -113,7 +113,7 @@ import SectionsFeature from "./ui/Sections/Feature";
 import SectionsOurTeam from "./ui/Sections/OurTeam";
 import SectionsParagraphWithImage from "./ui/Sections/ParagraphWithImage";
 // Pricing
-import PricingsSimple from "./ui//Pricings/Simple";
+import PricingSimple from "./ui//Pricing/Simple";
 // paginations
 import PaginationsSimple from "./ui/Paginations/Simple";
 // Footers
@@ -173,7 +173,7 @@ export default {
         SectionsFeature,
         SectionsOurTeam,
         SectionsParagraphWithImage,
-        PricingsSimple,
+        PricingSimple,
         PaginationsSimple,
         FootersSimple,
         FootersWithDetails,
@@ -183,8 +183,7 @@ export default {
     data() {
         return {
             categories: [],
-            // searchText: "Alerts",
-            searchText: "Pricings",
+            searchText: "Alerts",
             component: new Component(),
         };
     },

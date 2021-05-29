@@ -90,7 +90,7 @@ export default [
         ],
     },
     {
-        name: "Pricings",
+        name: "Pricing",
         components: [{ name: "Simple" }],
     },
     {
