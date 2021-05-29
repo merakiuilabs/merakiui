@@ -16,9 +16,9 @@ export default [
     {
         name: "Authentication",
         components: [
-            { name: "SimpleLogin" }, 
-            { name: "LoginWithSocailMediaLinks" }, 
-            { name: "LoginWithSideImage" }
+            { name: "SimpleLogin" },
+            { name: "LoginWithSocailMediaLinks" },
+            { name: "LoginWithSideImage" },
         ],
     },
     {
@@ -88,6 +88,10 @@ export default [
             { name: "OurTeam" },
             { name: "ParagraphWithImage" },
         ],
+    },
+    {
+        name: "Pricing",
+        components: [{ name: "Simple" }],
     },
     {
         name: "Paginations",

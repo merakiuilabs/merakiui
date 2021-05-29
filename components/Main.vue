@@ -1,13 +1,29 @@
 <template>
     <div class="container px-6 mx-auto">
         <div class="py-16 text-center">
-            <h1 class="text-xl font-medium text-gray-800 md:text-3xl dark:text-white">Discover new components. Build amazing things 🔥</h1>
+            <h1
+                class="text-xl font-medium text-gray-800 md:text-3xl dark:text-white"
+            >
+                Discover new components. Build amazing things 🔥
+            </h1>
             <div class="max-w-2xl mx-auto">
-                <div class="flex items-center justify-center mt-5 ">
+                <div class="flex items-center justify-center mt-5">
                     <div class="mt-2 md:mt-0">
-                        <span v-for="category in categories" :key="category.name">
-                            <app-button @click="searchText = category.name" class="px-3 py-1 mt-2 ml-2 text-sm rounded cursor-pointer hover:bg-gray-700 hover:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-gray-200 focus:outline-none" :class="category.name === searchText? 'bg-gray-700 text-gray-200 dark:bg-gray-600 dark:text-gray-200' : 'bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-200'">{{ category.name }}</app-button>
-                        </span> 
+                        <span
+                            v-for="category in categories"
+                            :key="category.name"
+                        >
+                            <app-button
+                                @click="searchText = category.name"
+                                class="px-3 py-1 mt-2 ml-2 text-sm rounded cursor-pointer hover:bg-gray-700 hover:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-gray-200 focus:outline-none"
+                                :class="
+                                    category.name === searchText
+                                        ? 'bg-gray-700 text-gray-200 dark:bg-gray-600 dark:text-gray-200'
+                                        : 'bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-200'
+                                "
+                                >{{ category.name }}</app-button
+                            >
+                        </span>
                     </div>
                 </div>
             </div>
@@ -19,9 +35,16 @@
 
         <div class="w-full max-w-6xl mx-auto">
             <div class="mb-16" v-for="category in list" :key="category.name">
-                <h1 class="mb-6 text-2xl font-semibold text-gray-800 capitalize dark:text-white" v-text="category.name"></h1>
+                <h1
+                    class="mb-6 text-2xl font-semibold text-gray-800 capitalize dark:text-white"
+                    v-text="category.name"
+                ></h1>
 
-                <div v-for="component in category.components" :key="component.name" :name="component.name">
+                <div
+                    v-for="component in category.components"
+                    :key="component.name"
+                    :name="component.name"
+                >
                     <component :is="category.name + component.name"></component>
                 </div>
             </div>
@@ -89,6 +112,8 @@ import SectionsAboutMe from "./ui/Sections/AboutMe";
 import SectionsFeature from "./ui/Sections/Feature";
 import SectionsOurTeam from "./ui/Sections/OurTeam";
 import SectionsParagraphWithImage from "./ui/Sections/ParagraphWithImage";
+// Pricing
+import PricingSimple from "./ui//Pricing/Simple";
 // paginations
 import PaginationsSimple from "./ui/Paginations/Simple";
 // Footers
@@ -148,6 +173,7 @@ export default {
         SectionsFeature,
         SectionsOurTeam,
         SectionsParagraphWithImage,
+        PricingSimple,
         PaginationsSimple,
         FootersSimple,
         FootersWithDetails,
@@ -157,9 +183,9 @@ export default {
     data() {
         return {
             categories: [],
-            searchText: 'Alerts',
+            searchText: "Alerts",
             component: new Component(),
-        }
+        };
     },
 
     created() {
@@ -171,5 +197,5 @@ export default {
             return this.component.whereCategory(this.searchText);
         },
     },
-}
+};
 </script>
