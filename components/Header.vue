@@ -81,7 +81,7 @@ export default {
   components: { DarkMode },
     data() {
         return {
-            components_count: 51,
+            components_count: 52,
             SHARE_LINK: `https://twitter.com/intent/tweet?text=${encodeURIComponent(
             'Check out Meraki UI Awesome @tailwindcss Components that support RTL and fully responsive by @khatabwedaa and @miaababikir 🔥.'
             )}&url=${encodeURIComponent('https://merakiui.com')}`
