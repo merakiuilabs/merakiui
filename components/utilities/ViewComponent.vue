@@ -5,7 +5,7 @@
                 <h3 class="text-gray-700 capitalize dark:text-gray-200 md:text-lg">{{ name }}</h3>
             </div>
 
-            <div class="mt-4 md:mt-0">
+            <div class="mt-4 space-x-4 md:mt-0">
                 <app-button @click="rtl =! rtl" class="p-1 rounded-md hover:text-gray-700 hover:bg-gray-400 dark:hover:bg-gray-500 dark:hover:text-gray-200 focus:outline-none" :class="rtl? 'bg-gray-400 text-gray-700 dark:bg-gray-500 dark:text-gray-200' : 'bg-gray-200 text-gray-600 dark:bg-gray-700 dark:text-gray-200'" aria-label="Rtl">
                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none">
                         <path d="M16 13V11.5H10V9.5H16V8L19 10.5L16 13Z" fill="currentColor" />
@@ -13,7 +13,16 @@
                     </svg>
                 </app-button>
 
-                <app-button @click="viewCode =! viewCode" class="p-1 mx-4 rounded-md hover:text-gray-700 hover:bg-gray-400 dark:hover:bg-gray-500 dark:hover:text-gray-200 focus:outline-none" :class="viewCode? 'bg-gray-400 text-gray-700 dark:bg-gray-500 dark:text-gray-200' : 'bg-gray-200 text-gray-600 dark:bg-gray-700 dark:text-gray-200'" aria-label="View code snippet">
+                <app-button @click="dark =! dark" class="p-1 text-gray-600 bg-gray-200 rounded-md dark:bg-gray-700 dark:text-gray-200 hover:text-gray-700 hover:bg-gray-400 dark:hover:bg-gray-500 dark:hover:text-gray-200 focus:outline-none" aria-label="dark mode button">
+                    <svg v-if="dark" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                    <svg v-if="!dark" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                </app-button>
+
+                <app-button @click="viewCode =! viewCode" class="p-1 rounded-md hover:text-gray-700 hover:bg-gray-400 dark:hover:bg-gray-500 dark:hover:text-gray-200 focus:outline-none" :class="viewCode? 'bg-gray-400 text-gray-700 dark:bg-gray-500 dark:text-gray-200' : 'bg-gray-200 text-gray-600 dark:bg-gray-700 dark:text-gray-200'" aria-label="View code snippet">
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                     </svg>
@@ -27,19 +36,21 @@
             </div>
         </div>
 
-        <div class="flex items-center justify-center mt-4 overflow-hidden bg-gray-300 border rounded-lg dark:border-gray-600 dark:bg-gray-600">
-            <div class="relative w-full" :dir="rtl? 'rtl' : 'ltr'">
-                <slot class="absolute top-0 left-0 w-full h-full" name="component"></slot>
+        <div :class="{ 'dark': dark }">
+            <div class="flex items-center justify-center mt-4 overflow-hidden bg-gray-300 border rounded-lg dark:border-gray-600 dark:bg-gray-600">
+                <div class="relative w-full" :dir="rtl? 'rtl' : 'ltr'">
+                    <slot class="absolute top-0 left-0 w-full h-full" name="component"></slot>
 
-                <transition name="fade">
-                    <div v-if="copied">
-                        <div class="absolute top-0 left-0 z-50 w-full h-full">
-                            <div class="flex items-center justify-center h-full bg-gray-300 dark:bg-gray-700">
-                                <p class="text-2xl text-gray-700 dark:text-gray-200">Copied!</p>
+                    <transition name="fade">
+                        <div v-if="copied">
+                            <div class="absolute top-0 left-0 z-50 w-full h-full">
+                                <div class="flex items-center justify-center h-full bg-gray-300 dark:bg-gray-700">
+                                    <p class="text-2xl text-gray-700 dark:text-gray-200">Copied!</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </transition>
+                    </transition>
+                </div>
             </div>
         </div>
 
@@ -64,6 +75,7 @@ export default {
     data() {
         return {
             viewCode: false,
+            dark: false,
             rtl: false,
             copied: false,
         }

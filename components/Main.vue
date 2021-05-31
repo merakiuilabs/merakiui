@@ -1,5 +1,5 @@
 <template>
-    <div class="container px-6 mx-auto">
+    <div class="container px-4 mx-auto">
         <div class="py-16 text-center">
             <h1
                 class="text-xl font-medium text-gray-800 md:text-3xl dark:text-white"
@@ -19,10 +19,10 @@
                                 :class="
                                     category.name === searchText
                                         ? 'bg-gray-700 text-gray-200 dark:bg-gray-600 dark:text-gray-200'
-                                        : 'bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-200'
-                                "
-                                >{{ category.name }}</app-button
-                            >
+                                        : 'bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-200'"
+                                >
+                                {{ category.name }}
+                            </app-button>
                         </span>
                     </div>
                 </div>
