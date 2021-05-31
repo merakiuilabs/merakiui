@@ -1,14 +1,14 @@
 <template>
     <header class="bg-gray-900 border-b-4 border-blue-500 pattern">
         <nav>
-            <div class="container px-6 py-4 mx-auto">
+            <div class="container p-4 mx-auto">
                 <div class="flex items-center justify-between">
                     <a href="/" class="inline-flex items-center text-xl font-bold text-white md:text-2xl hover:text-blue-400">
                         <img class="w-10 h-10 mr-1" src="../assets/svg/logo.svg" alt="logo"> <span class="hidden sm:inline">Meraki <span class="text-blue-400">UI</span></span>
                     </a>
 
                     <div class="flex items-center space-x-4 sm:space-x-6">
-                        <a :href="SHARE_LINK" class="flex items-center space-x-3 font-medium text-white hover:text-blue-400 hover:underline">
+                        <a target="_blank" :href="SHARE_LINK" class="flex items-center space-x-3 font-medium text-white hover:text-blue-400 hover:underline">
                             <svg class="w-5 h-5 sm:w-6 sm:h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.995 6.68799C20.8914 6.15208 21.5622 5.30823 21.882 4.31399C21.0397 4.81379 20.118 5.16587 19.157 5.35499C17.8246 3.94552 15.7135 3.60251 14.0034 4.51764C12.2933 5.43277 11.4075 7.37948 11.841 9.26999C8.39062 9.09676 5.17598 7.4669 2.99702 4.78599C1.85986 6.74741 2.44097 9.25477 4.32502 10.516C3.64373 10.4941 2.97754 10.3096 2.38202 9.97799C2.38202 9.99599 2.38202 10.014 2.38202 10.032C2.38241 12.0751 3.82239 13.8351 5.82502 14.24C5.19308 14.4119 4.53022 14.4372 3.88702 14.314C4.45022 16.0613 6.06057 17.2583 7.89602 17.294C6.37585 18.4871 4.49849 19.1342 2.56602 19.131C2.22349 19.1315 1.88123 19.1118 1.54102 19.072C3.50341 20.333 5.78739 21.0023 8.12002 21C11.3653 21.0223 14.484 19.7429 16.7787 17.448C19.0734 15.1531 20.3526 12.0342 20.33 8.78899C20.33 8.60299 20.3257 8.41799 20.317 8.23399C21.1575 7.62659 21.8828 6.87414 22.459 6.01199C21.676 6.35905 20.8455 6.58691 19.995 6.68799Z" fill="currentColor"></path>
                             </svg>
@@ -28,19 +28,18 @@
             </div>
         </nav>
 
-        <div class="container px-6 py-8 mx-auto md:py-0">
+        <div class="container px-4 py-8 mx-auto md:py-0">
             <div class="md:flex">
                 <div class="flex items-center w-full md:w-1/2 md:h-128">
-                    <div class="max-w-lg text-white">
+                    <div class="max-w-xl text-white">
                         <div class="text-xs font-light">Simple UI Starter</div>
 
                         <h1 class="mt-3 text-2xl font-semibold text-white md:text-3xl">Meraki <span class="text-blue-400">UI </span> Components</h1>
                         
-                        <p class="mt-3 text-gray-300">
-                            Beautiful <a href="https://tailwindcss.com" class="font-normal text-blue-400 hover:underline">Tailwindcss</a> 
-                            components that support RTL languages & fully responsive based on Flexbox & CSS Grid. Built by 
-                            <a href="https://twitter.com/khatabwedaa" class="text-blue-400 hover:underline">@khatabwedaa</a> &
-                            <a href="https://twitter.com/miaababikir" class="text-blue-400 hover:underline">@miaababikir</a>
+                        <p class="mt-3 text-gray-300 md:text-lg">
+                            Beautiful <a href="https://tailwindcss.com" class="font-normal text-blue-400 hover:underline">Tailwind CSS</a> 
+                            components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant
+                            <a href="https://tailwindcss.com/docs/dark-mode" class="font-normal text-blue-400 hover:underline">Dark Mode</a>.
                         </p>
 
                         <div class="flex flex-wrap items-center mt-4">
@@ -83,7 +82,7 @@ export default {
         return {
             components_count: 58,
             SHARE_LINK: `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-            'Check out Meraki UI Awesome @tailwindcss Components that support RTL and fully responsive by @khatabwedaa and @miaababikir 🔥.'
+            'Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode 🔥. \n #tailwindcss #100DaysOfCode \n'
             )}&url=${encodeURIComponent('https://merakiui.com')}`
         }
     },
