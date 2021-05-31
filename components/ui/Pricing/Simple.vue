@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
-            <div class="bg-white dark:bg-gray-800">
+            <section class="bg-white dark:bg-gray-800">
                 <div class="container px-6 py-8 mx-auto">
                     <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
                         <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </view-component>
 </template>

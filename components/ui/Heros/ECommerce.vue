@@ -48,7 +48,7 @@
                         </div>
                 
                         <div class="flex items-center justify-center w-full mt-6 md:mt-0 md:w-1/2">
-                            <img class="w-full h-full max-w-2xl" src="~/assets/svg/Catalogue-pana.svg" alt="">
+                            <img class="w-full h-full max-w-2xl" src="~/assets/svg/Catalogue-pana.svg" alt="Catalogue-pana.svg">
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                     </div>
             
                     <div class="flex items-center justify-center w-full mt-6 md:mt-0 md:w-1/2">
-                        <img class="w-full h-full max-w-2xl" src="../../../assets/svg/Catalogue-pana.svg" alt="">
+                        <img class="w-full h-full max-w-2xl" src="../../../assets/svg/Catalogue-pana.svg" alt="Catalogue-pana.svg">
                     </div>
                 </div>
             </div>

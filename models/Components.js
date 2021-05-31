@@ -60,9 +60,11 @@ export default [
     {
         name: "Navbars",
         components: [
+            { name: "Simple" },
             { name: "ECommerce" },
             { name: "WithSearch" },
             { name: "WithAvatar" },
+            { name: "WithSocailMediaLinks" },
             { name: "WithCategories" },
         ],
     },
@@ -70,6 +72,8 @@ export default [
         name: "Heros",
         components: [
             { name: "ECommerce" },
+            { name: "WithNewsletterForm" },
+            { name: "WithSlide" },
             { name: "WithImage" },
             { name: "WithSideImage" },
             { name: "WithBGImage" },
@@ -91,7 +95,7 @@ export default [
     },
     {
         name: "Pricing",
-        components: [{ name: "Simple" }],
+        components: [{ name: "Simple" }, { name: "Popular" }, { name: "WithNavigation" }],
     },
     {
         name: "Pagination",

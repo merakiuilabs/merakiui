@@ -94,12 +94,16 @@ import FormsSimple from "./ui/Forms/Simple";
 import FormsSearch from "./ui/Forms/Search";
 import FormsContact from "./ui/Forms/Contact";
 // Navbars
+import NavbarsSimple from "./ui/Navbars/Simple";
 import NavbarsECommerce from "./ui/Navbars/ECommerce";
 import NavbarsWithAvatar from "./ui/Navbars/WithAvatar";
-import NavbarsWithCategories from "./ui/Navbars/WithCategories";
 import NavbarsWithSearch from "./ui/Navbars/WithSearch";
+import NavbarsWithCategories from "./ui/Navbars/WithCategories";
+import NavbarsWithSocailMediaLinks from "./ui/Navbars/WithSocailMediaLinks";
 // Heros
 import HerosECommerce from "./ui/Heros/ECommerce";
+import HerosWithNewsletterForm from "./ui/Heros/WithNewsletterForm";
+import HerosWithSlide from "./ui/Heros/WithSlide";
 import HerosWithImage from "./ui/Heros/WithImage";
 import HerosWithSideImage from "./ui/Heros/WithSideImage";
 import HerosWithBGImage from "./ui/Heros/WithBGImage";
@@ -114,6 +118,8 @@ import SectionsOurTeam from "./ui/Sections/OurTeam";
 import SectionsParagraphWithImage from "./ui/Sections/ParagraphWithImage";
 // Pricing
 import PricingSimple from "./ui//Pricing/Simple";
+import PricingPopular from "./ui//Pricing/Popular";
+import PricingWithNavigation from "./ui//Pricing/WithNavigation";
 // paginations
 import PaginationSimple from "./ui/Pagination/Simple";
 // Footers
@@ -158,11 +164,15 @@ export default {
         FormsSimple,
         FormsSearch,
         FormsContact,
+        NavbarsSimple,
         NavbarsECommerce,
         NavbarsWithAvatar,
-        NavbarsWithCategories,
         NavbarsWithSearch,
+        NavbarsWithSocailMediaLinks,
+        NavbarsWithCategories,
         HerosECommerce,
+        HerosWithNewsletterForm,
+        HerosWithSlide,
         HerosWithImage,
         HerosWithSideImage,
         HerosWithBGImage,
@@ -174,6 +184,8 @@ export default {
         SectionsOurTeam,
         SectionsParagraphWithImage,
         PricingSimple,
+        PricingPopular,
+        PricingWithNavigation,
         PaginationSimple,
         FootersSimple,
         FootersWithDetails,
