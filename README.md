@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/merakiui-og.png" alt="Ibis logo" width="480">
+    <img src="assets/merakiui-thumbnail.png" alt="Meraki UI logo">
 
 ## Meraki UI
 
@@ -11,7 +11,7 @@
 -   [Unsplash](https://unsplash.com)
 -   [Freepik Stories](https://stories.freepik.com)
 -   [Heroicons](https://heroicons.dev)
--   [CSS Icons](https://css.gg)
+-   [Coolicons](https://coolicons.cool)
 
 ### Project setup
 
@@ -22,13 +22,13 @@ npm install
 ### Compiles and hot-reloads for development
 
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
 
 ```
-npm run build
+npm run generate
 ```
 
 ### Credits
