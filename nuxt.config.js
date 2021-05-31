@@ -11,32 +11,32 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Meraki UI Tailwindcss Components',
+    title: 'Meraki UI Tailwind CSS Components',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.' },
+      { hid: 'description', name: 'description', content: 'Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.' },
       { name: "twitter:card", content: "summary_large_image" },
-      { hid: "twitter:title", name: "twitter:title", content: "Meraki UI Tailwindcss Components" },
+      { hid: "twitter:title", name: "twitter:title", content: "Meraki UI Tailwind CSS Components" },
       {
         hid: "twitter:description",
         name: "twitter:description",
         content:
-          "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
+          "Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
       },
-      { hid: "twitter:image", name: "twitter:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/merakiui-og.png' },
-      { hid: "og:title", property: "og:title", content: "Meraki UI Tailwindcss Components" },
+      { hid: "twitter:image", name: "twitter:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/merakiui-thumbnail.png' },
+      { hid: "og:title", property: "og:title", content: "Meraki UI Tailwind CSS Components" },
       { property: "og:site_name", content: "Meraki UI" },
       { hid: "og:type", property: "og:type", content: "website" },
-      { hid: "og:image", property: "og:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/merakiui-og.png' },
+      { hid: "og:image", property: "og:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/merakiui-thumbnail.png' },
       {
         hid: "og:description",
         property: "og:description",
         content:
-          "Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid.",
+          "Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
       },
     ],
     link: [
