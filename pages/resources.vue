@@ -21,15 +21,17 @@
 
         <div class="grid gap-8 mt-10 md:grid-cols-2 xl:grid-cols-3">
             <div>
-                <a href="https://unsplash.com/" class="relative flex overflow-hidden bg-gray-900 h-80 xl:h-64 rounded-2xl">
-                    <img class="object-cover" src="~/assets/images/twitter-large-card.jpg" alt="unsplash">
+                <a href="http://tailwindcss.com" class="relative flex overflow-hidden bg-gray-900 h-80 xl:h-64 rounded-2xl">
+                    <img class="object-cover" src="~/assets/images/tailwindcss.jpg" alt="tailwindcss">
                 </a>
+                
+                <h4 class="mt-2 text-2xl font-medium text-gray-800">Tailwind CSS</h4>
 
-                <p class="mt-6 text-gray-700">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup. </p>
+                <p class="mt-2 text-gray-700">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup. </p>
             </div>
             
             <div>
-                <a href="https://heroicons.com/" class="relative flex h-80 xl:h-64 rounded-2xl bg-gradient-to-br from-purple-600 to-purple-500">
+                <a href="https://heroicons.com" class="relative flex h-80 xl:h-64 rounded-2xl bg-gradient-to-br from-purple-600 to-purple-500">
                     <div class="absolute inset-0 flex items-center justify-center p-6 bg-contain" style="background-image: url(&quot;https://tailwindcss.com/_next/static/media/heroicons-bg.fdbaa28ae8446332a61619794c459a77.svg&quot;);">
                         <div class="max-w-full w-60">
                             <div class="relative" style="padding-top: 25%;">
@@ -41,12 +43,14 @@
                         </div>
                     </div>
                 </a>
+                
+                <h4 class="mt-2 text-2xl font-medium text-gray-800">Heroicons</h4>
 
-                <p class="mt-6 text-gray-700">A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.</p>
+                <p class="mt-2 text-gray-700">A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.</p>
             </div>
 
             <div>
-                <a href="https://www.heropatterns.com/" class="relative flex h-80 xl:h-64 rounded-2xl bg-gradient-to-br from-teal-600 to-teal-500">
+                <a href="https://www.heropatterns.com" class="relative flex h-80 xl:h-64 rounded-2xl bg-gradient-to-br from-teal-600 to-teal-500">
                     <div class="absolute inset-0 flex items-center justify-center p-6 bg-cover" style="background-image:url(https://tailwindcss.com/_next/static/media/heropatterns-bg.c2cf738690295dca4780cfdcba97c95f.svg)">
                         <div class="max-w-full w-60">
                             <div class="relative" style="padding-top:25%">
@@ -59,11 +63,13 @@
                     </div>
                 </a>
 
-                <p class="mt-6 text-gray-700">A set of free MIT-licensed high-quality SVG patterns for you to use in your web projects. </p>
-            </div>
+                <h4 class="mt-2 text-2xl font-medium text-gray-800">Heropatterns</h4>
+
+                <p class="mt-2 text-gray-700">A set of free MIT-licensed high-quality SVG patterns for you to use in your web projects. </p>
+            </div>  
 
             <div>
-                <a href="https://www.heropatterns.com/" class="relative flex h-80 xl:h-64 rounded-2xl bg-gradient-to-br from-blue-900 to-blue-800">
+                <a href="https://storyset.com" class="relative flex h-80 xl:h-64 rounded-2xl bg-gradient-to-br from-blue-900 to-blue-800">
                     <div class="absolute inset-0 flex items-center justify-center p-6 bg-cover" style="background-image:url(https://tailwindcss.com/_next/static/media/heropatterns-bg.c2cf738690295dca4780cfdcba97c95f.svg)">
                         <div class="max-w-full w-60">
                             <div class="relative">
@@ -85,23 +91,29 @@
                     </div>
                 </a>
 
-                <p class="mt-6 text-gray-700">A set of free MIT-licensed high-quality SVG patterns for you to use in your web projects. </p>
+                <h4 class="mt-2 text-2xl font-medium text-gray-800">Storyset</h4>
+                
+                <p class="mt-2 text-gray-700">Awesome free customizable illustrations for your next project Customize, animate and download our illustrations to make incredible landing pages, app or presentations. </p>
             </div>
 
             <div>
-                <a href="https://unsplash.com/" class="relative flex overflow-hidden bg-gray-900 h-80 xl:h-64 rounded-2xl">
-                    <img class="object-cover" src="~/assets/images/coolicons-cover.png" alt="unsplash">
+                <a href="https://coolicons.cool" class="relative flex overflow-hidden bg-gray-900 h-80 xl:h-64 rounded-2xl">
+                    <img class="object-cover" src="~/assets/images/coolicons-cover.png" alt="cool icons">
                 </a>
 
-                <p class="mt-6 text-gray-700">coolicons are perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source. </p>
+                <h4 class="mt-2 text-2xl font-medium text-gray-800">Coolicons</h4>
+
+                <p class="mt-2 text-gray-700">coolicons are perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source. </p>
             </div>
 
             <div>
                 <a href="https://unsplash.com/" class="relative flex overflow-hidden bg-gray-600 h-80 xl:h-64 rounded-2xl">
-                    <img class="object-cover" src="~/assets/images/unsplash.423c2dda15c11c6803adf4cf5297505e.jpg" alt="unsplash">
+                    <img class="object-cover" src="~/assets/images/unsplash.jpg" alt="unsplash">
                 </a>
+                
+                <h4 class="mt-2 text-2xl font-medium text-gray-800">Unsplash</h4>
 
-                <p class="mt-6 text-gray-700">Unsplash is an amazing resource for finding beautiful, high-resolution, free photos that you can use in your projects. </p>
+                <p class="mt-2 text-gray-700">Unsplash is an amazing resource for finding beautiful, high-resolution, free photos that you can use in your projects. </p>
             </div>
         </div>
     </div>
