@@ -27,11 +27,11 @@ export default {
         content:
           "Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
       },
-      { hid: "twitter:image", name: "twitter:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/merakiui-thumbnail.png' },
+      { hid: "twitter:image", name: "twitter:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/images/merakiui-thumbnail.png' },
       { hid: "og:title", property: "og:title", content: "Meraki UI Tailwind CSS Components" },
       { property: "og:site_name", content: "Meraki UI" },
       { hid: "og:type", property: "og:type", content: "website" },
-      { hid: "og:image", property: "og:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/merakiui-thumbnail.png' },
+      { hid: "og:image", property: "og:image", content: 'https://raw.githubusercontent.com/bakateam/merakiui/main/assets/images/merakiui-thumbnail.png' },
       {
         hid: "og:description",
         property: "og:description",

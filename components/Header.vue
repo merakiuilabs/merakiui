@@ -2,12 +2,19 @@
     <header class="bg-gray-900 border-b-4 border-blue-500 pattern">
         <nav>
             <div class="container p-4 mx-auto">
-                <div class="flex items-center justify-between">
-                    <a href="/" class="inline-flex items-center text-xl font-bold text-white md:text-2xl hover:text-blue-400">
-                        <img class="w-10 h-10 mr-1" src="../assets/svg/logo.svg" alt="logo"> <span class="hidden sm:inline">Meraki <span class="text-blue-400">UI</span></span>
-                    </a>
+                <div class="flex flex-col sm:items-center sm:flex-row sm:justify-between">
+                    <div class="flex items-center justify-between sm:justify-start sm:space-x-4 lg:space-x-12">
+                        <a href="/" class="inline-flex items-center text-xl font-bold text-white md:text-2xl hover:text-blue-400">
+                            <img class="w-10 h-10 mr-1" src="../assets/svg/logo.svg" alt="logo"> <span class="hidden md:inline">Meraki <span class="text-blue-400">UI</span></span>
+                        </a>
 
-                    <div class="flex items-center space-x-4 sm:space-x-6">
+                        <div class="mt-2 space-x-4 sm:mt-0">
+                            <a class="font-medium text-gray-200 hover:text-blue-400" href="/">Components</a>
+                            <a class="font-medium text-gray-200 hover:text-blue-400" href="/resources">Resources</a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-center mt-6 space-x-4 sm:space-x-6 sm:mt-0">
                         <a target="_blank" :href="SHARE_LINK" class="flex items-center space-x-3 font-medium text-white hover:text-blue-400 hover:underline">
                             <svg class="w-5 h-5 sm:w-6 sm:h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.995 6.68799C20.8914 6.15208 21.5622 5.30823 21.882 4.31399C21.0397 4.81379 20.118 5.16587 19.157 5.35499C17.8246 3.94552 15.7135 3.60251 14.0034 4.51764C12.2933 5.43277 11.4075 7.37948 11.841 9.26999C8.39062 9.09676 5.17598 7.4669 2.99702 4.78599C1.85986 6.74741 2.44097 9.25477 4.32502 10.516C3.64373 10.4941 2.97754 10.3096 2.38202 9.97799C2.38202 9.99599 2.38202 10.014 2.38202 10.032C2.38241 12.0751 3.82239 13.8351 5.82502 14.24C5.19308 14.4119 4.53022 14.4372 3.88702 14.314C4.45022 16.0613 6.06057 17.2583 7.89602 17.294C6.37585 18.4871 4.49849 19.1342 2.56602 19.131C2.22349 19.1315 1.88123 19.1118 1.54102 19.072C3.50341 20.333 5.78739 21.0023 8.12002 21C11.3653 21.0223 14.484 19.7429 16.7787 17.448C19.0734 15.1531 20.3526 12.0342 20.33 8.78899C20.33 8.60299 20.3257 8.41799 20.317 8.23399C21.1575 7.62659 21.8828 6.87414 22.459 6.01199C21.676 6.35905 20.8455 6.58691 19.995 6.68799Z" fill="currentColor"></path>
@@ -28,48 +35,7 @@
             </div>
         </nav>
 
-        <div class="container px-4 py-8 mx-auto md:py-0">
-            <div class="md:flex">
-                <div class="flex items-center w-full md:w-1/2 md:h-128">
-                    <div class="max-w-xl text-white">
-                        <div class="text-xs font-light">Simple UI Starter</div>
-
-                        <h1 class="mt-3 text-2xl font-semibold text-white md:text-3xl">Meraki <span class="text-blue-400">UI </span> Components</h1>
-                        
-                        <p class="mt-3 text-gray-300 md:text-lg">
-                            Beautiful <a href="https://tailwindcss.com" class="font-normal text-blue-400 hover:underline">Tailwind CSS</a> 
-                            components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant
-                            <a href="https://tailwindcss.com/docs/dark-mode" class="font-normal text-blue-400 hover:underline">Dark Mode</a>.
-                        </p>
-
-                        <div class="flex flex-wrap items-center mt-4">
-                            <a class="flex text-white cursor-pointer hover:underline">
-                                <svg class="w-5 h-5 text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
-                                </svg>
-
-                                <p class="mx-2 text-sm">{{ components_count }} Components</p>
-                            </a>
-
-                            <a class="flex ml-2 text-white hover:underline" href="https://github.com/merakiui/merakiui/blob/master/LICENSE">
-                                <svg class="w-5 h-5 text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1zm-5 8.274l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L5 10.274zm10 0l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L15 10.274z" clip-rule="evenodd" />
-                                </svg>
-
-                                <p class="mx-2 text-sm">MIT Licensed</p>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-                
-                <div class="flex items-center justify-center w-full mt-6 md:w-1/2 md:justify-end md:mt-0">
-                    <div class="w-full max-w-md">
-                        <img src="../assets/svg/Responsive-bro.svg" alt="moon">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <slot></slot>
     </header>
 </template>
 
@@ -80,7 +46,6 @@ export default {
   components: { DarkMode },
     data() {
         return {
-            components_count: 58,
             SHARE_LINK: `https://twitter.com/intent/tweet?text=${encodeURIComponent(
             'Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode 🔥. \n #tailwindcss #100DaysOfCode \n'
             )}&url=${encodeURIComponent('https://merakiui.com')}`
