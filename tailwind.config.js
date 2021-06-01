@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
     purge: [
         './components/**/*.{vue,js}',
@@ -9,6 +11,9 @@ module.exports = {
     darkMode: "class",
     theme: {
         extend: {
+            colors: {
+                teal: colors.teal,
+            },
             fontFamily: {
                 roboto: ["Roboto"],
             },
