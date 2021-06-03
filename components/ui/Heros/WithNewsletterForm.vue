@@ -19,15 +19,15 @@
                 <div class="container px-6 py-16 mx-auto">
                     <div class="items-center md:flex">
                         <div class="w-full md:w-1/2">
-                            <div class="max-w-lg">
+                            <div class="md:max-w-lg">
                                 <h1 class="text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Subscribe To The <span class="text-indigo-500">Newsletter</span></h1>
 
                                 <p class="mt-4 text-gray-600 dark:text-gray-400">be the first to knows when our <span class="font-medium text-indigo-500">Brand</span> is live</p>
 
-                                <div class="flex flex-col mt-8 space-y-3 sm:space-y-0 sm:flex-row">
+                                <div class="flex flex-col mt-8 space-y-3 md:space-y-0 md:flex-row">
                                     <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" placeholder="Email Address">
                                     
-                                    <button class="px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-500 rounded-md sm:mx-4 hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400">
+                                    <button class="w-full px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-500 rounded-md md:w-auto md:mx-4 hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400">
                                         Subscribe
                                     </button>
                                 </div>
@@ -68,15 +68,15 @@
             <div class="container px-6 py-16 mx-auto">
                 <div class="items-center md:flex">
                     <div class="w-full md:w-1/2">
-                        <div class="max-w-lg">
+                        <div class="md:max-w-lg">
                             <h1 class="text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Subscribe To The <span class="text-indigo-500">Newsletter</span></h1>
 
                             <p class="mt-4 text-gray-600 dark:text-gray-400">be the first to knows when our <span class="font-medium text-indigo-500">Brand</span> is live</p>
 
-                            <div class="flex flex-col mt-8 space-y-3 sm:space-y-0 sm:flex-row">
+                            <div class="flex flex-col mt-8 space-y-3 md:space-y-0 md:flex-row">
                                 <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" placeholder="Email Address">
                                 
-                                <button class="px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-500 rounded-md sm:mx-4 hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400">
+                                <button class="w-full px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-500 rounded-md md:w-auto md:mx-4 hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400">
                                     Subscribe
                                 </button>
                             </div>
