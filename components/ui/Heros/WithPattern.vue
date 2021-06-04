@@ -14,8 +14,8 @@
                         </div>
                     </nav>
 
-                    <div class="flex flex-col items-center py-6 md:h-128 md:flex-row">
-                        <div class="md:w-1/2">
+                    <div class="flex flex-col items-center py-6 lg:h-128 lg:flex-row">
+                        <div class="lg:w-1/2">
                             <h2 class="text-4xl font-semibold text-gray-100">Brand</h2>
 
                             <h3 class="text-2xl font-semibold text-gray-100">
@@ -25,7 +25,7 @@
                             <p class="mt-3 text-gray-100">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                         </div>
 
-                        <div class="flex mt-8 md:w-1/2 md:justify-end md:mt-0">
+                        <div class="flex mt-8 lg:w-1/2 lg:justify-end lg:mt-0">
                             <div class="max-w-sm bg-white rounded-lg dark:bg-gray-800">
                                 <div class="p-5 text-center">
                                     <h2 class="text-2xl font-semibold text-gray-700 dark:text-white fo">Sign In</h2>
@@ -89,8 +89,8 @@
                     </div>
                 </nav>
 
-                <div class="flex flex-col items-center py-6 md:h-128 md:flex-row">
-                    <div class="md:w-1/2">
+                <div class="flex flex-col items-center py-6 lg:h-128 lg:flex-row">
+                    <div class="lg:w-1/2">
                         <h2 class="text-4xl font-semibold text-gray-100">Brand</h2>
 
                         <h3 class="text-2xl font-semibold text-gray-100">
@@ -100,7 +100,7 @@
                         <p class="mt-3 text-gray-100">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                     </div>
 
-                    <div class="flex mt-8 md:w-1/2 md:justify-end md:mt-0">
+                    <div class="flex mt-8 lg:w-1/2 lg:justify-end lg:mt-0">
                         <div class="max-w-sm bg-white rounded-lg dark:bg-gray-800">
                             <div class="p-5 text-center">
                                 <h2 class="text-2xl font-semibold text-gray-700 dark:text-white fo">Sign In</h2>
