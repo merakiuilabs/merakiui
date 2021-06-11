@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white dark:bg-gray-900 font-roboto">
+    <div class="bg-white dark:bg-gray-900">
         <Nuxt />
         <footer-component />
 

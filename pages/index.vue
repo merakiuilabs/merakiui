@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="font-roboto">
     <header-component>
         <div class="container px-4 py-8 mx-auto md:py-0">
             <div class="md:flex">
