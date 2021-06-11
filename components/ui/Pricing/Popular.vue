@@ -6,7 +6,7 @@
                     <div class="sm:flex sm:items-center sm:justify-between">
                         <div>
                             <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Simple, transparent pricing</h2>
-                            <p class="mt-4 text-gray-500 dark:text-gray-400">No Contracts. No surorise fees.</p>
+                            <p class="mt-4 text-gray-500 dark:text-gray-400">No Contracts. No surprise fees.</p>
                         </div>
 
                         <div class="overflow-hidden p-0.5 mt-6 border rounded-lg dark:border-gray-700">
