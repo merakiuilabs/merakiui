@@ -8,7 +8,7 @@
                             <div>
                                 <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
                             </div>
-                            
+
                             <!-- Mobile menu button -->
                             <div class="flex lg:hidden">
                                 <button @click="isOpen = !isOpen" type="button" class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
@@ -25,7 +25,7 @@
                             <a href="#" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">docs</a>
                             <a href="#" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">support</a>
                             <a href="#" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">blog</a>
-                            
+
                             <div class="relative mt-4 lg:mt-0 lg:mx-4">
                                 <span class="absolute inset-y-0 left-0 flex items-center pl-3">
                                     <svg class="w-4 h-4 text-gray-600 dark:text-gray-300" viewBox="0 0 24 24" fill="none">
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div :class="isOpen ? 'flex' : 'hidden'" class="justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
                         <a href="#" class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit">
                             <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
@@ -77,7 +77,7 @@
     export default {
         data() {
             return {
-                name: 'With Socail Media Links',
+                name: 'With Social Media Links',
                 isOpen: false,
                 code: `
         <nav class="bg-white shadow dark:bg-gray-800">
@@ -87,7 +87,7 @@
                         <div>
                             <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
                         </div>
-                        
+
                         <!-- Mobile menu button -->
                         <div class="flex lg:hidden">
                             <button type="button" class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
@@ -104,7 +104,7 @@
                         <a href="#" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">docs</a>
                         <a href="#" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">support</a>
                         <a href="#" class="mt-2 lg:mt-0 lg:mx-4 hover:text-gray-800 dark:hover:text-gray-200">blog</a>
-                        
+
                         <div class="relative mt-4 lg:mt-0 lg:mx-4">
                             <span class="absolute inset-y-0 left-0 flex items-center pl-3">
                                 <svg class="w-4 h-4 text-gray-600 dark:text-gray-300" viewBox="0 0 24 24" fill="none">
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
                     <a href="#" class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit">
                         <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"

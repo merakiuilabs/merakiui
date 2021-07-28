@@ -17,7 +17,7 @@ export default [
         name: "Authentication",
         components: [
             { name: "SimpleLogin" },
-            { name: "LoginWithSocailMediaLinks" },
+            { name: "LoginWithSocialMediaLinks" },
             { name: "LoginWithSideImage" },
         ],
     },
@@ -64,7 +64,7 @@ export default [
             { name: "ECommerce" },
             { name: "WithSearch" },
             { name: "WithAvatar" },
-            { name: "WithSocailMediaLinks" },
+            { name: "WithSocialMediaLinks" },
             { name: "WithCategories" },
         ],
     },
