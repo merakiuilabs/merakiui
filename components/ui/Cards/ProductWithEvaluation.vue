@@ -1,5 +1,5 @@
 <template>
-    <view-component :name="name" :code="code">
+    <view-component :name="name" :code="code" :playUrl="'https://play.tailwindcss.com/gmih0DXnHV'">
         <div class="px-3 py-6" slot="component">
             <div class="flex max-w-md mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
                 <div class="w-1/3 bg-cover" style="background-image: url('https://images.unsplash.com/photo-1494726161322-5360d4d0eeae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')"></div>
