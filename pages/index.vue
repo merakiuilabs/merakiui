@@ -8,9 +8,9 @@
                         <div class="text-xs font-light">Simple UI Starter</div>
 
                         <h1 class="mt-3 text-2xl font-semibold text-white md:text-3xl">Meraki <span class="text-blue-400">UI </span> Components</h1>
-                        
+
                         <p class="mt-3 text-gray-300 md:text-lg">
-                            Beautiful <a href="https://tailwindcss.com" class="font-normal text-blue-400 hover:underline">Tailwind CSS</a> 
+                            Beautiful <a href="https://tailwindcss.com" class="font-normal text-blue-400 hover:underline">Tailwind CSS</a>
                             components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant
                             <a href="https://tailwindcss.com/docs/dark-mode" class="font-normal text-blue-400 hover:underline">Dark Mode</a>.
                         </p>
@@ -35,7 +35,7 @@
 
                     </div>
                 </div>
-                
+
                 <div class="flex items-center justify-center w-full mt-6 md:w-1/2 md:justify-end md:mt-0">
                     <div class="w-full max-w-md">
                         <img src="../assets/svg/Responsive-bro.svg" alt="moon">
@@ -116,7 +116,7 @@ import AlertsWarningFullWidth from "~/components/ui/Alerts/WarningFullWidth";
 import AlertsErrorFullWidth from "~/components/ui/Alerts/ErrorFullWidth";
 // Authentication
 import AuthenticationSimpleLogin from "~/components/ui/Authentication/SimpleLogin";
-import AuthenticationLoginWithSocailMediaLinks from "~/components/ui/Authentication/LoginWithSocailMediaLinks";
+import AuthenticationLoginWithSocialMediaLinks from "~/components/ui/Authentication/LoginWithSocialMediaLinks";
 import AuthenticationLoginWithSideImage from "~/components/ui/Authentication/LoginWithSideImage";
 // Buttons
 import ButtonsPrimary from "~/components/ui/Buttons/Primary";
@@ -147,7 +147,7 @@ import NavbarsECommerce from "~/components/ui/Navbars/ECommerce";
 import NavbarsWithAvatar from "~/components/ui/Navbars/WithAvatar";
 import NavbarsWithSearch from "~/components/ui/Navbars/WithSearch";
 import NavbarsWithCategories from "~/components/ui/Navbars/WithCategories";
-import NavbarsWithSocailMediaLinks from "~/components/ui/Navbars/WithSocailMediaLinks";
+import NavbarsWithSocialMediaLinks from "~/components/ui/Navbars/WithSocialMediaLinks";
 // Heros
 import HerosECommerce from "~/components/ui/Heros/ECommerce";
 import HerosWithNewsletterForm from "~/components/ui/Heros/WithNewsletterForm";
@@ -193,7 +193,7 @@ export default {
         AlertsWarningFullWidth,
         AlertsErrorFullWidth,
         AuthenticationSimpleLogin,
-        AuthenticationLoginWithSocailMediaLinks,
+        AuthenticationLoginWithSocialMediaLinks,
         AuthenticationLoginWithSideImage,
         ButtonsPrimary,
         ButtonsWithIcon,
@@ -218,7 +218,7 @@ export default {
         NavbarsECommerce,
         NavbarsWithAvatar,
         NavbarsWithSearch,
-        NavbarsWithSocailMediaLinks,
+        NavbarsWithSocialMediaLinks,
         NavbarsWithCategories,
         HerosECommerce,
         HerosWithNewsletterForm,
@@ -242,7 +242,7 @@ export default {
         FootersWithLinks,
         FootersWithSubscribeForm,
     },
-    
+
     data() {
         return {
             components_count: 58,
