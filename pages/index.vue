@@ -36,7 +36,7 @@
                     </div>
                 </div>
 
-                <div class="flex items-center justify-center w-full mt-6 lg:w-1/2 lg:mt-0">
+                <div class="hidden w-full mt-6 md:flex md:items-center md:justify-center lg:w-1/2 lg:mt-0">
                     <div class="w-full animate-float">
                         <img src="../assets/images/header-img.png" alt="moon">
                     </div>
