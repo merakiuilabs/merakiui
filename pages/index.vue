@@ -134,6 +134,10 @@ import CardsUser from "~/components/ui/Cards/User";
 import CardsUserWithDetails from "~/components/ui/Cards/UserWithDetails";
 // Dropdowns
 import DropdownsSimple from "~/components/ui/Dropdowns/Simple";
+import DropdownsMultiLevel from "~/components/ui/Dropdowns/MultiLevel";
+import DropdownsMultiLevelWithIcons from "~/components/ui/Dropdowns/MultiLevelWithIcons";
+import DropdownsUserInfo from "~/components/ui/Dropdowns/UserInfo";
+import DropdownsUserInfoWithIcons from "~/components/ui/Dropdowns/UserInfoWithIcons";
 import DropdownsNotification from "~/components/ui/Dropdowns/Notification";
 // Forms
 import FormsNewsletter from "~/components/ui/Forms/Newsletter";
@@ -208,6 +212,10 @@ export default {
         CardsUser,
         CardsUserWithDetails,
         DropdownsSimple,
+        DropdownsMultiLevel,
+        DropdownsMultiLevelWithIcons,
+        DropdownsUserInfo,
+        DropdownsUserInfoWithIcons,
         DropdownsNotification,
         FormsNewsletter,
         FormsSimpleNewsletter,
@@ -245,7 +253,7 @@ export default {
 
     data() {
         return {
-            components_count: 58,
+            components_count: 62,
             categories: [],
             activeCategory: "Alerts",
             component: new Component(),

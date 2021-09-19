@@ -2,12 +2,12 @@ const colors = require('tailwindcss/colors');
 
 module.exports = {
     purge: [
-        './components/**/*.{vue,js}',
-        './pages/**/*.vue',
-        './plugins/**/*.{js,ts}',
-        './nuxt.config.{js,ts}',
+        "./components/**/*.{vue,js}",
+        "./pages/**/*.vue",
+        "./plugins/**/*.{js,ts}",
+        "./nuxt.config.{js,ts}",
     ],
-    mode: 'jit',
+    mode: "jit",
     darkMode: "class",
     theme: {
         extend: {
@@ -18,6 +18,7 @@ module.exports = {
                 roboto: ["Roboto"],
             },
             spacing: {
+                104: "26rem",
                 128: "32rem",
             },
         },

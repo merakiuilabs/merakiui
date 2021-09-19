@@ -55,7 +55,14 @@ export default [
     },
     {
         name: "Dropdowns",
-        components: [{ name: "Simple" }, { name: "Notification" }],
+        components: [
+            { name: "Simple" },
+            { name: "MultiLevel" },
+            { name: "MultiLevelWithIcons" },
+            { name: "UserInfo" },
+            { name: "UserInfoWithIcons" },
+            { name: "Notification" },
+        ],
     },
     {
         name: "Navbars",
@@ -95,7 +102,11 @@ export default [
     },
     {
         name: "Pricing",
-        components: [{ name: "Simple" }, { name: "Popular" }, { name: "WithNavigation" }],
+        components: [
+            { name: "Simple" },
+            { name: "Popular" },
+            { name: "WithNavigation" },
+        ],
     },
     {
         name: "Pagination",
