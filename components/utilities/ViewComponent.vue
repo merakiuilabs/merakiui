@@ -43,14 +43,14 @@
         </div>
 
         <div :class="{ 'dark': dark }">
-            <div class="flex items-center justify-center mt-4 overflow-hidden bg-gray-300 border rounded-lg dark:border-gray-600 dark:bg-gray-600">
+            <div class="flex items-center justify-center mt-4 overflow-hidden bg-gray-200 border rounded-lg dark:border-gray-600 dark:bg-gray-600">
                 <div class="relative w-full" :dir="rtl? 'rtl' : 'ltr'">
                     <slot class="absolute top-0 left-0 w-full h-full" name="component"></slot>
 
                     <transition name="fade">
                         <div v-if="copied">
                             <div class="absolute top-0 left-0 z-50 w-full h-full">
-                                <div class="flex items-center justify-center h-full bg-gray-300 dark:bg-gray-700">
+                                <div class="flex items-center justify-center h-full bg-gray-200 dark:bg-gray-700">
                                     <p class="text-2xl text-gray-700 dark:text-gray-200">Copied!</p>
                                 </div>
                             </div>

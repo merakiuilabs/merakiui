@@ -96,6 +96,7 @@ export default [
         components: [
             { name: "AboutMe" },
             { name: "Feature" },
+            { name: "Products" },
             { name: "OurTeam" },
             { name: "ParagraphWithImage" },
         ],
