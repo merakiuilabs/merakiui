@@ -160,6 +160,7 @@ import NavbarsWithSocialMediaLinks from "~/components/ui/Navbars/WithSocialMedia
 // Heros
 import HerosECommerce from "~/components/ui/Heros/ECommerce";
 import HerosWithNewsletterForm from "~/components/ui/Heros/WithNewsletterForm";
+import HerosCenterContent from "~/components/ui/Heros/CenterContent";
 import HerosWithSlide from "~/components/ui/Heros/WithSlide";
 import HerosWithImage from "~/components/ui/Heros/WithImage";
 import HerosWithSideImage from "~/components/ui/Heros/WithSideImage";
@@ -171,7 +172,7 @@ import SidebarWithAvatar from "~/components/ui/Sidebar/WithAvatar";
 // Sections
 import SectionsAboutMe from "~/components/ui/Sections/AboutMe";
 import SectionsFeature from "~/components/ui/Sections/Feature";
-import SectionsProducts from "~/components/ui/Sections/Products";
+import SectionsProductsWithSideLinks from "~/components/ui/Sections/ProductsWithSideLinks";
 import SectionsOurTeam from "~/components/ui/Sections/OurTeam";
 import SectionsParagraphWithImage from "~/components/ui/Sections/ParagraphWithImage";
 // Pricing
@@ -236,6 +237,7 @@ export default {
         NavbarsWithCategories,
         HerosECommerce,
         HerosWithNewsletterForm,
+        HerosCenterContent,
         HerosWithSlide,
         HerosWithImage,
         HerosWithSideImage,
@@ -245,7 +247,7 @@ export default {
         SidebarWithSearch,
         SectionsAboutMe,
         SectionsFeature,
-        SectionsProducts,
+        SectionsProductsWithSideLinks,
         SectionsOurTeam,
         SectionsParagraphWithImage,
         PricingSimple,

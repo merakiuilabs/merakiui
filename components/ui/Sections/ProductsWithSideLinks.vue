@@ -94,7 +94,7 @@
     export default {
         data() {
             return {
-                name: 'Products',
+                name: 'Products With Side Links',
                 code:  `
         <section class="bg-white dark:bg-gray-900">
             <div class="container px-6 py-8 mx-auto">

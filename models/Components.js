@@ -80,6 +80,7 @@ export default [
         components: [
             { name: "ECommerce" },
             { name: "WithNewsletterForm" },
+            { name: "CenterContent" },
             { name: "WithSlide" },
             { name: "WithImage" },
             { name: "WithSideImage" },
@@ -96,7 +97,7 @@ export default [
         components: [
             { name: "AboutMe" },
             { name: "Feature" },
-            { name: "Products" },
+            { name: "ProductsWithSideLinks" },
             { name: "OurTeam" },
             { name: "ParagraphWithImage" },
         ],
