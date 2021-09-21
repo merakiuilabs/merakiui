@@ -45,7 +45,7 @@
         </div>
     </header-component>
 
-    <div class="flex h-screen bg-white font-roboto">
+    <div class="flex bg-white lg:h-screen font-roboto">
         <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-20 transition-opacity bg-black opacity-50 lg:hidden"></div>
         
         <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-30 flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto transition duration-300 transform bg-white border-r border-gray-200 lg:translate-x-0 lg:static lg:inset-0">
@@ -74,7 +74,7 @@
         </div>
 
         <div class="flex flex-col flex-1 overflow-hidden">
-            <main class="flex-1 overflow-x-hidden overflow-y-auto">
+            <main class="flex-1 lg:overflow-y-auto">
                 <div class="container px-4 mx-auto">
                     <div class="py-16 text-center">
                         <h1
