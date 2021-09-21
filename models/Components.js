@@ -118,6 +118,7 @@ export default [
         name: "Footers",
         components: [
             { name: "Simple" },
+            { name: "WithCta" },
             { name: "WithDetails" },
             { name: "WithLinks" },
             { name: "WithSubscribeForm" },

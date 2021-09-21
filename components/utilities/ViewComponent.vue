@@ -43,7 +43,7 @@
         </div>
 
         <div :class="{ 'dark': dark }">
-            <div class="flex items-center justify-center mt-4 overflow-hidden bg-gray-200 border rounded-lg dark:border-gray-600">
+            <div class="flex items-center justify-center mt-4 overflow-hidden bg-gray-200 border rounded-lg dark:bg-gray-700 dark:border-gray-600">
                 <div class="relative w-full" :dir="rtl? 'rtl' : 'ltr'">
                     <slot class="absolute top-0 left-0 w-full h-full" name="component"></slot>
 

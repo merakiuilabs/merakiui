@@ -76,7 +76,7 @@
         <div class="flex flex-col flex-1 overflow-hidden">
             <main class="flex-1 lg:overflow-y-auto">
                 <div class="container px-4 mx-auto">
-                    <div class="py-16 text-center">
+                    <div class="py-8 text-center md:py-16">
                         <h1
                             class="text-xl font-medium text-gray-700 sm:flex sm:items-center sm:justify-center lg:text-3xl"
                         >
@@ -216,6 +216,7 @@ import PricingWithNavigation from "~/components/ui//Pricing/WithNavigation";
 import PaginationSimple from "~/components/ui/Pagination/Simple";
 // Footers
 import FootersSimple from "~/components/ui/Footers/Simple";
+import FootersWithCta from "~/components/ui/Footers/WithCta";
 import FootersWithDetails from "~/components/ui/Footers/WithDetails";
 import FootersWithLinks from "~/components/ui/Footers/WithLinks";
 import FootersWithSubscribeForm from "~/components/ui/Footers/WithSubscribeForm";
@@ -288,6 +289,7 @@ export default {
         PricingWithNavigation,
         PaginationSimple,
         FootersSimple,
+        FootersWithCta,
         FootersWithDetails,
         FootersWithLinks,
         FootersWithSubscribeForm,
@@ -296,7 +298,7 @@ export default {
     data() {
         return {
             sidebarOpen: false,
-            components_count: 64,
+            components_count: 65,
             categories: [],
             activeCategory: "Alerts",
             component: new Component(),
