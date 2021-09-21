@@ -5,7 +5,7 @@
                 <div class="flex flex-col sm:items-center sm:flex-row sm:justify-between">
                     <div class="flex items-center justify-between sm:justify-start sm:space-x-4 lg:space-x-12">
                         <a href="/" class="inline-flex items-center text-xl font-bold text-white md:text-2xl hover:text-blue-400">
-                            <img class="w-10 h-10 mr-1" src="../assets/svg/logo.svg" alt="logo"> <span class="hidden md:inline">Meraki <span class="text-blue-400">UI</span></span>
+                            <img class="mr-2 w-7 h-7" src="../assets/svg/logo.svg" alt="logo"> <span class="hidden md:inline">Meraki <span class="text-blue-400">UI</span></span>
                         </a>
 
                         <div class="mt-2 space-x-4 sm:mt-0">
