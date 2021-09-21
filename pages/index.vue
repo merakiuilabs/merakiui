@@ -1,5 +1,5 @@
 <template>
-<div class="font-roboto">
+<div class="relative font-roboto">
     <header-component>
         <div class="container px-4 py-8 mx-auto lg:py-0">
             <div class="lg:flex">
@@ -46,7 +46,9 @@
     </header-component>
 
     <div class="flex h-screen bg-white font-roboto">
-        <div class="flex flex-col w-64 h-screen px-4 py-8 bg-white border-r border-gray-200">
+        <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-20 transition-opacity bg-black opacity-50 lg:hidden"></div>
+        
+        <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-30 flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto transition duration-300 transform bg-white border-r border-gray-200 lg:translate-x-0 lg:static lg:inset-0">
             <a href="/" class="inline-flex items-center text-xl font-bold text-gray-700 md:text-2xl hover:text-blue-500">
                 <img class="mr-2 w-7 h-7" src="../assets/svg/logo-sidebar.svg" alt="logo"> <span class="hidden md:inline">Meraki <span class="text-blue-500">UI</span></span>
             </a>
@@ -57,7 +59,7 @@
                     :key="category.name"
                 >
                     <app-button
-                        @click="activeCategory = category.name"
+                        @click="updateCategory(category.name)"
                         class="block px-4 py-2 mt-2 font-medium rounded-md focus:outline-none"
                         :class="
                             category.name === activeCategory
@@ -121,6 +123,17 @@
             </main>
         </div>
     </div>
+
+    <button @click="sidebarOpen = !sidebarOpen" type="button" class="fixed z-50 flex items-center justify-center p-2 text-white bg-gray-900 rounded-full focus:outline-none lg:hidden bottom-4 right-4">
+        <span class="sr-only">Open site navigation</span>
+        <svg v-if="!sidebarOpen" class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 18H9V16H21V18ZM21 13H3V11H21V13ZM21 8H9V6H21V8Z" fill="currentColor"></path>
+        </svg>
+
+        <svg v-if="sidebarOpen" class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.59 7L12 10.59L8.41 7L7 8.41L10.59 12L7 15.59L8.41 17L12 13.41L15.59 17L17 15.59L13.41 12L17 8.41L15.59 7Z" fill="currentColor"></path>
+        </svg>
+    </button>
 </div>
 </template>
 
@@ -282,6 +295,7 @@ export default {
 
     data() {
         return {
+            sidebarOpen: false,
             components_count: 64,
             categories: [],
             activeCategory: "Alerts",
@@ -298,5 +312,12 @@ export default {
             return this.component.whereCategory(this.activeCategory);
         },
     },
+
+    methods: {
+        updateCategory(category) {
+            this.activeCategory = category;
+            this.sidebarOpen = false;
+        }
+    }
 };
 </script>
