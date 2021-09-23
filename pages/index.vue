@@ -45,7 +45,7 @@
         </div>
     </header-component>
 
-    <div class="flex bg-white lg:h-screen font-roboto">
+    <div id="components" class="flex bg-white lg:h-screen">
         <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-20 transition-opacity bg-black opacity-50 lg:hidden"></div>
         
         <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-30 flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto transition duration-300 transform bg-white border-r border-gray-200 lg:translate-x-0 lg:static lg:inset-0">
@@ -57,15 +57,13 @@
                 <div
                     v-for="category in categories"
                     :key="category.name"
-                >
-                    <app-button
-                        @click="updateCategory(category.name)"
-                        class="block px-4 py-2 mt-2 font-medium rounded-md focus:outline-none"
-                        :class="
+                    class="block px-4 py-2 mt-1 rounded-md focus:outline-none"
+                    :class="
                             category.name === activeCategory
                                 ? 'text-blue-500 bg-blue-50'
                                 : 'text-gray-500 hover:text-blue-500 hover:underline'"
-                        >
+                >
+                    <app-button @click="updateCategory(category.name)" class="w-full text-left">
                         {{ category.name }}
                     </app-button>
                 </div>
@@ -75,7 +73,7 @@
 
         <div class="flex flex-col flex-1 overflow-hidden">
             <main class="flex-1 lg:overflow-y-auto">
-                <div class="container px-4 mx-auto">
+                <div id="main" class="container px-4 mx-auto">
                     <div class="py-8 text-center md:py-16">
                         <h1
                             class="text-xl font-medium text-gray-700 sm:flex sm:items-center sm:justify-center lg:text-3xl"
@@ -319,6 +317,7 @@ export default {
         updateCategory(category) {
             this.activeCategory = category;
             this.sidebarOpen = false;
+            window.location.href = '/#main';
         }
     }
 };
