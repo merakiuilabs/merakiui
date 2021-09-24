@@ -5,12 +5,12 @@
                 <div class="flex flex-col sm:items-center sm:flex-row sm:justify-between">
                     <div class="flex items-center justify-between sm:justify-start sm:space-x-4 lg:space-x-12">
                         <a href="/" class="inline-flex items-center text-xl font-bold text-white md:text-2xl hover:text-blue-400">
-                            <img class="w-10 h-10 mr-1" src="../assets/svg/logo.svg" alt="logo"> <span class="hidden md:inline">Meraki <span class="text-blue-400">UI</span></span>
+                            <img class="mr-2 w-7 h-7" src="../assets/svg/logo.svg" alt="logo"> <span class="hidden md:inline">Meraki <span class="text-blue-400">UI</span></span>
                         </a>
 
                         <div class="mt-2 space-x-4 sm:mt-0">
-                            <NuxtLink class="font-medium text-gray-200 hover:text-blue-400" to="/">Components</NuxtLink>
-                            <NuxtLink class="font-medium text-gray-200 hover:text-blue-400" to="/resources">Resources</NuxtLink>
+                            <a class="font-medium text-gray-200 hover:text-blue-400" href="/#main">Components</a>
+                            <a class="font-medium text-gray-200 hover:text-blue-400" href="/resources">Resources</a>
                         </div>
                     </div>
 
@@ -22,8 +22,6 @@
 
                             <span>Share on twitter</span>
                         </a>
-
-                        <dark-mode />
 
                         <a class="text-white hover:text-blue-400" href="https://github.com/bakateam/merakiui" target="_blink">
                             <svg class="w-5 h-5 fill-current sm:w-6 sm:h-6" viewBox="0 0 30 30">
@@ -40,10 +38,7 @@
 </template>
 
 <script>
-import DarkMode from './utilities/DarkMode.vue';
-
 export default {
-  components: { DarkMode },
     data() {
         return {
             SHARE_LINK: `https://twitter.com/intent/tweet?text=${encodeURIComponent(

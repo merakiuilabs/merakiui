@@ -55,7 +55,14 @@ export default [
     },
     {
         name: "Dropdowns",
-        components: [{ name: "Simple" }, { name: "Notification" }],
+        components: [
+            { name: "Simple" },
+            { name: "MultiLevel" },
+            { name: "MultiLevelWithIcons" },
+            { name: "UserInfo" },
+            { name: "UserInfoWithIcons" },
+            { name: "Notification" },
+        ],
     },
     {
         name: "Navbars",
@@ -73,6 +80,7 @@ export default [
         components: [
             { name: "ECommerce" },
             { name: "WithNewsletterForm" },
+            { name: "CenterContent" },
             { name: "WithSlide" },
             { name: "WithImage" },
             { name: "WithSideImage" },
@@ -89,13 +97,18 @@ export default [
         components: [
             { name: "AboutMe" },
             { name: "Feature" },
+            { name: "ProductsWithSideLinks" },
             { name: "OurTeam" },
             { name: "ParagraphWithImage" },
         ],
     },
     {
         name: "Pricing",
-        components: [{ name: "Simple" }, { name: "Popular" }, { name: "WithNavigation" }],
+        components: [
+            { name: "Simple" },
+            { name: "Popular" },
+            { name: "WithNavigation" },
+        ],
     },
     {
         name: "Pagination",
@@ -105,6 +118,7 @@ export default [
         name: "Footers",
         components: [
             { name: "Simple" },
+            { name: "WithCta" },
             { name: "WithDetails" },
             { name: "WithLinks" },
             { name: "WithSubscribeForm" },
