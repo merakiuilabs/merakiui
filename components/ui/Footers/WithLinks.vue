@@ -145,7 +145,7 @@
                         </div>
                     </div>
 
-                    <hr class="my-10 dark:border-gray-500">
+                    <hr class="my-10 dark:border-gray-700">
 
                     <div class="sm:flex sm:items-center sm:justify-between">
                         <p class="text-sm text-gray-400">© Copyright 2021. All Rights Reserved.</p>
@@ -336,7 +336,7 @@
                     </div>
                 </div>
 
-                <hr class="my-10 dark:border-gray-500">
+                <hr class="my-10 dark:border-gray-700">
 
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <p class="text-sm text-gray-400">© Copyright 2021. All Rights Reserved.</p>

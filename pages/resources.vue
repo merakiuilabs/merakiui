@@ -4,11 +4,11 @@
         
         <div class="container px-4 py-12 mx-auto">
             <div class="max-w-xl mx-auto text-center">
-                <h1 class="text-xl font-medium text-gray-800 md:text-3xl dark:text-white">
+                <h1 class="text-xl font-medium text-gray-800 md:text-3xl">
                     Resources 👌
                 </h1>
 
-                <p class="mt-4 text-gray-600 dark:text-gray-400 md:text-xl">
+                <p class="mt-4 text-gray-600 md:text-xl">
                     We are using many design resources on building 
                     <a href="/components" target="_blank" class="text-blue-500 hover:underline">Meraki UI Components</a>
                     you can check them all the resources are free.
@@ -25,9 +25,9 @@
                         <img class="object-cover" src="~/assets/images/tailwindcss.jpg" alt="tailwindcss">
                     </a>
                     
-                    <h4 class="mt-2 text-2xl font-medium text-gray-800 dark:text-white">Tailwind CSS</h4>
+                    <h4 class="mt-2 text-2xl font-medium text-gray-800">Tailwind CSS</h4>
 
-                    <p class="mt-2 text-gray-700 dark:text-gray-400">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup. </p>
+                    <p class="mt-2 text-gray-700">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup. </p>
                 </div>
                 
                 <div>
@@ -44,9 +44,9 @@
                         </div>
                     </a>
                     
-                    <h4 class="mt-2 text-2xl font-medium text-gray-800 dark:text-white">Heroicons</h4>
+                    <h4 class="mt-2 text-2xl font-medium text-gray-800">Heroicons</h4>
 
-                    <p class="mt-2 text-gray-700 dark:text-gray-400">A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.</p>
+                    <p class="mt-2 text-gray-700">A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.</p>
                 </div>
 
                 <div>
@@ -63,9 +63,9 @@
                         </div>
                     </a>
 
-                    <h4 class="mt-2 text-2xl font-medium text-gray-800 dark:text-white">Heropatterns</h4>
+                    <h4 class="mt-2 text-2xl font-medium text-gray-800">Heropatterns</h4>
 
-                    <p class="mt-2 text-gray-700 dark:text-gray-400">A set of free MIT-licensed high-quality SVG patterns for you to use in your web projects. </p>
+                    <p class="mt-2 text-gray-700">A set of free MIT-licensed high-quality SVG patterns for you to use in your web projects. </p>
                 </div>  
 
                 <div>
@@ -91,9 +91,9 @@
                         </div>
                     </a>
 
-                    <h4 class="mt-2 text-2xl font-medium text-gray-800 dark:text-white">Storyset</h4>
+                    <h4 class="mt-2 text-2xl font-medium text-gray-800">Storyset</h4>
                     
-                    <p class="mt-2 text-gray-700 dark:text-gray-400">Awesome free customizable illustrations for your next project Customize, animate and download our illustrations to make incredible landing pages, app or presentations. </p>
+                    <p class="mt-2 text-gray-700">Awesome free customizable illustrations for your next project Customize, animate and download our illustrations to make incredible landing pages, app or presentations. </p>
                 </div>
 
                 <div>
@@ -101,9 +101,9 @@
                         <img class="object-cover" src="~/assets/images/coolicons-cover.png" alt="cool icons">
                     </a>
 
-                    <h4 class="mt-2 text-2xl font-medium text-gray-800 dark:text-white">Coolicons</h4>
+                    <h4 class="mt-2 text-2xl font-medium text-gray-800">Coolicons</h4>
 
-                    <p class="mt-2 text-gray-700 dark:text-gray-400">coolicons are perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source. </p>
+                    <p class="mt-2 text-gray-700">coolicons are perfect for use in web and mobile. Support for SVG, your favourite design tool and webfont. Completely free and open source. </p>
                 </div>
 
                 <div>
@@ -111,9 +111,9 @@
                         <img class="object-cover" src="~/assets/images/unsplash.jpg" alt="unsplash">
                     </a>
                     
-                    <h4 class="mt-2 text-2xl font-medium text-gray-800 dark:text-white">Unsplash</h4>
+                    <h4 class="mt-2 text-2xl font-medium text-gray-800">Unsplash</h4>
 
-                    <p class="mt-2 text-gray-700 dark:text-gray-400">Unsplash is an amazing resource for finding beautiful, high-resolution, free photos that you can use in your projects. </p>
+                    <p class="mt-2 text-gray-700">Unsplash is an amazing resource for finding beautiful, high-resolution, free photos that you can use in your projects. </p>
                 </div>
             </div>
         </div>
