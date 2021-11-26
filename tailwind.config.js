@@ -28,7 +28,7 @@ module.exports = {
                 teal: colors.teal,
             },
             fontFamily: {
-                roboto: ["Roboto"],
+                roboto: ["Roboto", "sans-serif"],
             },
             spacing: {
                 104: "26rem",
