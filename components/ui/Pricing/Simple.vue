@@ -41,7 +41,7 @@
                                 <h2
                                     class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
                                 >
-                                    Profesional
+                                    Professional
                                 </h2>
                             </div>
                             <div class="flex-shrink-0">
@@ -171,7 +171,7 @@ export default {
                         <h2
                             class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
                         >
-                            Profesional
+                            Professional
                         </h2>
                     </div>
                     <div class="flex-shrink-0">
