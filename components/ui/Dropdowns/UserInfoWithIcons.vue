@@ -1,5 +1,5 @@
 <template>
-    <view-component :name="name" :code="code" :playUrl="'https://play.tailwindcss.com/YhrZ3IvlLv'">
+    <view-component :name="name" :code="code">
         <div class="flex justify-end px-3 pt-6 pb-128 sm:justify-center" slot="component">
             <div class="relative inline-block ">
                 <!-- Dropdown toggle button -->

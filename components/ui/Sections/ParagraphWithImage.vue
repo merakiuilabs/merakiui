@@ -1,5 +1,5 @@
 <template>
-    <view-component :name="name" :code="code" :playUrl="'https://play.tailwindcss.com/TR4lhfvru8'">
+    <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
             <section class="bg-gray-100 dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
                 <div class="bg-white dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
