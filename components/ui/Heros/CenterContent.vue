@@ -23,14 +23,14 @@
                     </div>
             
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-                    <div :class="isOpen ? 'flex' : 'hidden lg:flex'" class="flex-col mt-4 space-y-2 lg:mt-0 lg:flex-row lg:space-x-16 lg:space-y-0">
-                        <a class="text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
+                    <div :class="isOpen ? 'flex' : 'hidden lg:flex'" class="flex-col mt-4 space-y-2 lg:mt-0 lg:flex-row lg:-px-8 lg:space-y-0">
+                        <a class="mx-8 text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
                             href="#">Home</a>
-                        <a class="text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
+                        <a class="mx-8 text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
                             href="#">Components</a>
-                        <a class="text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
+                        <a class="mx-8 text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
                             href="#">Pricing</a>
-                        <a class="text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
+                        <a class="mx-8 text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
                             href="#">Contact</a>
                     </div>
             
@@ -90,14 +90,14 @@
                 </div>
         
                 <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-                <div class="flex flex-col mt-4 space-y-2 lg:mt-0 lg:flex-row lg:space-x-16 lg:space-y-0">
-                    <a class="text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
+                <div class="flex flex-col mt-4 space-y-2 lg:mt-0 lg:flex-row lg:-px-8 lg:space-y-0">
+                    <a class="mx-8 text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">Home</a>
-                    <a class="text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
+                    <a class="mx-8 text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">Components</a>
-                    <a class="text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
+                    <a class="mx-8 text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">Pricing</a>
-                    <a class="text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
+                    <a class="mx-8 text-gray-700 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">Contact</a>
                 </div>
         

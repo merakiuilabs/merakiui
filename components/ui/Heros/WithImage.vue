@@ -21,11 +21,11 @@
 
                         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                         <div :class="isOpen ? '' : 'hidden'" class="items-center lg:flex">
-                            <div class="flex flex-col mt-4 space-y-8 lg:flex-row lg:items-center lg:mt-0 lg:space-y-0 lg:space-x-16">
-                                <a class="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">glasses Search</a>
-                                <a class="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">How it works!</a>
-                                <a class="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">Why us?</a>
-                                <a class="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">Contact</a>
+                            <div class="flex flex-col mt-4 space-y-8 lg:flex-row lg:items-center lg:mt-0 lg:space-y-0 lg:-px-8">
+                                <a class="block font-medium text-gray-700 dark:text-gray-200 lg:mx-8 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">glasses Search</a>
+                                <a class="block font-medium text-gray-700 dark:text-gray-200 lg:mx-8 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">How it works!</a>
+                                <a class="block font-medium text-gray-700 dark:text-gray-200 lg:mx-8 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">Why us?</a>
+                                <a class="block font-medium text-gray-700 dark:text-gray-200 lg:mx-8 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">Contact</a>
 
                                 <button class="flex items-center justify-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-200 transform bg-gray-700 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
                                     Get in touch
@@ -35,58 +35,58 @@
                     </div>
                 </nav>
 
-                <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center lg:space-x-6">
+                <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center">
                     <div class="w-full lg:w-1/2">
                         <div class="lg:max-w-lg">
                             <h1 class="text-2xl font-medium tracking-wide text-gray-800 dark:text-white lg:text-4xl">Find your premium new glasses exported from US</h1>
                             <p class="mt-2 text-gray-600 dark:text-gray-300">We work with the best remunated glasses dealers in US to find your new glasses.</p>
                             <div class="grid gap-6 mt-8 sm:grid-cols-2">
-                                <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                    <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span>Premium selection</span>
+                                    <span class="mx-3">Premium selection</span>
                                 </div>
 
-                                <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                    <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span>Insurance</span>
+                                    <span class="mx-3">Insurance</span>
                                 </div>
 
-                                <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                    <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span>All legal documents</span>
+                                    <span class="mx-3">All legal documents</span>
                                 </div>
 
-                                <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                    <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span>From US glasses dealers</span>
+                                    <span class="mx-3">From US glasses dealers</span>
                                 </div>
 
-                                <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                    <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span>Payment Security</span>
+                                    <span class="mx-3">Payment Security</span>
                                 </div>
 
-                                <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                    <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span>Fast shipping (+ Express)</span>
+                                    <span class="mx-3">Fast shipping (+ Express)</span>
                                 </div>
                             </div>
                         </div>
@@ -139,11 +139,11 @@
 
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                     <div class="items-center lg:flex">
-                        <div class="flex flex-col mt-4 space-y-8 lg:flex-row lg:items-center lg:mt-0 lg:space-y-0 lg:space-x-16">
-                            <a class="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">glasses Search</a>
-                            <a class="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">How it works!</a>
-                            <a class="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">Why us?</a>
-                            <a class="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">Contact</a>
+                        <div class="flex flex-col mt-4 space-y-8 lg:flex-row lg:items-center lg:mt-0 lg:space-y-0 lg:-px-8">
+                            <a class="block mx-8 font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">glasses Search</a>
+                            <a class="block mx-8 font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">How it works!</a>
+                            <a class="block mx-8 font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">Why us?</a>
+                            <a class="block mx-8 font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline" href="#">Contact</a>
 
                             <button class="flex items-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-200 transform bg-gray-700 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
                                 Get in touch
@@ -153,58 +153,58 @@
                 </div>
             </nav>
 
-            <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center lg:space-x-6">
+            <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center">
                 <div class="w-full lg:w-1/2">
                     <div class="lg:max-w-lg">
                         <h1 class="text-2xl font-medium tracking-wide text-gray-800 dark:text-white lg:text-4xl">Find your premium new glasses exported from US</h1>
                         <p class="mt-2 text-gray-600 dark:text-gray-300">We work with the best remunated glasses dealers in US to find your new glasses.</p>
                         <div class="grid gap-6 mt-8 sm:grid-cols-2">
-                            <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
 
-                                <span>Premium selection</span>
+                                <span class="mx-3">Premium selection</span>
                             </div>
 
-                            <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
 
-                                <span>Insurance</span>
+                                <span class="mx-3">Insurance</span>
                             </div>
 
-                            <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
 
-                                <span>All legal documents</span>
+                                <span class="mx-3">All legal documents</span>
                             </div>
 
-                            <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
 
-                                <span>From US glasses dealers</span>
+                                <span class="mx-3">From US glasses dealers</span>
                             </div>
 
-                            <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
 
-                                <span>Payment Security</span>
+                                <span class="mx-3">Payment Security</span>
                             </div>
 
-                            <div class="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
 
-                                <span>Fast shipping (+ Express)</span>
+                                <span class="mx-3">Fast shipping (+ Express)</span>
                             </div>
                         </div>
                     </div>
