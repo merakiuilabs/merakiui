@@ -1,6 +1,6 @@
 <template>
     <div class="relative overflow-hidden rounded">
-        <pre><code class="px-8 py-6 overflow-hidden overflow-x-scroll text-sm rounded-md">{{ code }}</code></pre>
+        <pre><code class="px-8 py-6 overflow-hidden overflow-x-scroll text-sm rounded-md 2xl:text-base">{{ code }}</code></pre>
 
         <div class="absolute top-0 right-0">
             <button class="px-3 py-2 text-gray-600 hover:text-gray-400 focus:outline-none" v-clipboard:success="onCopy" v-clipboard:copy="code">
