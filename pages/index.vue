@@ -45,10 +45,10 @@
         </div>
     </header-component>
 
-    <div id="components" class="flex bg-white lg:h-screen">
-        <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-20 transition-opacity bg-black opacity-50 lg:hidden"></div>
+    <div id="components" class="flex bg-white xl:h-screen">
+        <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-20 transition-opacity bg-black opacity-50 xl:hidden"></div>
         
-        <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-30 flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto transition duration-300 transform bg-white border-r border-gray-200 lg:translate-x-0 lg:static lg:inset-0">
+        <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-30 flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto transition duration-300 transform bg-white border-r border-gray-200 xl:translate-x-0 xl:static xl:inset-0">
             <a href="/" class="inline-flex items-center text-xl font-bold text-gray-700 md:text-2xl hover:text-blue-500">
                 <img class="mr-2 w-7 h-7" src="../assets/svg/logo-sidebar.svg" alt="logo"> <span class="hidden md:inline">Meraki <span class="text-blue-500">UI</span></span>
             </a>
@@ -122,7 +122,7 @@
         </div>
     </div>
 
-    <button @click="sidebarOpen = !sidebarOpen" type="button" class="fixed z-50 flex items-center justify-center p-2 text-white bg-gray-900 rounded-full focus:outline-none lg:hidden bottom-4 right-4">
+    <button @click="sidebarOpen = !sidebarOpen" type="button" class="fixed z-50 flex items-center justify-center p-2 text-white bg-gray-900 rounded-full focus:outline-none xl:hidden bottom-4 right-4">
         <span class="sr-only">Open site navigation</span>
         <svg v-if="!sidebarOpen" class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M21 18H9V16H21V18ZM21 13H3V11H21V13ZM21 8H9V6H21V8Z" fill="currentColor"></path>
