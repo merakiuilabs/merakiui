@@ -154,6 +154,12 @@ import AlertsErrorFullWidth from "~/components/ui/Alerts/ErrorFullWidth";
 import AuthenticationSimpleLogin from "~/components/ui/Authentication/SimpleLogin";
 import AuthenticationLoginWithSocialMediaLinks from "~/components/ui/Authentication/LoginWithSocialMediaLinks";
 import AuthenticationLoginWithSideImage from "~/components/ui/Authentication/LoginWithSideImage";
+// Breadcrumbs
+import BreadcrumbsSimple from "~/components/ui/Breadcrumbs/Simple";
+import BreadcrumbsWithArrow from "~/components/ui/Breadcrumbs/WithArrow";
+import BreadcrumbsWithIcons from "~/components/ui/Breadcrumbs/WithIcons";
+import BreadcrumbsFullWidth from "~/components/ui/Breadcrumbs/FullWidth";
+import BreadcrumbsFullWidthWithIcons from "~/components/ui/Breadcrumbs/FullWidthWithIcons";
 // Buttons
 import ButtonsPrimary from "~/components/ui/Buttons/Primary";
 import ButtonsWithIcon from "~/components/ui/Buttons/WithIcon";
@@ -210,8 +216,13 @@ import SectionsFeature from "~/components/ui/Sections/Feature";
 import SectionsProductsWithSideLinks from "~/components/ui/Sections/ProductsWithSideLinks";
 import SectionsOurTeam from "~/components/ui/Sections/OurTeam";
 import SectionsParagraphWithImage from "~/components/ui/Sections/ParagraphWithImage";
+// Tabs
+import TabsLine from "~/components/ui//Tabs/Line";
+import TabsLineWithIcons from "~/components/ui//Tabs/LineWithIcons";
+import TabsEndClosed from "~/components/ui/Tabs/EndClosed";
+import TabsEndClosedWithIcons from "~/components/ui/Tabs/EndClosedWithIcons";
 // Pricing
-import PricingSimple from "~/components/ui//Pricing/Simple";
+import PricingSimple from "~/components/ui/Pricing/Simple";
 import PricingPopular from "~/components/ui//Pricing/Popular";
 import PricingWithNavigation from "~/components/ui//Pricing/WithNavigation";
 // paginations
@@ -242,6 +253,11 @@ export default {
         AuthenticationSimpleLogin,
         AuthenticationLoginWithSocialMediaLinks,
         AuthenticationLoginWithSideImage,
+        BreadcrumbsSimple,
+        BreadcrumbsWithArrow,
+        BreadcrumbsWithIcons,
+        BreadcrumbsFullWidth,
+        BreadcrumbsFullWidthWithIcons,
         ButtonsPrimary,
         ButtonsWithIcon,
         ButtonsWithMenu,
@@ -290,6 +306,10 @@ export default {
         SectionsProductsWithSideLinks,
         SectionsOurTeam,
         SectionsParagraphWithImage,
+        TabsLine,
+        TabsLineWithIcons,
+        TabsEndClosed,
+        TabsEndClosedWithIcons,
         PricingSimple,
         PricingPopular,
         PricingWithNavigation,
@@ -304,7 +324,7 @@ export default {
     data() {
         return {
             sidebarOpen: false,
-            components_count: 65,
+            components_count: 78,
             categories: [],
             activeCategory: "Alerts",
             component: new Component(),

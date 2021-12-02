@@ -22,6 +22,16 @@ export default [
         ],
     },
     {
+        name: "Breadcrumbs",
+        components: [
+            { name: "Simple" },
+            { name: "WithArrow" },
+            { name: "WithIcons" },
+            { name: "FullWidth" },
+            { name: "FullWidthWithIcons" },
+        ],
+    },
+    {
         name: "Buttons",
         components: [
             { name: "Primary" },
@@ -104,6 +114,15 @@ export default [
             { name: "ProductsWithSideLinks" },
             { name: "OurTeam" },
             { name: "ParagraphWithImage" },
+        ],
+    },
+    {
+        name: "Tabs",
+        components: [
+            { name: "Line" },
+            { name: "LineWithIcons" },
+            { name: "EndClosed" },
+            { name: "EndClosedWithIcons" },
         ],
     },
     {
