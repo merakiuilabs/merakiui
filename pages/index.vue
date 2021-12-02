@@ -158,6 +158,8 @@ import AuthenticationLoginWithSideImage from "~/components/ui/Authentication/Log
 import ButtonsPrimary from "~/components/ui/Buttons/Primary";
 import ButtonsWithIcon from "~/components/ui/Buttons/WithIcon";
 import ButtonsWithMenu from "~/components/ui/Buttons/WithMenu";
+import ButtonsGroup from "~/components/ui/Buttons/Group";
+import ButtonsGroupWithIcons from "~/components/ui/Buttons/GroupWithIcons";
 // Cards
 import CardsArticle from "~/components/ui/Cards/Article";
 import CardsArticleWithImage from "~/components/ui/Cards/ArticleWithImage";
@@ -192,6 +194,8 @@ import NavbarsWithSocialMediaLinks from "~/components/ui/Navbars/WithSocialMedia
 import HerosECommerce from "~/components/ui/Heros/ECommerce";
 import HerosWithNewsletterForm from "~/components/ui/Heros/WithNewsletterForm";
 import HerosCenterContent from "~/components/ui/Heros/CenterContent";
+import HerosCenterContentWithNewsletter from "~/components/ui/Heros/CenterContentWithNewsletter";
+import HerosImageWithNewsletter from "~/components/ui/Heros/ImageWithNewsletter";
 import HerosWithSlide from "~/components/ui/Heros/WithSlide";
 import HerosWithImage from "~/components/ui/Heros/WithImage";
 import HerosWithSideImage from "~/components/ui/Heros/WithSideImage";
@@ -241,6 +245,8 @@ export default {
         ButtonsPrimary,
         ButtonsWithIcon,
         ButtonsWithMenu,
+        ButtonsGroup,
+        ButtonsGroupWithIcons,
         CardsArticle,
         CardsArticleWithImage,
         CardsArticleWithSMIcons,
@@ -270,6 +276,8 @@ export default {
         HerosECommerce,
         HerosWithNewsletterForm,
         HerosCenterContent,
+        HerosCenterContentWithNewsletter,
+        HerosImageWithNewsletter,
         HerosWithSlide,
         HerosWithImage,
         HerosWithSideImage,

@@ -27,6 +27,8 @@ export default [
             { name: "Primary" },
             { name: "WithIcon" },
             { name: "WithMenu" },
+            { name: "Group" },
+            { name: "GroupWithIcons" },
         ],
     },
     {
@@ -81,6 +83,8 @@ export default [
             { name: "ECommerce" },
             { name: "WithNewsletterForm" },
             { name: "CenterContent" },
+            { name: "CenterContentWithNewsletter" },
+            { name: "ImageWithNewsletter" },
             { name: "WithSlide" },
             { name: "WithImage" },
             { name: "WithSideImage" },
