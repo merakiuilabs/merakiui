@@ -41,7 +41,7 @@
     export default {
         data() {
             return {
-                name: 'Simple',
+                name: 'Line With Icons',
                 code: `
         <div class="flex border-b border-gray-200 dark:border-gray-700">
             <button class="flex items-center h-10 px-2 py-2 -mb-px text-center text-indigo-600 bg-transparent border-b-2 border-indigo-500 sm:px-4 -px-1 dark:border-indigo-400 dark:text-indigo-300 whitespace-nowrap focus:outline-none">
