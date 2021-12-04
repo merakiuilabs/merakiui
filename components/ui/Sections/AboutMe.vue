@@ -8,7 +8,7 @@
                             <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Who I am</h2>
 
                             <p class="mt-4 text-gray-500 dark:text-gray-400 lg:max-w-md">
-                                Hi I am jane , software engineer <a class="font-bold text-indigo-600 dark:text-indigo-400" href="#">@BakaTeam</a> , Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?
+                                Hi I am jane , software engineer <a class="font-bold text-blue-600 dark:text-blue-400" href="#">@BakaTeam</a> , Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?
                             </p>
 
                             <div class="flex items-center mt-6 -mx-2">
@@ -65,7 +65,7 @@
                         <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Who I am</h2>
 
                         <p class="mt-4 text-gray-500 dark:text-gray-400 lg:max-w-md">
-                            Hi I am jane , software engineer <a class="font-bold text-indigo-600 dark:text-indigo-400" href="#">@BakaTeam</a> , Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?
+                            Hi I am jane , software engineer <a class="font-bold text-blue-600 dark:text-blue-400" href="#">@BakaTeam</a> , Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?
                         </p>
 
                         <div class="flex items-center mt-6 -mx-2">

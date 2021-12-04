@@ -4,7 +4,7 @@
             <div class="w-full max-w-sm px-4 py-3 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
                 <div class="flex items-center justify-between">
                     <span class="text-sm font-light text-gray-800 dark:text-gray-400">Courses and MOOCs</span>
-                    <span class="px-3 py-1 text-xs text-indigo-800 uppercase bg-indigo-200 rounded-full dark:bg-indigo-300 dark:text-indigo-900">psychology</span>
+                    <span class="px-3 py-1 text-xs text-blue-800 uppercase bg-blue-200 rounded-full dark:bg-blue-300 dark:text-blue-900">psychology</span>
                 </div>
 
                 <div>
@@ -50,7 +50,7 @@
         <div class="w-full max-w-sm px-4 py-3 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
             <div class="flex items-center justify-between">
                 <span class="text-sm font-light text-gray-800 dark:text-gray-400">Courses and MOOCs</span>
-                <span class="px-3 py-1 text-xs text-indigo-800 uppercase bg-indigo-200 rounded-full dark:bg-indigo-300 dark:text-indigo-900">psychology</span>
+                <span class="px-3 py-1 text-xs text-blue-800 uppercase bg-blue-200 rounded-full dark:bg-blue-300 dark:text-blue-900">psychology</span>
             </div>
 
             <div>

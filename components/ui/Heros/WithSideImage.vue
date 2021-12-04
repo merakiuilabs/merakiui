@@ -31,7 +31,7 @@
                 <div class="lg:flex">
                     <div class="flex items-center justify-center w-full px-6 py-8 lg:h-128 lg:w-1/2">
                         <div class="max-w-xl">
-                            <h2 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Build Your New <span class="text-indigo-600 dark:text-indigo-400">Idea</span></h2>
+                            <h2 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Build Your New <span class="text-blue-600 dark:text-blue-400">Idea</span></h2>
                                 
                             <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
 
@@ -101,7 +101,7 @@
             <div class="lg:flex">
                 <div class="flex items-center justify-center w-full px-6 py-8 lg:h-128 lg:w-1/2">
                     <div class="max-w-xl">
-                        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Build Your New <span class="text-indigo-600 dark:text-indigo-400">Idea</span></h2>
+                        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Build Your New <span class="text-blue-600 dark:text-blue-400">Idea</span></h2>
                             
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
 

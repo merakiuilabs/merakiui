@@ -24,15 +24,15 @@
             
                     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                     <div :class="isOpen ? 'flex' : 'hidden lg:flex'" class="flex-col mt-4 space-y-2 lg:-mx-6 lg:mt-0 lg:flex-row lg:space-y-0">
-                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                             href="#">Home</a>
-                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                             href="#">Components</a>
-                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                             href="#">Pricing</a>
-                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                             href="#">Contact</a>
-                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                        <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">FAQ</a>
                     </div>
             
@@ -51,7 +51,7 @@
                             
                             <div class="mt-8 space-y-5">
                                 <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
 
@@ -59,7 +59,7 @@
                                 </p>
 
                                 <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
 
@@ -67,7 +67,7 @@
                                 </p>
 
                                 <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
 
@@ -76,11 +76,11 @@
                             </div>
                         </div>
 
-                        <div class="w-full mt-8 bg-transparent border rounded-md lg:max-w-sm dark:border-gray-700 focus-within:border-indigo-500 focus-within:ring focus-within:ring-indigo-500 dark:focus-within:border-indigo-500 focus-within:ring-opacity-40">
+                        <div class="w-full mt-8 bg-transparent border rounded-md lg:max-w-sm dark:border-gray-700 focus-within:border-blue-500 focus-within:ring focus-within:ring-blue-500 dark:focus-within:border-blue-500 focus-within:ring-opacity-40">
                             <form class="flex flex-col lg:flex-row">
                                 <input type="email" placeholder="Enter your email address" class="flex-1 h-10 px-4 py-2 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" /> 
                                 
-                                <button type="button" class="h-10 px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-indigo-500 rounded-md hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400">
+                                <button type="button" class="h-10 px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
                                     Join Us
                                 </button>
                             </form>
@@ -126,15 +126,15 @@
         
                 <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                 <div class="flex flex-col mt-4 space-y-2 lg:-mx-6 lg:mt-0 lg:flex-row lg:space-y-0">
-                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">Home</a>
-                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">Components</a>
-                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">Pricing</a>
-                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                         href="#">Contact</a>
-                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-indigo-400 hover:text-indigo-500"
+                    <a class="text-gray-700 dark:text-gray-200 lg:px-6 dark:hover:text-blue-400 hover:text-blue-500"
                     href="#">FAQ</a>
                 </div>
         
@@ -153,7 +153,7 @@
                         
                         <div class="mt-8 space-y-5">
                             <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
 
@@ -161,7 +161,7 @@
                             </p>
 
                             <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
 
@@ -169,7 +169,7 @@
                             </p>
 
                             <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
 
@@ -178,11 +178,11 @@
                         </div>
                     </div>
 
-                    <div class="w-full mt-8 bg-transparent border rounded-md lg:max-w-sm dark:border-gray-700 focus-within:border-indigo-500 focus-within:ring focus-within:ring-indigo-500 dark:focus-within:border-indigo-500 focus-within:ring-opacity-40">
+                    <div class="w-full mt-8 bg-transparent border rounded-md lg:max-w-sm dark:border-gray-700 focus-within:border-blue-500 focus-within:ring focus-within:ring-blue-500 dark:focus-within:border-blue-500 focus-within:ring-opacity-40">
                         <form class="flex flex-col lg:flex-row">
                             <input type="email" placeholder="Enter your email address" class="flex-1 h-10 px-4 py-2 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" /> 
                             
-                            <button type="button" class="h-10 px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-indigo-500 rounded-md hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400">
+                            <button type="button" class="h-10 px-4 py-2 m-1 text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
                                 Join Us
                             </button>
                         </form>
