@@ -10,7 +10,7 @@
 
                 <p class="mt-4 text-gray-600 md:text-xl">
                     We are using many design resources on building 
-                    <a href="/components" target="_blank" class="text-blue-500 hover:underline">Meraki UI Components</a>
+                    <a href="/#main" target="_blank" class="text-blue-500 hover:underline">Meraki UI Components</a>
                     you can check them all the resources are free.
                 </p>
             </div>
