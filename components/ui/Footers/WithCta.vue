@@ -21,7 +21,7 @@
                         </div>
                     </div>
 
-                    <hr class="my-10 dark:border-gray-700" />
+                    <hr class="my-10 border-gray-200 dark:border-gray-700" />
 
                     <div class="flex flex-col items-center sm:flex-row sm:justify-between">
                         <p class="text-sm text-gray-400">© Copyright 2021. All Rights Reserved.</p>
@@ -66,7 +66,7 @@
                 </div>
                 </div>
 
-                <hr class="my-10 dark:border-gray-500" />
+                <hr class="my-10 border-gray-200 dark:border-gray-700" />
 
                 <div class="flex flex-col items-center sm:flex-row sm:justify-between">
                 <p class="text-sm text-gray-400">© Copyright 2021. All Rights Reserved.</p>
