@@ -1,8 +1,9 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-    purge: [
-        "./components/**/*.{vue,js}",
+    content: [
+        "./components/**/*.{js,vue,ts}",
+        "./layouts/**/*.vue",
         "./pages/**/*.vue",
         "./plugins/**/*.{js,ts}",
         "./nuxt.config.{js,ts}",
@@ -24,9 +25,6 @@ module.exports = {
             animation: {
                 float: "float 4s ease-in-out infinite",
             },
-            colors: {
-                teal: colors.teal,
-            },
             fontFamily: {
                 roboto: ["Roboto", "sans-serif"],
             },
@@ -36,9 +34,6 @@ module.exports = {
                 164: "41rem",
             },
         },
-    },
-    variants: {
-        extend: {},
     },
     plugins: [],
 };
