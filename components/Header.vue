@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gray-900 border-b-4 border-blue-500 pattern">
+    <header class="bg-gray-900 pattern">
         <nav>
             <div class="container p-4 mx-auto">
                 <div class="flex flex-col sm:items-center sm:flex-row sm:justify-between">
@@ -9,7 +9,7 @@
                         </a>
 
                         <div class="mt-2 space-x-4 sm:mt-0">
-                            <a class="font-medium text-gray-200 hover:text-blue-400" href="/#main">Components</a>
+                            <a class="font-medium text-gray-200 hover:text-blue-400" href="/components">Components</a>
                             <a class="font-medium text-gray-200 hover:text-blue-400" href="/resources">Resources</a>
                         </div>
                     </div>
