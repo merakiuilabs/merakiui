@@ -1,36 +1,36 @@
 <template>
-<div class="relative font-roboto">
+<div class="relative">
+    <div class="flex flex-col bg-white xl:h-screen xl:overflow-hidden">
+       <header-component class="fixed z-40 w-full xl:z-50"></header-component>
 
-    
-    <div class="flex bg-white xl:h-screen">
-        <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-20 transition-opacity bg-black opacity-50 xl:hidden"></div>
-        
-        <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-30 flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto transition duration-300 transform bg-white border-gray-200 xl:translate-x-0 xl:static xl:inset-0">
-            <a href="/" class="inline-flex items-center text-xl font-bold text-gray-700 md:text-2xl hover:text-blue-500">
-                <img class="mr-2 w-7 h-7" src="../assets/svg/logo-sidebar.svg" alt="logo"> <span class="hidden md:inline">Meraki <span class="text-blue-500">UI</span></span>
-            </a>
+        <div class="flex pt-16 xl:overflow-hidden 2xl:pt-20">
+            <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-50 transition-opacity bg-black opacity-50 xl:hidden"></div>
             
-            <nav class="mt-6 overflow-y-auto">
-                <div
-                    v-for="category in categories"
-                    :key="category.name"
-                    class="block px-4 py-2 mt-1 rounded-md focus:outline-none"
-                    :class="
-                            category.name === activeCategory
-                                ? 'text-blue-500 bg-blue-50'
-                                : 'text-gray-500 hover:text-blue-500 hover:underline'"
-                >
-                    <app-button @click="updateCategory(category.name)" class="w-full text-left">
-                        {{ category.name }}
-                    </app-button>
-                </div>
+            <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-50 flex flex-col w-64 h-screen px-4 py-8 pb-20 overflow-y-auto transition duration-300 transform bg-white border-gray-200 xl:translate-x-0 xl:static xl:inset-0">
+                <a href="/" class="inline-flex items-center text-xl font-bold text-gray-700 md:text-2xl hover:text-blue-500">
+                    <img class="mr-2 w-7 h-7" src="../assets/svg/logo-sidebar.svg" alt="logo"> Meraki <span class="text-blue-500">UI</span>
+                </a>
+                
+                <nav class="mt-6">
+                    <div
+                        v-for="category in categories"
+                        :key="category.name"
+                        class="block px-4 py-2 mt-1 rounded-md focus:outline-none"
+                        :class="
+                                category.name === activeCategory
+                                    ? 'text-blue-500 bg-blue-50'
+                                    : 'text-gray-500 hover:text-blue-500 hover:underline'"
+                    >
+                        <app-button @click="updateCategory(category.name)" class="w-full text-left">
+                            {{ category.name }}
+                        </app-button>
+                    </div>
 
-            </nav>
-        </div>
+                </nav>
+            </div>
 
-        <div class="flex flex-col flex-1 overflow-hidden">
-            <main class="flex-1 lg:overflow-y-auto">
-                <div class="container px-4 mx-auto">
+            <main id="main" class="flex flex-col flex-1 lg:overflow-y-auto">
+                <div class="container px-4 mx-auto sm:px-6 ">
                     <div class="py-8 text-center md:py-16">
                         <h1
                             class="text-xl font-medium text-gray-700 sm:flex sm:items-center sm:justify-center lg:text-3xl"
@@ -64,15 +64,7 @@
                     </section>
 
                     <div class="py-6 text-center">
-                        <p class="flex items-center justify-center text-sm text-gray-500 sm:text-base">
-                            Build with 
-                            <svg class="w-5 h-5 mx-1 text-gray-700" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z" fill="currentColor"></path>
-                            </svg> BY &nbsp;
-                            <a href="https://twitter.com/khatabwedaa" target="_blank" class="text-blue-500 hover:underline">Khatab Wedaa</a> 
-                            &nbsp; & &nbsp;
-                            <a href="https://twitter.com/miaababikir" target="_blank" class="text-blue-500 hover:underline">Mosab Ibrahim</a>
-                        </p>
+                        <p class="text-gray-600">© Copyright {{ new Date().getFullYear() }} by <a href="https://github.com/merakiui" target="_blank" class="font-medium text-gray-700 underline decoration-blue-500">Meraki UI</a></p>
                     </div>
                 </div>
             </main>
@@ -95,6 +87,7 @@
 <script>
 // Application components
 import AppButton from "~/components/utilities/AppButton.vue";
+import HeaderComponent from "../components/Header.vue";
 
 // Alerts
 import AlertsSuccessPop from "~/components/ui/Alerts/SuccessPop";
@@ -196,6 +189,7 @@ import Component from "~/models/ComponentsFilter";
 export default {
     components: {
         AppButton,
+        HeaderComponent,
         AlertsSuccessPop,
         AlertsInfoPop,
         AlertsWarningPop,
@@ -299,6 +293,7 @@ export default {
         updateCategory(category) {
             this.activeCategory = category;
             this.sidebarOpen = false;
+            document.getElementById('main').scrollTop = 0;
         }
     }
 };
