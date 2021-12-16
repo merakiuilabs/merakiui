@@ -3,7 +3,7 @@
     <div class="flex flex-col bg-white xl:h-screen xl:overflow-hidden">
        <header-component class="fixed z-40 w-full xl:z-50"></header-component>
 
-        <div class="flex pt-16 xl:overflow-hidden 2xl:pt-20">
+        <div class="flex pt-16 overflow-hidden 2xl:pt-20">
             <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-50 transition-opacity bg-black opacity-50 xl:hidden"></div>
             
             <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-50 flex flex-col w-64 h-screen px-4 py-8 pb-20 overflow-y-auto transition duration-300 transform bg-white border-gray-200 xl:translate-x-0 xl:static xl:inset-0">
@@ -29,7 +29,7 @@
                 </nav>
             </div>
 
-            <main id="main" class="flex flex-col flex-1 lg:overflow-y-auto">
+            <main id="main" class="flex flex-col flex-1 overflow-x-hidden lg:overflow-y-auto">
                 <div class="container px-4 mx-auto sm:px-6 ">
                     <div class="py-8 text-center md:py-16">
                         <h1
