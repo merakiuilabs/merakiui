@@ -294,6 +294,7 @@ export default {
             this.activeCategory = category;
             this.sidebarOpen = false;
             document.getElementById('main').scrollTop = 0;
+            window.scrollTo(0,0)
         }
     }
 };
