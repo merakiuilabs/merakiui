@@ -1,6 +1,7 @@
 export default [
     {
         name: "Alerts",
+        new: false,
         components: [
             { name: "SuccessPop" },
             { name: "InfoPop" },
@@ -15,6 +16,7 @@ export default [
     },
     {
         name: "Authentication",
+        new: false,
         components: [
             { name: "SimpleLogin" },
             { name: "LoginWithSocialMediaLinks" },
@@ -23,6 +25,7 @@ export default [
     },
     {
         name: "Breadcrumbs",
+        new: false,
         components: [
             { name: "Simple" },
             { name: "WithArrow" },
@@ -33,6 +36,7 @@ export default [
     },
     {
         name: "Buttons",
+        new: false,
         components: [
             { name: "Primary" },
             { name: "WithIcon" },
@@ -43,6 +47,7 @@ export default [
     },
     {
         name: "Cards",
+        new: false,
         components: [
             { name: "Article" },
             { name: "ArticleWithSMIcons" },
@@ -57,6 +62,7 @@ export default [
     },
     {
         name: "Forms",
+        new: false,
         components: [
             { name: "Simple" },
             { name: "Search" },
@@ -66,7 +72,21 @@ export default [
         ],
     },
     {
+        name: "Features",
+        new: true,
+        components: [
+            { name: "Simple" },
+            { name: "Cards" },
+            { name: "Centered" },
+            { name: "Media" },
+            { name: "GridList" },
+            { name: "GridListWithImage" },
+            { name: "TrustedBy" },
+        ],
+    },
+    {
         name: "Dropdowns",
+        new: false,
         components: [
             { name: "Simple" },
             { name: "MultiLevel" },
@@ -78,6 +98,7 @@ export default [
     },
     {
         name: "Navbars",
+        new: false,
         components: [
             { name: "Simple" },
             { name: "ECommerce" },
@@ -89,6 +110,7 @@ export default [
     },
     {
         name: "Heros",
+        new: false,
         components: [
             { name: "ECommerce" },
             { name: "WithNewsletterForm" },
@@ -104,20 +126,21 @@ export default [
     },
     {
         name: "Sidebar",
+        new: false,
         components: [{ name: "WithSearch" }, { name: "WithAvatar" }],
     },
     {
         name: "Sections",
+        new: false,
         components: [
             { name: "AboutMe" },
-            { name: "Feature" },
             { name: "ProductsWithSideLinks" },
-            { name: "OurTeam" },
             { name: "ParagraphWithImage" },
         ],
     },
     {
         name: "Tabs",
+        new: false,
         components: [
             { name: "Line" },
             { name: "LineWithIcons" },
@@ -126,19 +149,44 @@ export default [
         ],
     },
     {
-        name: "Pricing",
+        name: "Teams",
+        new: true,
         components: [
             { name: "Simple" },
-            { name: "Popular" },
+            { name: "SideBySide" },
+            { name: "WithFilter" },
+            { name: "Cards" },
+            { name: "Cards2x2" },
+            { name: "GridList" },
+            { name: "Background" },
+        ],
+    },
+    {
+        name: "Pricing",
+        new: true,
+        components: [
+            { name: "Simple" },
+            { name: "Checkbox" },
+            { name: "CheckboxWithDetails" },
+            { name: "SideBySide" },
+            { name: "Centered" },
             { name: "WithNavigation" },
+            { name: "Popular" },
         ],
     },
     {
         name: "Pagination",
-        components: [{ name: "Simple" }],
+        new: true,
+        components: [
+            { name: "Simple" },
+            { name: "WithArrows" },
+            { name: "WithIcons" },
+            { name: "Table" },
+        ],
     },
     {
         name: "Footers",
+        new: false,
         components: [
             { name: "Simple" },
             { name: "WithCta" },

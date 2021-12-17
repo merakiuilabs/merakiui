@@ -15,15 +15,17 @@
                     <div
                         v-for="category in categories"
                         :key="category.name"
-                        class="block px-4 py-2 mt-1 rounded-md focus:outline-none"
+                        class="flex items-center justify-between px-4 py-2 mt-1 rounded-md focus:outline-none"
                         :class="
                                 category.name === activeCategory
                                     ? 'text-blue-500 bg-blue-50'
-                                    : 'text-gray-500 hover:text-blue-500 hover:underline'"
+                                    : 'text-gray-500 hover:text-blue-500'"
                     >
-                        <app-button @click="updateCategory(category.name)" class="w-full text-left">
+                        <app-button @click="updateCategory(category.name)" class="w-full text-left hover:underline">
                             {{ category.name }}
                         </app-button>
+
+                        <span v-if="category.new" class="px-2 text-sm text-white bg-sky-300 rounded-xl">New</span>
                     </div>
 
                 </nav>
@@ -138,6 +140,14 @@ import FormsSimpleNewsletter from "~/components/ui/Forms/SimpleNewsletter";
 import FormsSimple from "~/components/ui/Forms/Simple";
 import FormsSearch from "~/components/ui/Forms/Search";
 import FormsContact from "~/components/ui/Forms/Contact";
+// Features
+import FeaturesSimple from "~/components/ui/Features/Simple";
+import FeaturesCards from "~/components/ui/Features/Cards";
+import FeaturesCentered from "~/components/ui/Features/Centered";
+import FeaturesMedia from "~/components/ui/Features/Media";
+import FeaturesGridList from "~/components/ui/Features/GridList";
+import FeaturesGridListWithImage from "~/components/ui/Features/GridListWithImage";
+import FeaturesTrustedBy from "~/components/ui/Features/TrustedBy";
 // Navbars
 import NavbarsSimple from "~/components/ui/Navbars/Simple";
 import NavbarsECommerce from "~/components/ui/Navbars/ECommerce";
@@ -161,21 +171,34 @@ import SidebarWithSearch from "~/components/ui/Sidebar/WithSearch";
 import SidebarWithAvatar from "~/components/ui/Sidebar/WithAvatar";
 // Sections
 import SectionsAboutMe from "~/components/ui/Sections/AboutMe";
-import SectionsFeature from "~/components/ui/Sections/Feature";
 import SectionsProductsWithSideLinks from "~/components/ui/Sections/ProductsWithSideLinks";
-import SectionsOurTeam from "~/components/ui/Sections/OurTeam";
 import SectionsParagraphWithImage from "~/components/ui/Sections/ParagraphWithImage";
 // Tabs
 import TabsLine from "~/components/ui//Tabs/Line";
 import TabsLineWithIcons from "~/components/ui//Tabs/LineWithIcons";
 import TabsEndClosed from "~/components/ui/Tabs/EndClosed";
 import TabsEndClosedWithIcons from "~/components/ui/Tabs/EndClosedWithIcons";
+// Teams
+import TeamsSimple from "~/components/ui//Teams/Simple";
+import TeamsBackground from "~/components/ui//Teams/Background";
+import TeamsCards from "~/components/ui//Teams/Cards";
+import TeamsCards2x2 from "~/components/ui/Teams/Cards2x2";
+import TeamsGridList from "~/components/ui/Teams/GridList";
+import TeamsSideBySide from "~/components/ui/Teams/SideBySide";
+import TeamsWithFilter from "~/components/ui/Teams/WithFilter";
 // Pricing
 import PricingSimple from "~/components/ui/Pricing/Simple";
 import PricingPopular from "~/components/ui//Pricing/Popular";
-import PricingWithNavigation from "~/components/ui//Pricing/WithNavigation";
+import PricingWithNavigation from "~/components/ui/Pricing/WithNavigation";
+import PricingSideBySide from "~/components/ui/Pricing/SideBySide";
+import PricingCheckbox from "~/components/ui/Pricing/Checkbox";
+import PricingCheckboxWithDetails from "~/components/ui/Pricing/CheckboxWithDetails";
+import PricingCentered from "~/components/ui/Pricing/Centered";
 // paginations
 import PaginationSimple from "~/components/ui/Pagination/Simple";
+import PaginationWithIcons from "~/components/ui/Pagination/WithIcons";
+import PaginationWithArrows from "~/components/ui/Pagination/WithArrows";
+import PaginationTable from "~/components/ui/Pagination/Table";
 // Footers
 import FootersSimple from "~/components/ui/Footers/Simple";
 import FootersWithCta from "~/components/ui/Footers/WithCta";
@@ -232,6 +255,13 @@ export default {
         FormsSimple,
         FormsSearch,
         FormsContact,
+        FeaturesSimple,
+        FeaturesCards,
+        FeaturesCentered,
+        FeaturesMedia,
+        FeaturesGridList,
+        FeaturesGridListWithImage,
+        FeaturesTrustedBy,
         NavbarsSimple,
         NavbarsECommerce,
         NavbarsWithAvatar,
@@ -251,18 +281,30 @@ export default {
         SidebarWithAvatar,
         SidebarWithSearch,
         SectionsAboutMe,
-        SectionsFeature,
         SectionsProductsWithSideLinks,
-        SectionsOurTeam,
         SectionsParagraphWithImage,
         TabsLine,
         TabsLineWithIcons,
         TabsEndClosed,
         TabsEndClosedWithIcons,
+        TeamsSimple,
+        TeamsBackground,
+        TeamsCards,
+        TeamsCards2x2,
+        TeamsGridList,
+        TeamsSideBySide,
+        TeamsWithFilter,
         PricingSimple,
         PricingPopular,
         PricingWithNavigation,
+        PricingSideBySide,
+        PricingCheckbox,
+        PricingCheckboxWithDetails,
+        PricingCentered,
         PaginationSimple,
+        PaginationWithIcons,
+        PaginationWithArrows,
+        PaginationTable,
         FootersSimple,
         FootersWithCta,
         FootersWithDetails,

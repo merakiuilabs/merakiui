@@ -49,7 +49,7 @@ export default {
     
     data() {
         return {
-            components_count: 78,
+            components_count: 97,
         };
     },
 };

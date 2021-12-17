@@ -1,126 +1,59 @@
 <template>
     <view-component :name="name" :code="code">
-        <div class="py-6" slot="component">
-            <section class="bg-white dark:bg-gray-800">
+        <div class="py-8" slot="component">
+            <div class="bg-white dark:bg-gray-900">
                 <div class="container px-6 py-8 mx-auto">
-                    <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                            <div class="flex-shrink-0">
-                                <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
-                                    Casual
-                                </h2>
-                            </div>
-                            <div class="flex-shrink-0">
-                                <span
-                                    class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                                >
-                                    Free
-                                </span>
-                            </div>
-                            <ul class="flex-1 space-y-4">
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Up to 5 projects
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Up to 10 collaborators
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    2Gb of storage
-                                </li>
-                            </ul>
+                    <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Pricing Plan</h1>
+                
+                    <p class="max-w-2xl mx-auto mt-4 text-center text-gray-500 xl:mt-6 dark:text-gray-300">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quas magni libero consequuntur voluptatum velit amet id repudiandae ea, deleniti laborum in neque eveniet.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 gap-8 mt-6 xl:mt-12 xl:gap-12 md:grid-cols-2 lg:grid-cols-3">
+                        <div class="w-full p-8 space-y-8 text-center border border-gray-200 rounded-lg dark:border-gray-700">
+                            <p class="font-medium text-gray-500 uppercase dark:text-gray-300">Free</p>
 
-                            <button
-                                class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                            >
-                                Start free
+                            <h2 class="text-5xl font-bold text-gray-800 uppercase dark:text-gray-100">
+                                $0
+                            </h2>
+
+                            <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
+
+                            <button class="w-full px-4 py-2 mt-10 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                                Start Now
                             </button>
                         </div>
 
-                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                            <div class="flex-shrink-0">
-                                <h2
-                                    class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                                >
-                                    Professional
-                                </h2>
-                            </div>
-                            <div class="flex-shrink-0">
-                                <span
-                                    class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                                >
-                                    $24.90
-                                </span>
-                                <span class="text-gray-500 dark:text-gray-400">
-                                    /month
-                                </span>
-                            </div>
-                            <ul class="flex-1 space-y-4">
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Up to 10 projects
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Up to 20 collaborators
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    10Gb of storage
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Real-time collaborations
-                                </li>
-                            </ul>
+                            <div class="w-full p-8 space-y-8 text-center bg-blue-600 rounded-lg">
+                            <p class="font-medium text-gray-200 uppercase">Premium</p>
 
-                            <button
-                                class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                            >
-                                Start free trial
+                            <h2 class="text-5xl font-bold text-white uppercase dark:text-gray-100">
+                                $40
+                            </h2>
+
+                            <p class="font-medium text-gray-200">Per month</p>
+
+                            <button class="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-200 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
+                                Start Now
                             </button>
                         </div>
 
-                        <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                            <div class="flex-shrink-0">
-                                <h2
-                                    class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                                >
-                                    Expert
-                                </h2>
-                            </div>
-                            <div class="flex-shrink-0">
-                                <span
-                                    class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                                >
-                                    $49.90
-                                </span>
-                                <span class="text-gray-500 dark:text-gray-400">
-                                    /month
-                                </span>
-                            </div>
-                            <ul class="flex-1 space-y-4">
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Unlimited projects
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Unlimited collaborators
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Unlimited storage
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    Real-time collaborations
-                                </li>
-                                <li class="text-gray-500 dark:text-gray-400">
-                                    24x7 Support
-                                </li>
-                            </ul>
+                            <div class="w-full p-8 space-y-8 text-center border border-gray-200 rounded-lg dark:border-gray-700">
+                            <p class="font-medium text-gray-500 uppercase dark:text-gray-300">Enterprise</p>
 
-                            <button
-                                class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                            >
-                                Start free trial
+                            <h2 class="text-5xl font-bold text-gray-800 uppercase dark:text-gray-100">
+                                $100
+                            </h2>
+
+                            <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
+
+                            <button class="w-full px-4 py-2 mt-10 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                                Start Now
                             </button>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     </view-component>
 </template>
@@ -131,126 +64,60 @@ export default {
         return {
             name: "Simple",
             code: `
-    <div class="bg-white dark:bg-gray-800">
-        <div class="container px-6 py-8 mx-auto">
-            <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex-shrink-0">
-                        <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
-                            Casual
+        <div class="bg-white dark:bg-gray-900">
+            <div class="container px-6 py-8 mx-auto">
+                <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Pricing Plan</h1>
+            
+                <p class="max-w-2xl mx-auto mt-4 text-center text-gray-500 xl:mt-6 dark:text-gray-300">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quas magni libero consequuntur voluptatum velit amet id repudiandae ea, deleniti laborum in neque eveniet.
+                </p>
+                
+                <div class="grid grid-cols-1 gap-8 mt-6 xl:mt-12 xl:gap-12 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="w-full p-8 space-y-8 text-center border border-gray-200 rounded-lg dark:border-gray-700">
+                        <p class="font-medium text-gray-500 uppercase dark:text-gray-300">Free</p>
+
+                        <h2 class="text-5xl font-bold text-gray-800 uppercase dark:text-gray-100">
+                            $0
                         </h2>
-                    </div>
-                    <div class="flex-shrink-0">
-                        <span
-                            class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                        >
-                            Free
-                        </span>
-                    </div>
-                    <ul class="flex-1 space-y-4">
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Up to 5 projects
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Up to 10 collaborators
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            2Gb of storage
-                        </li>
-                    </ul>
 
-                    <button
-                        class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                        Start free
-                    </button>
-                </div>
+                        <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
 
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex-shrink-0">
-                        <h2
-                            class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                        >
-                            Professional
+                        <button class="w-full px-4 py-2 mt-10 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                            Start Now
+                        </button>
+                    </div>
+
+                        <div class="w-full p-8 space-y-8 text-center bg-blue-600 rounded-lg">
+                        <p class="font-medium text-gray-200 uppercase">Premium</p>
+
+                        <h2 class="text-5xl font-bold text-white uppercase dark:text-gray-100">
+                            $40
                         </h2>
-                    </div>
-                    <div class="flex-shrink-0">
-                        <span
-                            class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                        >
-                            $24.90
-                        </span>
-                        <span class="text-gray-500 dark:text-gray-400">
-                            /month
-                        </span>
-                    </div>
-                    <ul class="flex-1 space-y-4">
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Up to 10 projects
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Up to 20 collaborators
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            10Gb of storage
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Real-time collaborations
-                        </li>
-                    </ul>
 
-                    <button
-                        class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                        Start free trial
-                    </button>
-                </div>
+                        <p class="font-medium text-gray-200">Per month</p>
 
-                <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex-shrink-0">
-                        <h2
-                            class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                        >
-                            Expert
+                        <button class="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-200 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
+                            Start Now
+                        </button>
+                    </div>
+
+                        <div class="w-full p-8 space-y-8 text-center border border-gray-200 rounded-lg dark:border-gray-700">
+                        <p class="font-medium text-gray-500 uppercase dark:text-gray-300">Enterprise</p>
+
+                        <h2 class="text-5xl font-bold text-gray-800 uppercase dark:text-gray-100">
+                            $100
                         </h2>
-                    </div>
-                    <div class="flex-shrink-0">
-                        <span
-                            class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                        >
-                            $49.90
-                        </span>
-                        <span class="text-gray-500 dark:text-gray-400">
-                            /month
-                        </span>
-                    </div>
-                    <ul class="flex-1 space-y-4">
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Unlimited projects
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Unlimited collaborators
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Unlimited storage
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            Real-time collaborations
-                        </li>
-                        <li class="text-gray-500 dark:text-gray-400">
-                            24x7 Support
-                        </li>
-                    </ul>
 
-                    <button
-                        class="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                    >
-                        Start free trial
-                    </button>
+                        <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
+
+                        <button class="w-full px-4 py-2 mt-10 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                            Start Now
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>`,
+        `,
         };
     },
 };
