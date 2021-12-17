@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <button @click="sidebarOpen = !sidebarOpen" type="button" class="fixed z-50 flex items-center justify-center p-2 text-white bg-gray-900 rounded-full focus:outline-none xl:hidden bottom-4 right-4">
+    <button @click="sidebarOpen = !sidebarOpen" type="button" class="fixed z-50 flex items-center justify-center p-3 text-white bg-gray-900 rounded-full focus:outline-none xl:hidden bottom-12 right-8">
         <span class="sr-only">Open site navigation</span>
         <svg v-if="!sidebarOpen" class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M21 18H9V16H21V18ZM21 13H3V11H21V13ZM21 8H9V6H21V8Z" fill="currentColor"></path>
