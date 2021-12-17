@@ -31,8 +31,8 @@
                 </div>
 
                 <div class="grid grid-cols-1 gap-3 mt-8 text-center sm:flex sm:justify-center sm:gap-0 sm:space-x-4">
-                    <a href="/components" class="px-4 py-3 text-sm font-semibold text-gray-900 bg-white rounded-lg hover:bg-gray-300 hover:text-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-gray-100"> Browse Components</a>
-                    <a href="#" class="px-4 py-3 text-sm font-semibold text-gray-300 bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 Premium Themes</a>
+                    <a href="/components" class="px-4 py-3 text-sm font-semibold text-gray-900 bg-white capitalize rounded-lg hover:bg-gray-300 hover:text-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-gray-100"> Browse Components</a>
+                    <a href="#" class="px-4 py-3 text-sm font-semibold text-gray-300 bg-gray-800 capitalize rounded-lg hover:bg-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-gray-600">premium Themes</a>
                 </div>
             </div>
         </div>
