@@ -42,7 +42,7 @@
                     </a>
                 </nav>
             
-                <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center">
+                <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
                     <div class="w-full lg:w-1/2">
                         <div class="lg:max-w-lg">
                             <h1 class="text-3xl font-bold tracking-wide text-gray-800 dark:text-white lg:text-5xl">
@@ -144,7 +144,7 @@
                 </a>
             </nav>
         
-            <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center">
+            <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
                 <div class="w-full lg:w-1/2">
                     <div class="lg:max-w-lg">
                         <h1 class="text-3xl font-bold tracking-wide text-gray-800 dark:text-white lg:text-5xl">

@@ -14,7 +14,7 @@
                         </div>
                     </nav>
 
-                    <div class="flex flex-col items-center py-6 lg:h-128 lg:flex-row">
+                    <div class="flex flex-col items-center py-6 lg:h-[32rem] lg:flex-row">
                         <div class="lg:w-1/2">
                             <h2 class="text-4xl font-semibold text-gray-100">Brand</h2>
 
@@ -58,17 +58,6 @@
             return {
                 name: 'With Pattern',
                 code: `
-        <!-- Add this to your tailwind.config.js -->
-        module.exports = {
-            theme: {
-                extend: {
-                    spacing: {
-                        128: '32rem',
-                    },
-                },
-            },
-        }
-
         <!-- Require css -->
         <style>
         .pattern {
@@ -89,7 +78,7 @@
                     </div>
                 </nav>
 
-                <div class="flex flex-col items-center py-6 lg:h-128 lg:flex-row">
+                <div class="flex flex-col items-center py-6 lg:h-[32rem] lg:flex-row">
                     <div class="lg:w-1/2">
                         <h2 class="text-4xl font-semibold text-gray-100">Brand</h2>
 

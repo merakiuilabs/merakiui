@@ -29,7 +29,7 @@
                 </nav>
 
                 <div class="lg:flex">
-                    <div class="flex items-center justify-center w-full px-6 py-8 lg:h-128 lg:w-1/2">
+                    <div class="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
                         <div class="max-w-xl">
                             <h2 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Build Your New <span class="text-blue-600 dark:text-blue-400">Idea</span></h2>
                                 
@@ -60,17 +60,6 @@
                 name: 'With Side Image',
                 isOpen: false,
                 code: `
-        <!-- Add this to your tailwind.config.js -->
-        module.exports = {
-            theme: {
-                extend: {
-                    spacing: {
-                        128: '32rem',
-                    },
-                },
-            },
-        }
-
         <header class="bg-white dark:bg-gray-800">
             <nav class="px-6 py-4 shadow">
                 <div class="lg:items-center lg:justify-between lg:flex">
@@ -99,7 +88,7 @@
             </nav>
 
             <div class="lg:flex">
-                <div class="flex items-center justify-center w-full px-6 py-8 lg:h-128 lg:w-1/2">
+                <div class="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
                     <div class="max-w-xl">
                         <h2 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Build Your New <span class="text-blue-600 dark:text-blue-400">Idea</span></h2>
                             

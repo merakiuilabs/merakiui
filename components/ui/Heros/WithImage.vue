@@ -35,7 +35,7 @@
                     </div>
                 </nav>
 
-                <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center">
+                <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
                     <div class="w-full lg:w-1/2">
                         <div class="lg:max-w-lg">
                             <h1 class="text-2xl font-medium tracking-wide text-gray-800 dark:text-white lg:text-4xl">Find your premium new glasses exported from US</h1>
@@ -108,17 +108,6 @@
                 name: 'With Image',
                 isOpen: false,
                 code: `
-        <!-- Add this to your tailwind.config.js -->
-        module.exports = {
-            theme: {
-                extend: {
-                    spacing: {
-                        128: '32rem',
-                    },
-                },
-            },
-        }
-
         <header class="bg-white dark:bg-gray-800">
             <nav class="border-b dark:border-gray-700">
                 <div class="container px-6 py-4 mx-auto lg:flex lg:justify-between lg:items-center">
@@ -153,7 +142,7 @@
                 </div>
             </nav>
 
-            <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center">
+            <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
                 <div class="w-full lg:w-1/2">
                     <div class="lg:max-w-lg">
                         <h1 class="text-2xl font-medium tracking-wide text-gray-800 dark:text-white lg:text-4xl">Find your premium new glasses exported from US</h1>

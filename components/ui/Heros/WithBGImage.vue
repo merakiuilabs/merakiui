@@ -29,7 +29,7 @@
                     </div>
                 </nav>
 
-                <div class="w-full bg-center bg-cover h-128" style="background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+                <div class="w-full bg-center bg-cover h-[32rem]" style="background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
                     <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
                         <div class="text-center">
                             <h1 class="text-2xl font-semibold text-white uppercase lg:text-3xl">Build Your new <span class="text-blue-400 underline">Saas</span></h1>
@@ -49,17 +49,6 @@
                 name: 'With Background Image',
                 isOpen: false,
                 code: `
-        <!-- Add this to your tailwind.config.js -->
-        module.exports = {
-            theme: {
-                extend: {
-                    spacing: {
-                        128: '32rem',
-                    },
-                },
-            },
-        }
-        
         <header>
             <nav class="bg-white shadow dark:bg-gray-800">
                 <div class="container px-6 py-4 mx-auto">
@@ -90,7 +79,7 @@
                 </div>
             </nav>
 
-            <div class="w-full bg-center bg-cover h-128" style="background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+            <div class="w-full bg-center bg-cover h-[32rem]" style="background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
                 <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
                     <div class="text-center">
                         <h1 class="text-2xl font-semibold text-white uppercase lg:text-3xl">Build Your new <span class="text-blue-400 underline">Saas</span></h1>
