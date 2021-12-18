@@ -6,8 +6,8 @@
         <div class="flex pt-16 overflow-hidden 2xl:pt-20">
             <div :class="sidebarOpen ? 'block' : 'hidden'" @click="sidebarOpen = false" class="fixed inset-0 z-50 transition-opacity bg-black opacity-50 xl:hidden"></div>
             
-            <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-50 flex flex-col w-64 h-screen px-4 py-8 pb-20 overflow-y-auto transition duration-300 transform bg-white border-gray-200 xl:translate-x-0 xl:static xl:inset-0">
-                <a href="/" class="inline-flex items-center text-xl font-bold text-gray-700 md:text-2xl hover:text-blue-500">
+            <div :class="sidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'" class="fixed inset-y-0 left-0 z-50 flex flex-col w-64 h-screen px-4 py-8 pb-20 overflow-y-auto transition duration-200 transform bg-white border-gray-200 xl:translate-x-0 xl:static xl:inset-0">
+                <a href="/" class="inline-flex items-center text-xl font-bold text-gray-700 transition-colors duration-200 transform md:text-2xl hover:text-blue-500">
                     <img class="mr-2 w-7 h-7" src="../assets/svg/logo-sidebar.svg" alt="logo"> Meraki <span class="text-blue-500">UI</span>
                 </a>
                 
@@ -19,7 +19,7 @@
                         :class="
                                 category.name === activeCategory
                                     ? 'text-blue-500 bg-blue-50'
-                                    : 'text-gray-500 hover:text-blue-500'"
+                                    : 'text-gray-500 hover:text-blue-500 transition-colors duration-200 transform'"
                     >
                         <app-button @click="updateCategory(category.name)" class="w-full text-left hover:underline">
                             {{ category.name }}
