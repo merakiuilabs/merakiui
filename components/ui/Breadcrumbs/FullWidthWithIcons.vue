@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="py-8" slot="component">
-            <div class="bg-gray-200 dark:bg-gray-700">
+            <div class="bg-gray-200 dark:bg-gray-800">
                 <div class="container flex items-center px-6 py-4 mx-auto overflow-y-auto whitespace-nowrap">
                     <a href="#" class="text-gray-600 dark:text-gray-200">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -63,7 +63,7 @@
             return {
                 name: 'Full Width With Icons',
                 code: `
-        <div class="bg-gray-200 dark:bg-gray-700">
+        <div class="bg-gray-200 dark:bg-gray-800">
             <div class="container flex items-center px-6 py-4 mx-auto overflow-y-auto whitespace-nowrap">
                 <a href="#" class="text-gray-600 dark:text-gray-200">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">

@@ -1,7 +1,7 @@
 <template>
     <view-component :name="name" :code="code">
         <div class="py-6" slot="component">
-            <div class="w-full text-white bg-green-500">
+            <div class="w-full text-white bg-emerald-500">
                 <div class="container flex items-center justify-between px-6 py-4 mx-auto">
                     <div class="flex">
                         <svg viewBox="0 0 40 40" class="w-6 h-6 fill-current">
@@ -28,7 +28,7 @@
             return {
                 name: 'Success Full Width',
                 code: `
-        <div class="w-full text-white bg-green-500">
+        <div class="w-full text-white bg-emerald-500">
             <div class="container flex items-center justify-between px-6 py-4 mx-auto">
                 <div class="flex">
                     <svg viewBox="0 0 40 40" class="w-6 h-6 fill-current">
