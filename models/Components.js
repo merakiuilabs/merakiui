@@ -73,7 +73,7 @@ export default [
     },
     {
         name: "Features",
-        new: true,
+        new: false,
         components: [
             { name: "Simple" },
             { name: "Cards" },
@@ -150,7 +150,7 @@ export default [
     },
     {
         name: "Teams",
-        new: true,
+        new: false,
         components: [
             { name: "Simple" },
             { name: "SideBySide" },
@@ -163,7 +163,7 @@ export default [
     },
     {
         name: "Pricing",
-        new: true,
+        new: false,
         components: [
             { name: "Simple" },
             { name: "Checkbox" },
@@ -176,7 +176,7 @@ export default [
     },
     {
         name: "Pagination",
-        new: true,
+        new: false,
         components: [
             { name: "Simple" },
             { name: "WithArrows" },
