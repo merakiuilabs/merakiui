@@ -25,7 +25,7 @@
                                 <p class="mt-4 text-gray-600 dark:text-gray-400">be the first to knows when our <span class="font-medium text-blue-500">Brand</span> is live</p>
 
                                 <div class="flex flex-col mt-8 space-y-3 lg:space-y-0 lg:flex-row">
-                                    <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" placeholder="Email Address">
+                                    <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address">
                                     
                                     <button class="w-full px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-lg lg:w-auto lg:mx-4 hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
                                         Subscribe
@@ -74,7 +74,7 @@
                             <p class="mt-4 text-gray-600 dark:text-gray-400">be the first to knows when our <span class="font-medium text-blue-500">Brand</span> is live</p>
 
                             <div class="flex flex-col mt-8 space-y-3 lg:space-y-0 lg:flex-row">
-                                <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" placeholder="Email Address">
+                                <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address">
                                 
                                 <button class="w-full px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-lg lg:w-auto lg:mx-4 hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
                                     Subscribe
