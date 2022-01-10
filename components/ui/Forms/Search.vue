@@ -9,10 +9,10 @@
                         </svg>
                     </span>
 
-                    <input type="text" v-model="keyword" class="w-full py-3 pl-10 pr-4 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" placeholder="Type Something">
+                    <input type="text" v-model="keyword" class="w-full py-3 pl-10 pr-4 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" placeholder="Type Something">
                 </div>
 
-                <div v-if="jobsSearch" class="absolute inset-x-0 px-6 py-3 mx-5 mt-4 overflow-y-auto bg-white border border-gray-300 rounded-md max-h-72 dark:bg-gray-800 dark:border-transparent">
+                <div v-if="jobsSearch" class="absolute inset-x-0 px-6 py-3 mx-5 mt-4 overflow-y-auto bg-white border rounded-md max-h-72 dark:bg-gray-800 dark:border-transparent">
                     <a v-for="job in jobsSearch" :key="job.title" href="#" class="block py-1">
                         <h3 class="font-medium text-gray-700 dark:text-gray-100 hover:underline" v-text="job.title"></h3>
                         <p class="mt-2 text-sm text-gray-500 dark:text-gray-400" v-text="job.date"></p>
@@ -68,10 +68,10 @@ export default {
                     </svg>
                 </span>
 
-                <input type="text" class="w-full py-3 pl-10 pr-4 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" placeholder="Search">
+                <input type="text" class="w-full py-3 pl-10 pr-4 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" placeholder="Search">
             </div>
 
-            <div class="absolute inset-x-0 px-6 py-3 mx-5 mt-4 overflow-y-auto bg-white border border-gray-300 rounded-md max-h-72 dark:bg-gray-800 dark:border-transparent">
+            <div class="absolute inset-x-0 px-6 py-3 mx-5 mt-4 overflow-y-auto bg-white border rounded-md max-h-72 dark:bg-gray-800 dark:border-transparent">
                 <a href="#" class="block py-1">
                     <h3 class="font-medium text-gray-700 dark:text-gray-100 hover:underline">Software engineer</h3>
                     <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">02/04/2020</p>
