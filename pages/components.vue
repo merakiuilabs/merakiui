@@ -105,6 +105,7 @@ import AlertsErrorFullWidth from "~/components/ui/Alerts/ErrorFullWidth";
 import AuthenticationSimpleLogin from "~/components/ui/Authentication/SimpleLogin";
 import AuthenticationLoginWithSocialMediaLinks from "~/components/ui/Authentication/LoginWithSocialMediaLinks";
 import AuthenticationLoginWithSideImage from "~/components/ui/Authentication/LoginWithSideImage";
+import AuthenticationFullPageWithImage from "~/components/ui/Authentication/FullPageWithImage";
 // Breadcrumbs
 import BreadcrumbsSimple from "~/components/ui/Breadcrumbs/Simple";
 import BreadcrumbsWithArrow from "~/components/ui/Breadcrumbs/WithArrow";
@@ -127,6 +128,12 @@ import CardsSimpleProduct from "~/components/ui/Cards/SimpleProduct";
 import CardsTestimonial from "~/components/ui/Cards/Testimonial";
 import CardsUser from "~/components/ui/Cards/User";
 import CardsUserWithDetails from "~/components/ui/Cards/UserWithDetails";
+// CTA
+import CTACentered from "~/components/ui/CTA/Centered";
+import CTAGrid from "~/components/ui/CTA/Grid";
+import CTASimple from "~/components/ui/CTA/Simple";
+import CTAWithForm from "~/components/ui/CTA/WithForm";
+import CTAWithImage from "~/components/ui/CTA/WithImage";
 // Dropdowns
 import DropdownsSimple from "~/components/ui/Dropdowns/Simple";
 import DropdownsMultiLevel from "~/components/ui/Dropdowns/MultiLevel";
@@ -134,6 +141,12 @@ import DropdownsMultiLevelWithIcons from "~/components/ui/Dropdowns/MultiLevelWi
 import DropdownsUserInfo from "~/components/ui/Dropdowns/UserInfo";
 import DropdownsUserInfoWithIcons from "~/components/ui/Dropdowns/UserInfoWithIcons";
 import DropdownsNotification from "~/components/ui/Dropdowns/Notification";
+// FAQ
+import FAQCards from "~/components/ui/FAQ/Cards";
+import FAQCentered from "~/components/ui/FAQ/Centered";
+import FAQCollapse from "~/components/ui/FAQ/Collapse";
+import FAQCollapseWithSideLinks from "~/components/ui/FAQ/CollapseWithSideLinks";
+import FAQGrid from "~/components/ui/FAQ/Grid";
 // Forms
 import FormsNewsletter from "~/components/ui/Forms/Newsletter";
 import FormsSimpleNewsletter from "~/components/ui/Forms/SimpleNewsletter";
@@ -225,6 +238,7 @@ export default {
         AuthenticationSimpleLogin,
         AuthenticationLoginWithSocialMediaLinks,
         AuthenticationLoginWithSideImage,
+        AuthenticationFullPageWithImage,
         BreadcrumbsSimple,
         BreadcrumbsWithArrow,
         BreadcrumbsWithIcons,
@@ -244,12 +258,22 @@ export default {
         CardsTestimonial,
         CardsUser,
         CardsUserWithDetails,
+        CTACentered,
+        CTAGrid,
+        CTASimple,
+        CTAWithForm,
+        CTAWithImage,
         DropdownsSimple,
         DropdownsMultiLevel,
         DropdownsMultiLevelWithIcons,
         DropdownsUserInfo,
         DropdownsUserInfoWithIcons,
         DropdownsNotification,
+        FAQCards,
+        FAQCentered,
+        FAQCollapse,
+        FAQCollapseWithSideLinks,
+        FAQGrid,
         FormsNewsletter,
         FormsSimpleNewsletter,
         FormsSimple,
