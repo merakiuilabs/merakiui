@@ -49,7 +49,7 @@ export default {
     
     data() {
         return {
-            components_count: 97,
+            components_count: 108,
             premium: 'premium Themes'
         };
     },
