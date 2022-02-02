@@ -4,6 +4,8 @@
 ## Meraki UI
 
 🎉 🚀 Beautiful [Tailwindcss](https://tailwindcss.com) components that support RTL languages & fully responsive based on Flexbox & CSS Grid 🏗.
+    
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c497032-261d-4617-b1b9-5dee79fd8c33/deploy-status)](https://app.netlify.com/sites/merakiui/deploys)
 
 ### Resources
 
