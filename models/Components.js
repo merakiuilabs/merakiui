@@ -16,7 +16,7 @@ export default [
     },
     {
         name: "Authentication",
-        new: true,
+        new: false,
         components: [
             { name: "SimpleLogin" },
             { name: "LoginWithSocialMediaLinks" },
@@ -63,7 +63,7 @@ export default [
     },
     {
         name: "CTA",
-        new: true,
+        new: false,
         components: [
             { name: "Simple" },
             { name: "Centered" },
@@ -74,7 +74,7 @@ export default [
     },
     {
         name: "FAQ",
-        new: true,
+        new: false,
         components: [
             { name: "Centered" },
             { name: "Cards" },
