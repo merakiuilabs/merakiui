@@ -21,6 +21,7 @@ export default [
             { name: "SimpleLogin" },
             { name: "LoginWithSocialMediaLinks" },
             { name: "LoginWithSideImage" },
+            { name: "FullPageWithImage" },
         ],
     },
     {
@@ -61,14 +62,25 @@ export default [
         ],
     },
     {
-        name: "Forms",
+        name: "CTA",
         new: false,
         components: [
             { name: "Simple" },
-            { name: "Search" },
-            { name: "Contact" },
-            { name: "SimpleNewsletter" },
-            { name: "Newsletter" },
+            { name: "Centered" },
+            { name: "Grid" },
+            { name: "WithForm" },
+            { name: "WithImage" },
+        ],
+    },
+    {
+        name: "FAQ",
+        new: false,
+        components: [
+            { name: "Centered" },
+            { name: "Cards" },
+            { name: "Grid" },
+            { name: "Collapse" },
+            { name: "CollapseWithSideLinks" },
         ],
     },
     {
@@ -82,6 +94,17 @@ export default [
             { name: "GridList" },
             { name: "GridListWithImage" },
             { name: "TrustedBy" },
+        ],
+    },
+    {
+        name: "Forms",
+        new: false,
+        components: [
+            { name: "Simple" },
+            { name: "Search" },
+            { name: "Contact" },
+            { name: "SimpleNewsletter" },
+            { name: "Newsletter" },
         ],
     },
     {
