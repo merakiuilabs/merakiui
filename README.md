@@ -3,11 +3,11 @@
 
 ## Meraki UI
 
-🎉 🚀 Beautiful [Tailwindcss](https://tailwindcss.com) components that support RTL languages & fully responsive based on Flexbox & CSS Grid 🏗.
+🎉 🚀 Beautiful [Tailwind CSS](https://tailwindcss.com) components that support RTL languages & fully responsive based on Flexbox & CSS Grid 🏗.
 
 ### Resources
 
--   [Tailwindcss](https://tailwindcss.com)
+-   [Tailwind CSS](https://tailwindcss.com)
 -   [Unsplash](https://unsplash.com)
 -   [Freepik Stories](https://stories.freepik.com)
 -   [Heroicons](https://heroicons.dev)
