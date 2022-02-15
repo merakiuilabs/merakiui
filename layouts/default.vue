@@ -7,7 +7,7 @@
             leave-class="translate-x-0 opacity-100"
             leave-to-class="translate-x-20 opacity-0"
         >
-            <div v-show="byMeCoffee" class="fixed inset-x-0 lg:inset-x-auto bottom-6 lg:right-8 xl:right-10 xl:bottom-8">
+            <div v-show="byMeCoffee" class="fixed inset-x-0 lg:inset-x-auto bottom-6 lg:right-8 xl:right-10 xl:bottom-16">
                 <div class="lg:w-[24rem] px-6 lg:px-0">
                     <div class="p-2 bg-blue-600 rounded-lg shadow-lg sm:p-3">
                         <div class="flex flex-wrap items-center justify-between">
