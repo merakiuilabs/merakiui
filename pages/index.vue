@@ -4,13 +4,10 @@
 
         <div class="container flex items-center flex-1 px-6 py-8 mx-auto lg:py-0">
             <div class="max-w-3xl mx-auto text-center text-white">
-                <h1 class="text-2xl font-semibold leading-relaxed text-white lg:text-4xl">Start building your next project with an awesome components build with utilities</h1>
-
-                <p class="mt-4 text-gray-300 lg:mt-6 lg:text-xl">
-                    Beautiful <a target="_blank" href="https://tailwindcss.com" class="font-normal underline decoration-blue-500">Tailwind CSS</a>
+                <h1 class="text-2xl font-medium leading-relaxed text-white capitalize lg:text-3xl"><a target="_blank" href="https://tailwindcss.com" class="font-normal underline decoration-blue-500">Tailwind CSS</a>
                     components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant
                     <a target="_blank" href="https://tailwindcss.com/docs/dark-mode" class="font-normal underline decoration-blue-500">Dark Mode</a>.
-                </p>
+                </h1>
 
                 <div class="flex flex-wrap items-center justify-center mt-6 space-x-5">
                     <a href="/components" class="flex text-white hover:underline">
@@ -31,8 +28,14 @@
                 </div>
 
                 <div class="grid grid-cols-1 gap-3 mt-8 text-center sm:flex sm:justify-center sm:gap-0 sm:space-x-4">
-                    <a href="/components" class="px-4 py-3 text-sm font-semibold text-gray-900 capitalize bg-white rounded-lg hover:bg-gray-300 hover:text-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-gray-100"> Browse Components</a>
-                    <a href="#" @click="premium = 'soon'" v-text="premium" class="px-4 py-3 text-sm font-semibold text-gray-300 capitalize bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-gray-600"></a>
+                    <a href="/components" class="px-6 py-3 text-sm font-semibold text-gray-900 capitalize bg-white rounded-lg hover:bg-gray-300 hover:text-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-gray-100"> Browse Components</a>
+                    <a href="https://twitter.com/meraki_ui" target="_blank" class="flex items-center justify-center px-6 py-3 space-x-2 text-sm font-semibold text-gray-300 bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-gray-600">
+                        <span>Follow us on Twitter </span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -50,7 +53,6 @@ export default {
     data() {
         return {
             components_count: 108,
-            premium: 'premium Themes'
         };
     },
 };

@@ -31,7 +31,7 @@ export default {
                 hid: "description",
                 name: "description",
                 content:
-                    "Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
+                    "Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
             },
             { name: "twitter:card", content: "summary_large_image" },
             {
@@ -43,7 +43,7 @@ export default {
                 hid: "twitter:description",
                 name: "twitter:description",
                 content:
-                    "Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
+                    "Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
             },
             {
                 hid: "twitter:image",
@@ -68,7 +68,7 @@ export default {
                 hid: "og:description",
                 property: "og:description",
                 content:
-                    "Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
+                    "Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode.",
             },
         ],
         link: [
