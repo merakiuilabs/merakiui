@@ -358,6 +358,9 @@ export default {
             categories: [],
             activeCategory: "Alerts",
             component: new Component(),
+            SHARE_LINK: `https://twitter.com/intent/tweet?text=${encodeURIComponent(
+            'Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode 🔥. Built By @khatabwedaa & @miaababikir. \n #tailwindcss #100DaysOfCode \n'
+            )}&url=${encodeURIComponent('https://merakiui.com')}`
         };
     },
 
