@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/images/merakiui-thumbnail.png" alt="Meraki UI logo">
+    <img src="assets/images/thumbnail.png" alt="Meraki UI logo">
 
 ## Meraki UI
 
