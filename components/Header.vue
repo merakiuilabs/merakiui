@@ -33,7 +33,7 @@ export default {
     data() {
         return {
             SHARE_LINK: `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-            'Beautiful Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode 🔥. Built By @khatabwedaa & @miaababikir. \n #tailwindcss #100DaysOfCode \n'
+            '@meraki_ui Tailwind CSS components that support RTL languages & fully responsive based on Flexbox & CSS Grid with elegant Dark Mode 🔥. \n #tailwindcss #100DaysOfCode \n'
             )}&url=${encodeURIComponent('https://merakiui.com')}`
         }
     },
