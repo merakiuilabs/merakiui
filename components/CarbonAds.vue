@@ -32,7 +32,7 @@ export default {
 #carbonads {
   display: flex;
   max-width: 330px;
-  background-color: hsl(0, 0%, 98%);
+  background-color: #1e293b;
   box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, 0.1);
   z-index: 100;
   border-radius: .3rem; 
@@ -71,7 +71,7 @@ export default {
 #carbonads .carbon-poweredby {
   display: block;
   padding: 6px 8px;
-  background: #f1f1f2;
+  background: #000000;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5px;

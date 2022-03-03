@@ -37,6 +37,10 @@
                         </svg>
                     </a>
                 </div>
+
+                <div class="flex justify-center">
+                    <carbon-ads class="mt-10"></carbon-ads>
+                </div>
             </div>
         </div>
     </header>
