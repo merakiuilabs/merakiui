@@ -4,6 +4,7 @@
 
 <script>
     export default {
+        /*
         data () {
             return {
                 code: `<div class="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
@@ -21,7 +22,9 @@
         </div>
     </div>`
             }
-        },
+        },*/
+
+        props: ['code'],
 
         computed: {
             doc: function () {

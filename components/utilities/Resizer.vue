@@ -14,7 +14,7 @@
         ref="handle"
         @mousedown="handleMouseDownHandler"
       >
-        <img src="../../assets/images/equal-sign.png">
+        <img src="../../assets/images/equal-sign.png" draggable="false">
       </div>
     </div>
   </div>
@@ -50,7 +50,6 @@ export default {
       if(this.paneWidth != undefined){
         this.stylesObj.width = this.paneWidth + 'px';
       }
-      console.log(this.stylesObj);
     }
   },
 
@@ -140,7 +139,7 @@ export default {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 0;
 
   /*For Handling icon inside*/
   display: flex;
