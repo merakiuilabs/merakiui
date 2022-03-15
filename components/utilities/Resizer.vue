@@ -140,6 +140,7 @@ export default {
   top: 0;
   right: 0;
   z-index: 0;
+  border-radius: 0px 8px 8px 0px;
 
   /*For Handling icon inside*/
   display: flex;
