@@ -39,7 +39,10 @@
         <div :class="{ 'dark': dark }">
             <div class="flex items-center justify-center mt-4 overflow-hidden bg-gray-100 border border-gray-100 rounded-lg dark:bg-gray-900 dark:border-gray-900">
                 <div class="relative w-full" :dir="rtl? 'rtl' : 'ltr'">
-                    <slot class="absolute top-0 left-0 w-full h-full" name="component"></slot>
+                    <!--<slot class="absolute top-0 left-0 w-full h-full" name="component"></slot>-->
+                    <!--TODO Adjust this to work properly with this-->
+                    <div class="w-full"><Resizer><Frame /></Resizer></div>
+                    
 
                     <transition name="fade">
                         <div v-if="copied">
@@ -63,13 +66,17 @@
 <script>
 import AppButton from "~/components/utilities/AppButton.vue";
 import CodeSnippet from "./CodeSnippet";
+import Resizer from "./Resizer";
+import Frame from "./Frame";
 
 export default {
     props: ['name' , 'code'],
 
     components: {
         AppButton,
-        CodeSnippet
+        CodeSnippet,
+        Resizer,
+        Frame
     },
 
     data() {

@@ -14,7 +14,7 @@
         ref="handle"
         @mousedown="handleMouseDownHandler"
       >
-        <img src="../assets/equal-sign.png">
+        <img src="../../assets/images/equal-sign.png">
       </div>
     </div>
   </div>
@@ -37,6 +37,7 @@ export default {
   mounted() {
     const totalWidth = this.$refs.cont.clientWidth;
     this.paneWidth = totalWidth;
+    this.stylesObj = { width : totalWidth + 'px'}; //this line seems unecessary, but is important because, for some unknow reason resizing doesn't happen without it
     window.addEventListener('resize', this.wResizeHandler);
   },
 
@@ -49,6 +50,7 @@ export default {
       if(this.paneWidth != undefined){
         this.stylesObj.width = this.paneWidth + 'px';
       }
+      console.log(this.stylesObj);
     }
   },
 
@@ -64,7 +66,6 @@ export default {
           let moveRatio = undefined;
 
           if(this.mouseReferPoint != undefined ){
-
             //if e.x < mouseReferPoint then mouse is moving left otherwise right
             moveRatio = e.x - this.mouseReferPoint;
                 if(this.paneWidth + moveRatio >= maxWidth){
@@ -139,7 +140,7 @@ export default {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 10;
+  z-index: 1;
 
   /*For Handling icon inside*/
   display: flex;
