@@ -4,7 +4,6 @@
             <div class="flex items-center">
                 <h3 class="text-gray-700 capitalize md:text-lg">{{ name }} </h3>
             </div>
-
             <div class="flex items-center mt-4 space-x-4 md:mt-0">
                 <app-button @click="rtl =! rtl" class="p-1 rounded-md hover:text-gray-700 hover:bg-gray-400 focus:outline-none" :class="rtl? 'bg-gray-400 text-gray-700' : 'bg-gray-200 text-gray-600'" aria-label="Rtl">
                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none">
@@ -37,6 +36,7 @@
         </div>
 
         <div :class="{ 'dark': dark }">
+            <vue-resizable>
             <div class="flex items-center justify-center mt-4 overflow-hidden bg-gray-100 border border-gray-100 rounded-lg dark:bg-gray-900 dark:border-gray-900">
                 <div class="relative w-full" :dir="rtl? 'rtl' : 'ltr'">
                     <slot class="absolute top-0 left-0 w-full h-full" name="component"></slot>
@@ -51,25 +51,34 @@
                         </div>
                     </transition>
                 </div>
+                <span class="px-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8zM12 15a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z" />
+                    </svg>
+                </span>
             </div>
+            </vue-resizable>
         </div>
 
         <div v-if="viewCode">
             <code-snippet @onCopy="onCopy" :code="code"></code-snippet>
         </div>
     </div>
+    
 </template>
 
 <script>
 import AppButton from "~/components/utilities/AppButton.vue";
 import CodeSnippet from "./CodeSnippet";
+import VueResizable from 'vue-resizable'
 
 export default {
     props: ['name' , 'code'],
 
     components: {
         AppButton,
-        CodeSnippet
+        CodeSnippet,
+        VueResizable
     },
 
     data() {

@@ -11,7 +11,9 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vue-draggable-resizable": "^2.3.0",
+    "vue-resizable": "^2.1.3"
   },
   "devDependencies": {
     "@nuxt/postcss8": "^1.1.3",
