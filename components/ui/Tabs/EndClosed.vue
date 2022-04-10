@@ -11,7 +11,7 @@
                 </button>
 
                 <button class="flex items-center h-12 px-4 py-2 text-sm text-center text-gray-700 bg-transparent border-b border-gray-300 sm:text-base dark:border-gray-500 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-gray-400 dark:hover:border-gray-300">
-                    Notifiaction
+                    Notification
                 </button>
             </div>
         </div>
@@ -34,7 +34,7 @@
             </button>
 
             <button class="flex items-center h-12 px-4 py-2 text-sm text-center text-gray-700 bg-transparent border-b border-gray-300 sm:text-base dark:border-gray-500 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-gray-400 dark:hover:border-gray-300">
-                Notifiaction
+                Notification
             </button>
         </div>`
             }
