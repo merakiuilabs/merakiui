@@ -32,8 +32,12 @@
             <main id="main" class="flex flex-col flex-1 overflow-x-hidden lg:overflow-y-auto">
                 <div class="container px-4 mx-auto sm:px-6 ">
                     <div class="py-8 text-center md:py-16">
+                        <a href="/" class="inline-flex items-center text-xl font-bold text-gray-700 transition-colors duration-200 transform xl:hidden md:text-2xl hover:text-blue-500">
+                            <img class="w-8 h-8 mr-2" src="../assets/svg/logo-sidebar.svg" alt="logo"> Meraki <span class="text-blue-500">UI</span>
+                        </a>
+                        
                         <h1
-                            class="text-xl font-medium text-gray-700 sm:flex sm:items-center sm:justify-center lg:text-3xl"
+                            class="mt-2 text-xl font-medium text-gray-700 sm:flex sm:items-center sm:justify-center lg:text-3xl"
                         >
                             <span>Discover new components. Build amazing things. </span> &nbsp;
                             
