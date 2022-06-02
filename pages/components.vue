@@ -49,13 +49,7 @@
                     </div>
 
                     <section class="flex justify-center mb-16">
-                        <div class="group">
-                            <a target="_blank" href="https://tailgrids.com/?ref=merakiui" class="relative flex items-center max-w-sm p-2 space-x-4 overflow-hidden transition-colors duration-700 transform border border-gray-100 rounded-md group-hover:bg-blue-500">
-                                <img class="h-20 rounded-md" src="https://cdn.tailgrids.com/meraki-tg.svg" alt="">
-                                <h4 class="text-gray-600 group-hover:text-white">Tailwind CSS Components & Templates for Startup and SaaS and Business Sites</h4>
-                                <span class="absolute bottom-0 right-0 px-2 py-1 text-xs text-white bg-blue-500 rounded-tl-md">ADS</span>
-                            </a>
-                        </div>
+                        <carbon-ads></carbon-ads>
                     </section>
 
                     <section v-for="category in list" :key="category.name">

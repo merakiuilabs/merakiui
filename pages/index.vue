@@ -38,7 +38,7 @@
                     </a>
                 </div>
 
-                <div class="flex justify-center">
+                <div class="flex justify-center text-gray-800">
                     <carbon-ads class="mt-10"></carbon-ads>
                 </div>
             </div>
