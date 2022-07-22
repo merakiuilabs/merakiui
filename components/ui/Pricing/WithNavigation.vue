@@ -45,7 +45,7 @@
                                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                     </svg>
 
-                                    <span class="mx-4 text-gray-700 dark:text-gray-300">5 wathclists included</span>
+                                    <span class="mx-4 text-gray-700 dark:text-gray-300">5 watchlists included</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -105,7 +105,7 @@
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                         </svg>
 
-                                        <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited wathclists</span>
+                                        <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited watchlists</span>
                                     </div>
 
                                     <div class="flex items-center">
@@ -176,7 +176,7 @@ export default {
                             <p class="mt-4 text-gray-500 dark:text-gray-300">Essentail Features</p>
                             <h4 class="mt-2 text-gray-600 line-through dark:text-gray-400">$59.99</h4>
                             <h4 class="mt-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">$53.99</h4>
-                            <p class="mt-4 text-gray-500 dark:text-gray-300">/pre month</p>
+                            <p class="mt-4 text-gray-500 dark:text-gray-300">/per month</p>
                             <p class="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p>
 
                         </div>
@@ -233,10 +233,10 @@ export default {
                         <div class="px-6 py-4">
                             <div class="text-center">
                                 <p class="text-4xl font-semibold text-gray-800 dark:text-gray-100">Pro</p>
-                                <p class="mt-4 text-gray-500 dark:text-gray-300">Advance Features</p>
+                                <p class="mt-4 text-gray-500 dark:text-gray-300">Advanced Features</p>
                                 <h4 class="mt-2 text-gray-600 line-through dark:text-gray-400">$89.99</h4>
                                 <h4 class="mt-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">$80.99</h4>
-                                <p class="mt-4 text-gray-500 dark:text-gray-300">/pre month</p>
+                                <p class="mt-4 text-gray-500 dark:text-gray-300">/per month</p>
                                 <p class="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p>
 
                             </div>
