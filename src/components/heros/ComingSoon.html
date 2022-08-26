@@ -1,0 +1,95 @@
+<meta name="uuid" content="f17e75cc-1fee-11ed-861d-0242ac120002" />
+<meta name="name" content="Coming Soon" />
+<meta name="category" content="heros" />
+<meta name="order_column" content="5" />
+<meta name="center" content="0" />
+
+
+<!--- Component -->
+
+<section x-data="{ isOpen: false }" class="w-full min-h-screen bg-gray-900">
+    <div class="container relative flex flex-col min-h-screen px-6 py-8 mx-auto">
+        <nav class="md:flex md:items-center md:justify-between">
+            <div class="flex items-center justify-between">
+                <button x-cloak @click="isOpen = !isOpen" class="md:hidden">
+                    <span x-show="isOpen">
+                        <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+                        </svg>
+                    </span>
+
+                    <span x-show="!isOpen">
+                        <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+                        </svg>
+                    </span>
+                </button>
+
+                <h1>
+                    <svg class="w-10 h-10 md:w-12 md:h-12 fill-white" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M261.579,49.864l-2.106-2.294C232.082,18.315,193.143,0,150,0c-17.166,0-33.664,2.907-49.038,8.24L99.4,8.791  C49.188,26.839,11.303,70.949,2.14,124.729c-0.011,0.051-0.027,0.1-0.037,0.151c-0.033,0.171-0.046,0.341-0.073,0.512  C0.702,133.402,0,141.62,0,150c0,35.76,12.586,68.632,33.551,94.435c0.01,0.015,1.746,2.109,1.746,2.109  C62.835,279.208,104.032,300,150,300c17.371,0,34.058-2.978,49.588-8.434c0.409-0.126,0.811-0.266,1.204-0.425  c49.269-17.785,86.632-60.673,96.577-113.148c0.026-0.128,0.052-0.255,0.074-0.383C299.115,168.657,300,159.431,300,150  C300,111.55,285.452,76.438,261.579,49.864z M150,30c30.85,0,59.016,11.705,80.297,30.903  c-14.903,20.417-35.74,33.843-58.563,42.503c-3.805-8.884-7.605-16.936-11.248-24.113c-10.561-20.802-20.929-36.741-29.015-47.862  C137.513,30.491,143.699,30,150,30z M100.736,40.584c8.947,11.182,25.92,34.926,41.948,71.28  c-42.085,9.028-85.24,6.035-107.548,3.387C45.228,81.96,69.419,54.74,100.736,40.584z M30,150c0-1.705,0.045-3.399,0.115-5.087  c11.955,1.495,29.682,3.118,50.351,3.118c10.008,0,20.708-0.381,31.766-1.341c14.739-1.28,28.634-3.492,41.664-6.579  c2.865,8.065,5.62,16.579,8.2,25.56c-13.517,3.932-27.477,8.844-41.867,14.745c-31.025,12.72-56.322,26.958-70.444,35.512  C37.287,196.993,30,174.333,30,150z M150,270c-30.873,0-59.058-11.722-80.345-30.946c20.018-11.762,57.599-31.811,99.783-44.21  c4.703,21.642,8.265,45.477,10.066,71.482C170.063,268.722,160.178,270,150,270z M208.678,254.641  c-2.107-24.185-5.666-46.483-10.127-66.84c22.086-4.117,44.601-5.342,65.867-1.608C255.15,215.425,234.968,239.841,208.678,254.641z   M269.811,156.67c-23.811-4.235-50.07-3.583-78.585,1.922c-2.736-9.632-5.644-18.711-8.64-27.251  c28.155-10.772,50.939-26.637,67.658-47.223C262.725,103.042,270,125.686,270,150C270,152.238,269.934,154.461,269.811,156.67z" />
+                    </svg>
+                </h1>
+            </div>
+
+            <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']" class="absolute inset-x-0 w-full px-6 py-8 mt-8 space-y-6 transition-all duration-300 ease-in-out bg-gray-900 top-16 md:bg-transparent md:dark:bg-transparent md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:space-y-0 md:-mx-6 md:flex md:items-center">
+                <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-blue-400">Payment</a>
+                <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-blue-400">Services </a>
+                <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-blue-400"> Account
+                </a>
+
+                <button class="w-full p-4 transition-colors duration-300 bg-gray-800 rounded-md md:w-auto md:mx-6 hover:bg-gray-700">
+                    <div class="flex items-center justify-center -mx-1">
+                        <p class="mx-1 text-sm text-white">Coming Soon on</p>
+
+                        <svg class="w-6 h-6 mx-1 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </nav>
+
+        <section class="flex items-center flex-1">
+            <div class="flex flex-col w-full ">
+                <h1 class="text-5xl font-extrabold text-center lg:text-7xl 2xl:text-8xl">
+                    <span class="text-transparent bg-gradient-to-br bg-clip-text from-teal-200 via-indigo-300 to-sky-500 ">
+                        Coming
+                    </span>
+
+                    <span class="text-transparent bg-gradient-to-tr bg-clip-text from-sky-300 via-pink-300 to-red-500 ">
+                        Soon
+                    </span>
+                </h1>
+
+                <p class="max-w-3xl mx-auto mt-6 text-lg text-center text-white md:text-xl">
+                    Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Fugit alias nihil incidunt.
+                </p>
+
+                <div class="flex flex-col mt-8 space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0">
+                    <input id="email" type="text" class="px-6 py-3 text-white placeholder-white bg-gray-800 border border-transparent rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 sm:mx-2" placeholder="Email Address" />
+
+                    <button class="px-8 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:bg-blue-600 focus:outline-none sm:mx-2">
+                        Notify Me
+                    </button>
+                </div>
+
+                <p class="mt-8 text-center text-white text-md md:text-xl">Notify me when App is launched :)</p>
+            </div>
+        </section>
+
+        <footer class="flex flex-col items-center mt-12 sm:flex-row sm:justify-between">
+            <a href="#" class="text-gray-300 transition-colors duration-300 hover:text-blue-400"> Privacy Policy </a>
+
+            <div class="mt-4 -mx-4 md:mt-0">
+                <a href="#" class="px-4 text-gray-300 transition-colors duration-300 hover:text-blue-400"> Facebook</a>
+
+                <a href="#" class="px-4 text-gray-300 transition-colors duration-300 hover:text-blue-400">Instagram</a>
+
+                <a href="#" class="px-4 text-gray-300 transition-colors duration-300 hover:text-blue-400"> LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+</section>
