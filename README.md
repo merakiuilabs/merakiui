@@ -1,35 +1,18 @@
 <p align="center">
-    <img src="assets/images/thumbnail.png" alt="Meraki UI logo">
+    <img src="./assets/header.png" alt="Meraki UI logo">
 
 ## Meraki UI
 
-🎉 🚀 Beautiful [Tailwind CSS](https://tailwindcss.com) components that support RTL languages & fully responsive based on Flexbox & CSS Grid 🏗.
+🎉 🚀 Free Tailwind CSS Components That Support RTL Languages & Fully Responsive Based On Flexbox & CSS Grid with elegant Dark Mode.
 
 ### Resources
 
 -   [Tailwind CSS](https://tailwindcss.com)
 -   [Unsplash](https://unsplash.com)
 -   [Freepik Stories](https://stories.freepik.com)
+-   [AlpineJS](https://alpinejs.dev)
 -   [Heroicons](https://heroicons.dev)
 -   [Coolicons](https://coolicons.cool)
-
-### Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run dev
-```
-
-### Compiles and minifies for production
-
-```
-npm run generate
-```
 
 ### Credits
 
