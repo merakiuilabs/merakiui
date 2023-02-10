@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meraki UI Components</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <style>
+      body {
+        background-image: url("https://images.pexels.com/photos/15030788/pexels-photo-15030788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      class="form-wrapper min-h-screen [ p-4 md:p-6 lg:p-8 ] [ flex justify-center items-center ]"
+    >
+      <form
+        class="signup-form max-w-sm rounded-2xl text-[#1A2421] backdrop-blur-lg [ p-8 md:p-10 lg:p-10 ] [ bg-gradient-to-b from-white/60 to-white/30 ] [ border-[1px] border-solid border-white border-opacity-30 ] [ shadow-black/70 shadow-2xl ]"
+      >
+        <h1
+          class="mb-6 text-center uppercase font-bold [ text-xl md:text-2xl lg:text-2xl ]"
+        >
+          Login
+        </h1>
+        <label
+          for="email"
+          class="form-label relative block mb-4 text-black/50 focus-within:text-[#333]"
+        >
+          <svg
+            class="label-icon transition pointer-events-none [ w-6 h-6 ] [ absolute top-1/2 left-3 ] [ transform -translate-y-1/2 ]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              d="M12 1.95c-5.52 0-10 4.48-10 10s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57v-1.43c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57v-1.43c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+            />
+          </svg>
+          <input
+            class="form-input block w-full rounded-lg leading-none focus:outline-none placeholder-black/50 [ transition-colors duration-200 ] [ py-3 pr-3 md:py-4 md:pr-4 lg:py-4 lg:pr-4 pl-12 ] [ bg-black/20 focus:bg-black/25 ] [ text-[#333] focus:text-black ]"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+        </label>
+
+        <label
+          for="password"
+          class="form-label relative text-black/50 focus-within:text-[#333] block mb-4"
+        >
+          <svg
+            class="label-icon transition pointer-events-none [ w-6 h-6 ] [ absolute top-1/2 left-3 ] [ transform -translate-y-1/2 ]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <g fill="none">
+              <path d="M0 0h24v24H0V0z" />
+              <path d="M0 0h24v24H0V0z" opacity=".87" />
+            </g>
+            <path
+              d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+            />
+          </svg>
+
+          <input
+            class="block w-full rounded-lg leading-none focus:outline-none placeholder-black/50 [ transition-colors duration-200 ] [ py-3 pr-3 md:py-4 md:pr-4 lg:py-4 lg:pr-4 pl-12 ] [ bg-black/20 focus:bg-black/25 ] [ text-[#333] focus:text-black ]"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+        </label>
+
+        <button
+          class="form-input w-full rounded-lg font-bold text-white focus:outline-none [ p-3 md:p-4 lg:p-4 ] [ transition-colors duration-500 ] [ bg-sky-800 hover:bg-sky-700 ]"
+        >
+          Continue
+        </button>
+
+        <div class="flex items-center justify-between mt-6">
+          <label class="flex items-center">
+            <input type="checkbox" class="form-checkbox" checked />
+            <span class="ml-2 text-sm text-black/50">Remember me</span>
+          </label>
+          <a class="text-sm text-black/50 hover:text-black/80" href="#"
+            >Forgot password?</a
+          >
+        </div>
+        <div class="flex items-center justify-between mt-6">
+          <span class="text-sm text-black/50">Don't have an account?</span>
+          <a class="text-sm text-black/50 hover:text-black/80" href="#"
+            >Sign up</a
+          >
+        </div>
+        <div class="text-sm mt-3 text-center text-black/50">
+          Or continue with
+        </div>
+        <div class="flex items-center justify-center mt-6">
+          <button
+            class="flex items-center justify-center w-10 h-10 rounded-full focus:outline-none"
+          >
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg
+              viewBox="-0.5 0 48 48"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <title>Google-color</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g
+                id="Icons"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g id="Color-" transform="translate(-401.000000, -860.000000)">
+                  <g id="Google" transform="translate(401.000000, 860.000000)">
+                    <path
+                      d="M9.82727273,24 C9.82727273,22.4757333 10.0804318,21.0144 10.5322727,19.6437333 L2.62345455,13.6042667 C1.08206818,16.7338667 0.213636364,20.2602667 0.213636364,24 C0.213636364,27.7365333 1.081,31.2608 2.62025,34.3882667 L10.5247955,28.3370667 C10.0772273,26.9728 9.82727273,25.5168 9.82727273,24"
+                      id="Fill-1"
+                      fill="#FBBC05"
+                    ></path>
+                    <path
+                      d="M23.7136364,10.1333333 C27.025,10.1333333 30.0159091,11.3066667 32.3659091,13.2266667 L39.2022727,6.4 C35.0363636,2.77333333 29.6954545,0.533333333 23.7136364,0.533333333 C14.4268636,0.533333333 6.44540909,5.84426667 2.62345455,13.6042667 L10.5322727,19.6437333 C12.3545909,14.112 17.5491591,10.1333333 23.7136364,10.1333333"
+                      id="Fill-2"
+                      fill="#EB4335"
+                    ></path>
+                    <path
+                      d="M23.7136364,37.8666667 C17.5491591,37.8666667 12.3545909,33.888 10.5322727,28.3562667 L2.62345455,34.3946667 C6.44540909,42.1557333 14.4268636,47.4666667 23.7136364,47.4666667 C29.4455,47.4666667 34.9177955,45.4314667 39.0249545,41.6181333 L31.5177727,35.8144 C29.3995682,37.1488 26.7323182,37.8666667 23.7136364,37.8666667"
+                      id="Fill-3"
+                      fill="#34A853"
+                    ></path>
+                    <path
+                      d="M46.1454545,24 C46.1454545,22.6133333 45.9318182,21.12 45.6113636,19.7333333 L23.7136364,19.7333333 L23.7136364,28.8 L36.3181818,28.8 C35.6879545,31.8912 33.9724545,34.2677333 31.5177727,35.8144 L39.0249545,41.6181333 C43.3393409,37.6138667 46.1454545,31.6490667 46.1454545,24"
+                      id="Fill-4"
+                      fill="#4285F4"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </button>
+          <button
+            class="flex items-center justify-center w-10 h-10 ml-4 rounded-full focus:outline-none"
+          >
+            <svg
+              fill="#000000"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 448.334 448.334"
+              xml:space="preserve"
+            >
+              <g id="apple">
+                <g>
+                  <path
+                    d="M362.806,278.708c-5.486-12.602-8.572-26.77-8.572-41.686c0-6.328,0.561-12.423,1.621-18.299
+                 c4.52-25.415,18.36-46.409,37.439-60.018c3.43-2.415,7.014-4.598,10.723-6.53c-25.749-40.627-67.708-44.103-80.895-45.49
+                 c-28.68-2.992-69.111,22.367-91.059,22.367h-0.592c-21.946,0-62.379-25.359-91.059-22.367
+                 c-14.276,1.465-59.916,9.555-87.441,53.408c-9.665,15.385-17.114,34.322-20.169,59.315c-1.093,9.009-1.622,18.424-1.498,28.867
+                 c0.125,10.489,0.967,20.597,2.4,30.605c3.087,21.369,8.886,41.461,16.367,59.924c8.323,20.48,18.735,38.857,29.801,54.499
+                 c24.474,34.649,52.186,54.655,67.835,55.014c32.109,0.717,60.009-21.003,83.047-20.442c0.25,0.078,0.498,0.078,0.717,0.063
+                 l0.311-0.031l0.281,0.031c0.219,0.016,0.467,0,0.686-0.078c23.037-0.592,50.969,21.144,83.141,20.427
+                 c15.586-0.358,43.332-20.38,67.803-55.03c11.066-15.641,21.478-34.049,29.739-54.545c1.246-3.055,2.432-6.157,3.615-9.306
+                 C393.107,321.931,373.404,303.196,362.806,278.708z"
+                  />
+                </g>
+                <g>
+                  <path
+                    d="M288.176,73.384c24.691-29.21,23.724-71.256,21.479-73.11c-2.213-1.886-42.987,5.61-68.27,33.831
+                 c-25.282,28.259-23.722,71.255-21.478,73.125C222.12,109.101,263.519,102.585,288.176,73.384z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="form-wrapper min-h-screen [ p-4 md:p-6 lg:p-8 ] [ flex justify-center items-center ]"
+    >
+      <form
+        class="signup-form max-w-sm rounded-2xl text-[#1A2421] backdrop-blur-lg [ p-8 md:p-10 lg:p-10 ] [ bg-gradient-to-b from-white/60 to-white/30 ] [ border-[1px] border-solid border-white border-opacity-30 ] [ shadow-black/70 shadow-2xl ]"
+      >
+        <h1
+          class="mb-6 text-center uppercase font-bold [ text-xl md:text-2xl lg:text-2xl ]"
+        >
+          Register
+        </h1>
+        <label
+          for="email"
+          class="form-label relative block mb-4 text-black/50 focus-within:text-[#333]"
+        >
+          <svg
+            class="label-icon transition pointer-events-none [ w-6 h-6 ] [ absolute top-1/2 left-3 ] [ transform -translate-y-1/2 ]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              d="M12 1.95c-5.52 0-10 4.48-10 10s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57v-1.43c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57v-1.43c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+            />
+          </svg>
+          <input
+            class="form-input block w-full rounded-lg leading-none focus:outline-none placeholder-black/50 [ transition-colors duration-200 ] [ py-3 pr-3 md:py-4 md:pr-4 lg:py-4 lg:pr-4 pl-12 ] [ bg-black/20 focus:bg-black/25 ] [ text-[#333] focus:text-black ]"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+        </label>
+
+        <label
+          for="password"
+          class="form-label relative text-black/50 focus-within:text-[#333] block mb-4"
+        >
+          <svg
+            class="label-icon transition pointer-events-none [ w-6 h-6 ] [ absolute top-1/2 left-3 ] [ transform -translate-y-1/2 ]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <g fill="none">
+              <path d="M0 0h24v24H0V0z" />
+              <path d="M0 0h24v24H0V0z" opacity=".87" />
+            </g>
+            <path
+              d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+            />
+          </svg>
+
+          <input
+            class="block w-full rounded-lg leading-none focus:outline-none placeholder-black/50 [ transition-colors duration-200 ] [ py-3 pr-3 md:py-4 md:pr-4 lg:py-4 lg:pr-4 pl-12 ] [ bg-black/20 focus:bg-black/25 ] [ text-[#333] focus:text-black ]"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+        </label>
+        <label
+          for="confirm-password"
+          class="form-label relative text-black/50 focus-within:text-[#333] block mb-4"
+        >
+          <svg
+            class="label-icon transition pointer-events-none [ w-6 h-6 ] [ absolute top-1/2 left-3 ] [ transform -translate-y-1/2 ]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <g fill="none">
+              <path d="M0 0h24v24H0V0z" />
+              <path d="M0 0h24v24H0V0z" opacity=".87" />
+            </g>
+            <path
+              d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+            />
+          </svg>
+
+          <input
+            class="block w-full rounded-lg leading-none focus:outline-none placeholder-black/50 [ transition-colors duration-200 ] [ py-3 pr-3 md:py-4 md:pr-4 lg:py-4 lg:pr-4 pl-12 ] [ bg-black/20 focus:bg-black/25 ] [ text-[#333] focus:text-black ]"
+            type="password"
+            name="confirm-password"
+            id="password"
+            placeholder="Confirm Password"
+          />
+        </label>
+
+        <button
+          class="form-input w-full rounded-lg font-bold text-white focus:outline-none [ p-3 md:p-4 lg:p-4 ] [ transition-colors duration-500 ] [ bg-sky-800 hover:bg-sky-700 ]"
+        >
+          Continue
+        </button>
+        <div class="text-sm mt-3 text-center text-black/50">
+          Or continue with
+        </div>
+        <div class="flex items-center justify-center mt-6">
+          <button
+            class="flex items-center justify-center w-10 h-10 rounded-full focus:outline-none"
+          >
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg
+              viewBox="-0.5 0 48 48"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <title>Google-color</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g
+                id="Icons"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g id="Color-" transform="translate(-401.000000, -860.000000)">
+                  <g id="Google" transform="translate(401.000000, 860.000000)">
+                    <path
+                      d="M9.82727273,24 C9.82727273,22.4757333 10.0804318,21.0144 10.5322727,19.6437333 L2.62345455,13.6042667 C1.08206818,16.7338667 0.213636364,20.2602667 0.213636364,24 C0.213636364,27.7365333 1.081,31.2608 2.62025,34.3882667 L10.5247955,28.3370667 C10.0772273,26.9728 9.82727273,25.5168 9.82727273,24"
+                      id="Fill-1"
+                      fill="#FBBC05"
+                    ></path>
+                    <path
+                      d="M23.7136364,10.1333333 C27.025,10.1333333 30.0159091,11.3066667 32.3659091,13.2266667 L39.2022727,6.4 C35.0363636,2.77333333 29.6954545,0.533333333 23.7136364,0.533333333 C14.4268636,0.533333333 6.44540909,5.84426667 2.62345455,13.6042667 L10.5322727,19.6437333 C12.3545909,14.112 17.5491591,10.1333333 23.7136364,10.1333333"
+                      id="Fill-2"
+                      fill="#EB4335"
+                    ></path>
+                    <path
+                      d="M23.7136364,37.8666667 C17.5491591,37.8666667 12.3545909,33.888 10.5322727,28.3562667 L2.62345455,34.3946667 C6.44540909,42.1557333 14.4268636,47.4666667 23.7136364,47.4666667 C29.4455,47.4666667 34.9177955,45.4314667 39.0249545,41.6181333 L31.5177727,35.8144 C29.3995682,37.1488 26.7323182,37.8666667 23.7136364,37.8666667"
+                      id="Fill-3"
+                      fill="#34A853"
+                    ></path>
+                    <path
+                      d="M46.1454545,24 C46.1454545,22.6133333 45.9318182,21.12 45.6113636,19.7333333 L23.7136364,19.7333333 L23.7136364,28.8 L36.3181818,28.8 C35.6879545,31.8912 33.9724545,34.2677333 31.5177727,35.8144 L39.0249545,41.6181333 C43.3393409,37.6138667 46.1454545,31.6490667 46.1454545,24"
+                      id="Fill-4"
+                      fill="#4285F4"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </button>
+          <button
+            class="flex items-center justify-center w-10 h-10 ml-4 rounded-full focus:outline-none"
+          >
+            <svg
+              fill="#000000"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 448.334 448.334"
+              xml:space="preserve"
+            >
+              <g id="apple">
+                <g>
+                  <path
+                    d="M362.806,278.708c-5.486-12.602-8.572-26.77-8.572-41.686c0-6.328,0.561-12.423,1.621-18.299
+                 c4.52-25.415,18.36-46.409,37.439-60.018c3.43-2.415,7.014-4.598,10.723-6.53c-25.749-40.627-67.708-44.103-80.895-45.49
+                 c-28.68-2.992-69.111,22.367-91.059,22.367h-0.592c-21.946,0-62.379-25.359-91.059-22.367
+                 c-14.276,1.465-59.916,9.555-87.441,53.408c-9.665,15.385-17.114,34.322-20.169,59.315c-1.093,9.009-1.622,18.424-1.498,28.867
+                 c0.125,10.489,0.967,20.597,2.4,30.605c3.087,21.369,8.886,41.461,16.367,59.924c8.323,20.48,18.735,38.857,29.801,54.499
+                 c24.474,34.649,52.186,54.655,67.835,55.014c32.109,0.717,60.009-21.003,83.047-20.442c0.25,0.078,0.498,0.078,0.717,0.063
+                 l0.311-0.031l0.281,0.031c0.219,0.016,0.467,0,0.686-0.078c23.037-0.592,50.969,21.144,83.141,20.427
+                 c15.586-0.358,43.332-20.38,67.803-55.03c11.066-15.641,21.478-34.049,29.739-54.545c1.246-3.055,2.432-6.157,3.615-9.306
+                 C393.107,321.931,373.404,303.196,362.806,278.708z"
+                  />
+                </g>
+                <g>
+                  <path
+                    d="M288.176,73.384c24.691-29.21,23.724-71.256,21.479-73.11c-2.213-1.886-42.987,5.61-68.27,33.831
+                 c-25.282,28.259-23.722,71.255-21.478,73.125C222.12,109.101,263.519,102.585,288.176,73.384z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
