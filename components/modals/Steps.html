@@ -13,13 +13,21 @@
 </head>
 
 <body>
-
     <div x-data="{ isOpen: true }" class="relative flex justify-center">
         <button @click="isOpen = true" class="px-6 py-2 mx-auto tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
             Open Modal
         </button>
 
-        <div x-show="isOpen" x-transition:enter="transition duration-300 ease-out" x-transition:enter-start="translate-y-4 opacity-0 sm:translate-y-0 sm:scale-95" x-transition:enter-end="translate-y-0 opacity-100 sm:scale-100" x-transition:leave="transition duration-150 ease-in" x-transition:leave-start="translate-y-0 opacity-100 sm:scale-100" x-transition:leave-end="translate-y-4 opacity-0 sm:translate-y-0 sm:scale-95" class="fixed inset-0 z-10 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div x-show="isOpen" 
+            x-transition:enter="transition duration-300 ease-out"
+            x-transition:enter-start="translate-y-4 opacity-0 sm:translate-y-0 sm:scale-95"
+            x-transition:enter-end="translate-y-0 opacity-100 sm:scale-100"
+            x-transition:leave="transition duration-150 ease-in"
+            x-transition:leave-start="translate-y-0 opacity-100 sm:scale-100"
+            x-transition:leave-end="translate-y-4 opacity-0 sm:translate-y-0 sm:scale-95"
+            class="fixed inset-0 z-10 overflow-y-auto" 
+            aria-labelledby="modal-title" role="dialog" aria-modal="true"
+        >
             <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
 
                 <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>

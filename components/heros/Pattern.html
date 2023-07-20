@@ -8,12 +8,9 @@
     <title>Meraki UI Components</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
 <body>
-
     <!-- Require css -->
     <style>
         .pattern {
@@ -23,10 +20,10 @@
 
     <header class="bg-gray-900 pattern">
         <div class="container px-6 mx-auto">
-            <nav class="flex flex-col py-2 sm:flex-row sm:justify-between sm:items-center">
-                <div>
-                    <a href="#" class="text-2xl font-semibold text-white hover:text-gray-300">Brand</a>
-                </div>
+            <nav class="flex flex-col py-6 sm:flex-row sm:justify-between sm:items-center">
+                <a href="#">
+                    <img class="w-auto h-6 sm:h-7" src="https://merakiui.com/images/logo.svg" alt="">
+                </a>
 
                 <div class="flex items-center mt-2 -mx-2 sm:mt-0">
                     <a href="#" class="px-3 py-1 text-sm font-semibold text-white transition-colors duration-300 transform border-2 rounded-md hover:bg-gray-700">Sign In</a>
@@ -34,20 +31,20 @@
                 </div>
             </nav>
 
-            <div class="flex flex-col items-center py-6 lg:h-[32rem] lg:flex-row">
+            <div class="flex flex-col items-center py-6 lg:h-[36rem] lg:flex-row">
                 <div class="lg:w-1/2">
-                    <h2 class="text-4xl font-semibold text-gray-100">Brand</h2>
+                    <h2 class="text-3xl font-semibold text-gray-100 lg:text-4xl">Brand</h2>
 
-                    <h3 class="text-2xl font-semibold text-gray-100">
+                    <h3 class="mt-2 text-2xl font-semibold text-gray-100">
                         Hello <span class="text-blue-400">Guest</span>
                     </h3>
 
-                    <p class="mt-3 text-gray-100">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    <p class="mt-4 text-gray-100">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, eum modi incidunt adipisci quod porro et non exercitationem quasi, maxime culpa ut nemo ab delectus saepe iste nostrum explicabo a?</p>
                 </div>
 
                 <div class="flex mt-8 lg:w-1/2 lg:justify-end lg:mt-0">
-                    <div class="max-w-sm bg-white rounded-lg dark:bg-gray-800">
-                        <div class="p-5 text-center">
+                    <div class="w-full max-w-md bg-white rounded-lg dark:bg-gray-800">
+                        <div class="px-6 py-8 text-center">
                             <h2 class="text-2xl font-semibold text-gray-700 dark:text-white fo">Sign In</h2>
 
                             <form action="#">
@@ -59,7 +56,7 @@
                                 <div class="flex items-center justify-between mt-4">
                                     <a href="#" class="text-sm text-gray-600 dark:text-gray-200 hover:underline">Forget Password?</a>
 
-                                    <button class="px-4 py-2 font-semibold text-white transition-colors duration-300 transform bg-gray-900 rounded-md hover:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-800 dark:focus:bg-gray-700">Login</button>
+                                    <button class="px-6 py-2 font-medium text-white transition-colors duration-300 transform bg-gray-900 rounded-md hover:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-800 dark:focus:bg-gray-700">Sign In</button>
                                 </div>
                             </form>
                         </div>
