@@ -1,0 +1,387 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Meraki UI Components</title>
+
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+	</head>
+
+	<body class="bg-gray-50 p-4 dark:bg-gray-900 sm:p-6 lg:p-8">
+		<main class="mx-auto max-w-5xl">
+			<section
+				class="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-800"
+				aria-labelledby="activity-title"
+			>
+				<!-- Header -->
+				<header
+					class="flex flex-col gap-4 border-b border-gray-200 px-5 py-5 dark:border-gray-700 sm:flex-row sm:items-center sm:justify-between sm:px-6"
+				>
+					<div>
+						<h1
+							id="activity-title"
+							class="text-lg font-semibold text-gray-800 dark:text-white"
+						>
+							Audit activity
+						</h1>
+
+						<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+							A weekly overview of important workspace events.
+						</p>
+					</div>
+
+					<button
+						type="button"
+						class="inline-flex w-fit items-center gap-2 rounded-lg border border-gray-200 px-3 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-gray-700 dark:focus:ring-offset-gray-800"
+						aria-label="Select audit activity period"
+					>
+						Last 7 days
+
+						<svg
+							class="h-4 w-4"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M5.22 7.47a.75.75 0 0 1 1.06 0L10 11.19l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 8.53a.75.75 0 0 1 0-1.06Z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</button>
+				</header>
+
+				<div class="grid gap-6 p-5 sm:p-6 lg:grid-cols-[minmax(0,1fr)_260px]">
+					<!-- Chart -->
+					<div class="min-w-0">
+						<!-- Statistics -->
+						<div class="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+							<div class="rounded-lg bg-gray-50 p-3 dark:bg-gray-700/50">
+								<p class="text-xs font-medium text-gray-500 dark:text-gray-400">
+									Total events
+								</p>
+
+								<p
+									class="mt-1 text-xl font-semibold text-gray-800 dark:text-white"
+								>
+									1,228
+								</p>
+							</div>
+
+							<div class="rounded-lg bg-gray-50 p-3 dark:bg-gray-700/50">
+								<p class="text-xs font-medium text-gray-500 dark:text-gray-400">
+									Sign-ins
+								</p>
+
+								<p
+									class="mt-1 text-xl font-semibold text-gray-800 dark:text-white"
+								>
+									986
+								</p>
+							</div>
+
+							<div
+								class="col-span-2 rounded-lg bg-gray-50 p-3 dark:bg-gray-700/50 sm:col-span-1"
+							>
+								<p class="text-xs font-medium text-gray-500 dark:text-gray-400">
+									Changes &amp; exports
+								</p>
+
+								<p
+									class="mt-1 text-xl font-semibold text-gray-800 dark:text-white"
+								>
+									242
+								</p>
+							</div>
+						</div>
+
+						<!-- Chart container -->
+						<div class="relative h-64 sm:h-80">
+							<canvas
+								id="auditActivityChart"
+								role="img"
+								aria-label="Line chart showing sign-ins, data exports, and permission changes over the last seven days"
+							>
+								Audit activity chart showing daily sign-ins, data exports, and
+								permission changes.
+							</canvas>
+						</div>
+
+						<p class="mt-3 text-xs text-gray-400 dark:text-gray-500">
+							Demo data for illustration. Connect your audit-log source to
+							display live events.
+						</p>
+					</div>
+
+					<!-- Recent Events -->
+					<aside
+						class="border-t border-gray-200 pt-5 dark:border-gray-700 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0"
+						aria-labelledby="recent-events-title"
+					>
+						<div class="flex items-center justify-between">
+							<h2
+								id="recent-events-title"
+								class="text-sm font-semibold text-gray-800 dark:text-white"
+							>
+								Recent events
+							</h2>
+
+							<span
+								class="rounded-full bg-blue-50 px-2 py-1 text-xs font-medium text-blue-600 dark:bg-blue-900/30 dark:text-blue-300"
+							>
+								Today
+							</span>
+						</div>
+
+						<ol class="mt-4 space-y-5">
+							<li class="flex gap-3">
+								<span
+									class="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-300"
+								>
+									<svg
+										class="h-4 w-4"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="1.8"
+										aria-hidden="true"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.5 20.1a7.5 7.5 0 0 1 15 0A17.9 17.9 0 0 1 12 21.75c-2.7 0-5.25-.6-7.5-1.65Z"
+										/>
+									</svg>
+								</span>
+
+								<div class="min-w-0">
+									<p
+										class="text-sm font-medium text-gray-700 dark:text-gray-200"
+									>
+										New sign-in
+									</p>
+
+									<p class="mt-0.5 text-xs text-gray-500 dark:text-gray-400">
+										Alex Morgan · 10:42 AM
+									</p>
+								</div>
+							</li>
+
+							<li class="flex gap-3">
+								<span
+									class="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-violet-50 text-violet-600 dark:bg-violet-900/30 dark:text-violet-300"
+								>
+									<svg
+										class="h-4 w-4"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="1.8"
+										aria-hidden="true"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M12 3.75v16.5m8.25-8.25H3.75"
+										/>
+									</svg>
+								</span>
+
+								<div class="min-w-0">
+									<p
+										class="text-sm font-medium text-gray-700 dark:text-gray-200"
+									>
+										Role updated
+									</p>
+
+									<p class="mt-0.5 text-xs text-gray-500 dark:text-gray-400">
+										Jamie Lee · 9:18 AM
+									</p>
+								</div>
+							</li>
+
+							<li class="flex gap-3">
+								<span
+									class="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-300"
+								>
+									<svg
+										class="h-4 w-4"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="1.8"
+										aria-hidden="true"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M12 15V3m0 0L8.25 6.75M12 3l3.75 3.75M4.5 14.25v4.5A1.5 1.5 0 0 0 6 20.25h12a1.5 1.5 0 0 0 1.5-1.5v-4.5"
+										/>
+									</svg>
+								</span>
+
+								<div class="min-w-0">
+									<p
+										class="text-sm font-medium text-gray-700 dark:text-gray-200"
+									>
+										Data exported
+									</p>
+
+									<p class="mt-0.5 text-xs text-gray-500 dark:text-gray-400">
+										Taylor Kim · 8:06 AM
+									</p>
+								</div>
+							</li>
+						</ol>
+
+						<a
+							href="#"
+							class="mt-6 inline-flex items-center gap-1 text-sm font-medium text-blue-600 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:text-blue-400 dark:hover:text-blue-300"
+						>
+							View audit log
+
+							<svg
+								class="h-4 w-4"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M3.5 10a.75.75 0 0 1 .75-.75h10.19l-3.22-3.22a.75.75 0 1 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 1 1-1.06-1.06l3.22-3.22H4.25A.75.75 0 0 1 3.5 10Z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</a>
+					</aside>
+				</div>
+			</section>
+		</main>
+
+		<script>
+			const chartCanvas = document.getElementById("auditActivityChart");
+
+			const auditData = {
+				labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+
+				datasets: [
+					{
+						label: "Sign-ins",
+						data: [112, 138, 126, 154, 168, 132, 156],
+						borderColor: "#3b82f6",
+						backgroundColor: "#3b82f6",
+						tension: 0.35,
+						borderWidth: 2,
+						pointRadius: 3,
+						pointHoverRadius: 5,
+					},
+					{
+						label: "Data exports",
+						data: [18, 24, 21, 30, 27, 16, 25],
+						borderColor: "#8b5cf6",
+						backgroundColor: "#8b5cf6",
+						tension: 0.35,
+						borderWidth: 2,
+						pointRadius: 3,
+						pointHoverRadius: 5,
+					},
+					{
+						label: "Permission changes",
+						data: [8, 12, 10, 15, 13, 9, 14],
+						borderColor: "#10b981",
+						backgroundColor: "#10b981",
+						tension: 0.35,
+						borderWidth: 2,
+						pointRadius: 3,
+						pointHoverRadius: 5,
+					},
+				],
+			};
+
+			new Chart(chartCanvas, {
+				type: "line",
+
+				data: auditData,
+
+				options: {
+					responsive: true,
+					maintainAspectRatio: false,
+
+					interaction: {
+						mode: "index",
+						intersect: false,
+					},
+
+					plugins: {
+						legend: {
+							position: "bottom",
+
+							labels: {
+								usePointStyle: true,
+								pointStyle: "circle",
+								boxWidth: 7,
+								boxHeight: 7,
+								padding: 18,
+								color: "#6b7280",
+								font: {
+									family: "ui-sans-serif, system-ui, sans-serif",
+									size: 12,
+								},
+							},
+						},
+
+						tooltip: {
+							backgroundColor: "#111827",
+							padding: 12,
+							usePointStyle: true,
+
+							callbacks: {
+								label: (context) =>
+									` ${context.dataset.label}: ${context.parsed.y} events`,
+							},
+						},
+					},
+
+					scales: {
+						x: {
+							grid: {
+								display: false,
+							},
+
+							border: {
+								display: false,
+							},
+
+							ticks: {
+								color: "#9ca3af",
+							},
+						},
+
+						y: {
+							beginAtZero: true,
+
+							border: {
+								display: false,
+								dash: [4, 4],
+							},
+
+							grid: {
+								color: "#f3f4f6",
+							},
+
+							ticks: {
+								color: "#9ca3af",
+								precision: 0,
+								padding: 8,
+							},
+						},
+					},
+				},
+			});
+		</script>
+	</body>
+</html>
