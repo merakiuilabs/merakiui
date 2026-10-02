@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meraki UI Components</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-50 p-6 dark:bg-gray-900">
+
+<main class="mx-auto max-w-md">
+
+    <section
+        class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800"
+        aria-labelledby="switch-title"
+    >
+
+        <h1
+            id="switch-title"
+            class="text-lg font-semibold text-gray-800 dark:text-white"
+        >
+            Switch
+        </h1>
+
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+            A simple toggle switch for forms and settings.
+        </p>
+
+        <div class="mt-6 space-y-6">
+
+            <!-- Default -->
+            <label for="notifications" class="flex cursor-pointer items-center gap-3">
+                <span class="relative">
+                    <input
+                        id="notifications"
+                        type="checkbox"
+                        class="peer sr-only"
+                    />
+
+                    <span
+                        class="block h-6 w-11 rounded-full bg-gray-200 transition-colors peer-checked:bg-blue-500 peer-focus-visible:ring-2 peer-focus-visible:ring-blue-400 peer-focus-visible:ring-offset-2 dark:bg-gray-700 dark:peer-checked:bg-blue-400 dark:peer-focus-visible:ring-offset-gray-800"
+                    ></span>
+
+                    <span
+                        class="pointer-events-none absolute left-1 top-1 h-4 w-4 rounded-full bg-white transition-transform peer-checked:translate-x-5 dark:bg-gray-200"
+                    ></span>
+                </span>
+
+                <span class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    Enable notifications
+                </span>
+            </label>
+
+            <!-- Checked -->
+            <label for="auto-save" class="flex cursor-pointer items-center gap-3">
+                <span class="relative">
+                    <input
+                        id="auto-save"
+                        type="checkbox"
+                        checked
+                        class="peer sr-only"
+                    />
+
+                    <span
+                        class="block h-6 w-11 rounded-full bg-gray-200 transition-colors peer-checked:bg-blue-500 peer-focus-visible:ring-2 peer-focus-visible:ring-blue-400 peer-focus-visible:ring-offset-2 dark:bg-gray-700 dark:peer-checked:bg-blue-400 dark:peer-focus-visible:ring-offset-gray-800"
+                    ></span>
+
+                    <span
+                        class="pointer-events-none absolute left-1 top-1 h-4 w-4 rounded-full bg-white transition-transform peer-checked:translate-x-5 dark:bg-gray-200"
+                    ></span>
+                </span>
+
+                <span class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    Auto-save
+                </span>
+            </label>
+
+            <!-- Disabled -->
+            <label
+                for="maintenance"
+                class="flex cursor-not-allowed items-center gap-3"
+            >
+                <span class="relative">
+                    <input
+                        id="maintenance"
+                        type="checkbox"
+                        disabled
+                        class="peer sr-only"
+                    />
+
+                    <span
+                        class="block h-6 w-11 rounded-full bg-gray-200 transition-colors peer-disabled:opacity-60 dark:bg-gray-700"
+                    ></span>
+
+                    <span
+                        class="pointer-events-none absolute left-1 top-1 h-4 w-4 rounded-full bg-white transition-transform dark:bg-gray-200"
+                    ></span>
+                </span>
+
+                <span class="text-sm font-medium text-gray-400 dark:text-gray-500">
+                    Maintenance mode
+                </span>
+            </label>
+
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
